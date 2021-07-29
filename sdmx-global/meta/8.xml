@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <mes:GenericMetadata xmlns:mes="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:gen="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/metadata/generic" xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
   <mes:Header>
-    <mes:ID>IREF1627581919</mes:ID>
+    <mes:ID>IREF1627587426</mes:ID>
     <mes:Test>True</mes:Test>
-    <mes:Prepared>2021-07-29T18:05:19</mes:Prepared>
+    <mes:Prepared>2021-07-29T19:37:06</mes:Prepared>
     <mes:Sender id="open-sdg_sdg-build@1-4-0"/>
     <mes:Structure structureID="MDS1">
       <com:Structure>
@@ -12,7 +12,7 @@
     </mes:Structure>
   </mes:Header>
   
-  <mes:MetadataSet structureRef="MDS1" setID="c2af5080-d0e6-4ca4-a716-92347708dac4">
+  <mes:MetadataSet structureRef="MDS1" setID="b3b6393c-4822-49bf-a4e3-e49f64622a5a">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -257,7 +257,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="d5923bab-3f46-426b-8719-4a17429de42a">
+  <mes:MetadataSet structureRef="MDS1" setID="759803b9-aa52-46d4-a7f9-acf4d1dc943b">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -478,7 +478,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="da01c8fc-40a3-43da-a680-08301fa2d112">
+  <mes:MetadataSet structureRef="MDS1" setID="6036b6f8-42af-4e3b-810d-6fe9ca6747bf">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -661,7 +661,7 @@
         
         <gen:ReportedAttribute id="REC_USE_LIM">
           
-          <com:Text xml:lang="en"><![CDATA[<p>The calculation of this indicator requires to have reliable information on both the labour market status and the participation in education or training of young persons. The quality of such information is heavily dependent on the questionnaire design, the sample size and design and the accuracy of respondents' answers. </p><p>In terms of the analysis of the indicator, in order to avoid misinterpreting it, it is important to bear in mind that it is composed of two different sub-groups (unemployed youth not in education or training and youth outside the labour force not in education or training). The prevalence and composition of each sub-group would have policy implications, and thus should also be considered when analysing the NEET rate.</p>]]></com:Text>
+          <com:Text xml:lang="en"><![CDATA[<p>The calculation of this indicator requires to have reliable information on both the labour market status and the participation in education or training of young persons. The quality of such information is heavily dependent on the questionnaire design, the sample size and design and the accuracy of respondents&#39; answers. </p><p>In terms of the analysis of the indicator, in order to avoid misinterpreting it, it is important to bear in mind that it is composed of two different sub-groups (unemployed youth not in education or training and youth outside the labour force not in education or training). The prevalence and composition of each sub-group would have policy implications, and thus should also be considered when analysing the NEET rate.</p>]]></com:Text>
           
         </gen:ReportedAttribute>
         
@@ -729,7 +729,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="83b4fc32-92fe-4cd7-8172-a8a87f73b628">
+  <mes:MetadataSet structureRef="MDS1" setID="6d22d706-ebe5-451f-bf98-715a12ec17ca">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -980,7 +980,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="a488add3-26f6-4d74-85d9-213eae21f66c">
+  <mes:MetadataSet structureRef="MDS1" setID="86822f41-0922-447f-ba4f-45625320b84c">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -1231,7 +1231,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="4b10f9db-0ffb-492b-bf90-3634fcb71915">
+  <mes:MetadataSet structureRef="MDS1" setID="2cdffbc7-e13a-4363-ad7c-82947a260c04">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -1482,7 +1482,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="24860cc9-9ef3-45ba-9339-bd6525056612">
+  <mes:MetadataSet structureRef="MDS1" setID="e89244df-1593-4cf1-bca5-6380078dee32">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -1733,7 +1733,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="9c441297-d168-4ad5-a78a-ef990a0fe192">
+  <mes:MetadataSet structureRef="MDS1" setID="3e5fdd30-6a5e-4d92-9123-88d070d1d0c5">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -1960,7 +1960,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="97fc605f-59fe-4244-950a-1843c10e328f">
+  <mes:MetadataSet structureRef="MDS1" setID="7012dca8-a112-4be5-aed2-9605053cde71">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -2187,7 +2187,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="75e20209-de69-4d6e-af04-9f8d23e4ed58">
+  <mes:MetadataSet structureRef="MDS1" setID="246c2284-cae6-452a-8b79-f7f57fb678f7">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">

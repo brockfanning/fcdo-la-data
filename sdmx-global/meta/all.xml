@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <mes:GenericMetadata xmlns:mes="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:gen="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/metadata/generic" xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
   <mes:Header>
-    <mes:ID>IREF1627581919</mes:ID>
+    <mes:ID>IREF1627587426</mes:ID>
     <mes:Test>True</mes:Test>
-    <mes:Prepared>2021-07-29T18:05:19</mes:Prepared>
+    <mes:Prepared>2021-07-29T19:37:06</mes:Prepared>
     <mes:Sender id="open-sdg_sdg-build@1-4-0"/>
     <mes:Structure structureID="MDS1">
       <com:Structure>
@@ -12,7 +12,7 @@
     </mes:Structure>
   </mes:Header>
   
-  <mes:MetadataSet structureRef="MDS1" setID="e1de79bb-a6de-4fb6-a8a8-bf4fe477ec8a">
+  <mes:MetadataSet structureRef="MDS1" setID="f3f96f4f-d791-47f9-b508-d62fc4b94538">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -239,7 +239,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="a257c428-5c41-46bd-92d1-9d896eb3ab97">
+  <mes:MetadataSet structureRef="MDS1" setID="d582e5a5-36eb-4309-9a93-b41b8714e843">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -406,7 +406,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="2f9406d2-4140-4fb6-ac51-8246120b2eaa">
+  <mes:MetadataSet structureRef="MDS1" setID="526e0e37-416e-4f06-9e7a-baef8fb58bac">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -627,7 +627,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="fa6e6ad2-9878-46aa-a8ce-b7ff15b7bdeb">
+  <mes:MetadataSet structureRef="MDS1" setID="52a0711d-c53c-4228-ab0d-2f71f3d084d4">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -836,7 +836,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="aae6d611-7f15-4de8-8849-3ab25c4b7c03">
+  <mes:MetadataSet structureRef="MDS1" setID="bc7008ac-8301-49e6-8754-f8666d69e4e3">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -1045,7 +1045,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="07720a91-60d3-428f-9505-2c7e18858f60">
+  <mes:MetadataSet structureRef="MDS1" setID="b9bdc468-6d41-465e-9779-2250eb39713b">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -1254,7 +1254,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="aec43243-222d-41a0-aa22-4ef94eb08062">
+  <mes:MetadataSet structureRef="MDS1" setID="7544c98b-1a45-46a0-a8ee-7088f1cc8665">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -1463,7 +1463,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="b8ffa833-edcf-4a7d-be7a-9dbbd94ef07e">
+  <mes:MetadataSet structureRef="MDS1" setID="c0279696-dbb9-4707-9372-0682cf949c85">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -1610,7 +1610,7 @@
         
         <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
           
-          <com:Text xml:lang="en"><![CDATA[<p>United Nations Children's Fund (UNICEF)</p><p>United Nations Entity for Gender Equality and the Empowerment of Women (UN Women)</p><p>United Nations Office on Drugs and Crime (UNODC)</p><p>United Nations Population Fund (UNFPA)</p><p>United Nations Statistics Division (UNSD)</p><p>World Health Organization (WHO)</p>]]></com:Text>
+          <com:Text xml:lang="en"><![CDATA[<p>United Nations Children&#39;s Fund (UNICEF)</p><p>United Nations Entity for Gender Equality and the Empowerment of Women (UN Women)</p><p>United Nations Office on Drugs and Crime (UNODC)</p><p>United Nations Population Fund (UNFPA)</p><p>United Nations Statistics Division (UNSD)</p><p>World Health Organization (WHO)</p>]]></com:Text>
           
         </gen:ReportedAttribute>
         
@@ -1666,7 +1666,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="224e1c9c-e201-436e-8c1d-1643d70414e3">
+  <mes:MetadataSet structureRef="MDS1" setID="74df64b3-bb77-404e-a41b-e62c643d9d5d">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -1813,7 +1813,7 @@
         
         <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
           
-          <com:Text xml:lang="en"><![CDATA[<p>United Nations Children's Fund (UNICEF)</p><p>United Nations Entity for Gender Equality and the Empowerment of Women (UN Women)</p><p>United Nations Office on Drugs and Crime (UNODC)</p><p>United Nations Population Fund (UNFPA)</p><p>United Nations Statistics Division (UNSD)</p><p>World Health Organization (WHO)</p>]]></com:Text>
+          <com:Text xml:lang="en"><![CDATA[<p>United Nations Children&#39;s Fund (UNICEF)</p><p>United Nations Entity for Gender Equality and the Empowerment of Women (UN Women)</p><p>United Nations Office on Drugs and Crime (UNODC)</p><p>United Nations Population Fund (UNFPA)</p><p>United Nations Statistics Division (UNSD)</p><p>World Health Organization (WHO)</p>]]></com:Text>
           
         </gen:ReportedAttribute>
         
@@ -1869,7 +1869,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="1d51bdbe-7cea-45d5-b932-c1e9adde5899">
+  <mes:MetadataSet structureRef="MDS1" setID="a099323b-6940-4845-8754-4f3b63455fc0">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -2016,7 +2016,7 @@
         
         <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
           
-          <com:Text xml:lang="en"><![CDATA[<p>United Nations Children's Fund (UNICEF)</p><p>United Nations Entity for Gender Equality and the Empowerment of Women (UN Women)</p><p>United Nations Office on Drugs and Crime (UNODC)</p><p>United Nations Population Fund (UNFPA)</p><p>United Nations Statistics Division (UNSD)</p><p>World Health Organization (WHO)</p>]]></com:Text>
+          <com:Text xml:lang="en"><![CDATA[<p>United Nations Children&#39;s Fund (UNICEF)</p><p>United Nations Entity for Gender Equality and the Empowerment of Women (UN Women)</p><p>United Nations Office on Drugs and Crime (UNODC)</p><p>United Nations Population Fund (UNFPA)</p><p>United Nations Statistics Division (UNSD)</p><p>World Health Organization (WHO)</p>]]></com:Text>
           
         </gen:ReportedAttribute>
         
@@ -2072,7 +2072,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="a944c1a7-cf10-4f77-8104-3e8b74429947">
+  <mes:MetadataSet structureRef="MDS1" setID="988d44c9-72a6-4b9d-8c9e-0155bde9ab25">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -2219,7 +2219,7 @@
         
         <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
           
-          <com:Text xml:lang="en"><![CDATA[<p>United Nations Children's Fund (UNICEF)</p><p>United Nations Entity for Gender Equality and the Empowerment of Women (UN Women)</p><p>United Nations Office on Drugs and Crime (UNODC)</p><p>United Nations Population Fund (UNFPA)</p><p>United Nations Statistics Division (UNSD)</p><p>World Health Organization (WHO)</p>]]></com:Text>
+          <com:Text xml:lang="en"><![CDATA[<p>United Nations Children&#39;s Fund (UNICEF)</p><p>United Nations Entity for Gender Equality and the Empowerment of Women (UN Women)</p><p>United Nations Office on Drugs and Crime (UNODC)</p><p>United Nations Population Fund (UNFPA)</p><p>United Nations Statistics Division (UNSD)</p><p>World Health Organization (WHO)</p>]]></com:Text>
           
         </gen:ReportedAttribute>
         
@@ -2275,7 +2275,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="b26979bf-2aea-4a3c-a4c0-6adbcbb5e245">
+  <mes:MetadataSet structureRef="MDS1" setID="32522d16-7054-4507-97c6-d78204bc4bab">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -2448,7 +2448,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="839466fe-b5ec-4b1d-a75c-54028457dd13">
+  <mes:MetadataSet structureRef="MDS1" setID="948c15b2-9ef0-4ee6-9a8c-995cf46938be">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -2621,7 +2621,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="9959d7af-3f8e-434a-bd27-0c4dfd130abe">
+  <mes:MetadataSet structureRef="MDS1" setID="c9eb0ecd-6090-46d4-a861-506ea2f7ed85">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -2788,7 +2788,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="d1a37aa5-fbfe-4399-a880-0f2ea4562299">
+  <mes:MetadataSet structureRef="MDS1" setID="1a9805b3-4807-4d27-a909-1d5815410ed2">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -2955,7 +2955,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="ca77b0e6-dc1e-4226-9b3a-5f6a3b2ef0be">
+  <mes:MetadataSet structureRef="MDS1" setID="2ee76579-88c6-47b7-b266-b4955717d8b8">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -3188,7 +3188,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="a7958f0a-bd6a-479f-8464-2c10f17ca238">
+  <mes:MetadataSet structureRef="MDS1" setID="62751e0f-a6f5-4cdc-a19a-c19999ecd32c">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -3421,7 +3421,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="ec4b89f4-5ac3-4319-bf11-67acc09a5979">
+  <mes:MetadataSet structureRef="MDS1" setID="a2ed8f76-eea2-46d1-abd7-0b844681c6f8">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -3654,7 +3654,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="c2af5080-d0e6-4ca4-a716-92347708dac4">
+  <mes:MetadataSet structureRef="MDS1" setID="b3b6393c-4822-49bf-a4e3-e49f64622a5a">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -3899,7 +3899,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="59731494-2861-413e-8c1d-5ff66bd21cdf">
+  <mes:MetadataSet structureRef="MDS1" setID="971166a1-63c2-4449-9743-3aa3756b5da1">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -4102,7 +4102,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="fa08b6d6-d374-4d4a-96b8-d5c48b768024">
+  <mes:MetadataSet structureRef="MDS1" setID="b33e4599-68f9-4b73-8922-a5f22cafe49b">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -4305,7 +4305,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="efd27a0b-d6c5-4668-90df-4f658521cf97">
+  <mes:MetadataSet structureRef="MDS1" setID="11e4769f-d012-46ac-9dd1-ff7c636923b8">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -4562,7 +4562,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="1fb250df-3d94-40d3-8601-1a5ed084d408">
+  <mes:MetadataSet structureRef="MDS1" setID="e96e6204-b45f-4f8e-a7fc-950b82c08a94">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -4819,7 +4819,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="e031d976-7045-4d17-8562-7afcf607d06f">
+  <mes:MetadataSet structureRef="MDS1" setID="9bc636d9-e6d2-4610-87ae-61e62e67ddc7">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -5076,7 +5076,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="90a22fc7-f868-4735-821b-cea45863398d">
+  <mes:MetadataSet structureRef="MDS1" setID="89aab993-75ad-440a-8b05-513d8cd209fc">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -5333,7 +5333,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="74615331-88ac-4559-a160-f4b62d5bd870">
+  <mes:MetadataSet structureRef="MDS1" setID="a902f850-81f0-4d83-9b71-5950d9bf42e5">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -5590,7 +5590,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="72c0077d-c3b4-41a7-8077-b6920610df65">
+  <mes:MetadataSet structureRef="MDS1" setID="1fa32e39-9366-4df7-bc6a-9d6030e53302">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -5847,7 +5847,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="d5923bab-3f46-426b-8719-4a17429de42a">
+  <mes:MetadataSet structureRef="MDS1" setID="759803b9-aa52-46d4-a7f9-acf4d1dc943b">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -6068,7 +6068,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="da01c8fc-40a3-43da-a680-08301fa2d112">
+  <mes:MetadataSet structureRef="MDS1" setID="6036b6f8-42af-4e3b-810d-6fe9ca6747bf">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -6251,7 +6251,7 @@
         
         <gen:ReportedAttribute id="REC_USE_LIM">
           
-          <com:Text xml:lang="en"><![CDATA[<p>The calculation of this indicator requires to have reliable information on both the labour market status and the participation in education or training of young persons. The quality of such information is heavily dependent on the questionnaire design, the sample size and design and the accuracy of respondents' answers. </p><p>In terms of the analysis of the indicator, in order to avoid misinterpreting it, it is important to bear in mind that it is composed of two different sub-groups (unemployed youth not in education or training and youth outside the labour force not in education or training). The prevalence and composition of each sub-group would have policy implications, and thus should also be considered when analysing the NEET rate.</p>]]></com:Text>
+          <com:Text xml:lang="en"><![CDATA[<p>The calculation of this indicator requires to have reliable information on both the labour market status and the participation in education or training of young persons. The quality of such information is heavily dependent on the questionnaire design, the sample size and design and the accuracy of respondents&#39; answers. </p><p>In terms of the analysis of the indicator, in order to avoid misinterpreting it, it is important to bear in mind that it is composed of two different sub-groups (unemployed youth not in education or training and youth outside the labour force not in education or training). The prevalence and composition of each sub-group would have policy implications, and thus should also be considered when analysing the NEET rate.</p>]]></com:Text>
           
         </gen:ReportedAttribute>
         
@@ -6319,7 +6319,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="83b4fc32-92fe-4cd7-8172-a8a87f73b628">
+  <mes:MetadataSet structureRef="MDS1" setID="6d22d706-ebe5-451f-bf98-715a12ec17ca">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -6570,7 +6570,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="a488add3-26f6-4d74-85d9-213eae21f66c">
+  <mes:MetadataSet structureRef="MDS1" setID="86822f41-0922-447f-ba4f-45625320b84c">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -6821,7 +6821,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="4b10f9db-0ffb-492b-bf90-3634fcb71915">
+  <mes:MetadataSet structureRef="MDS1" setID="2cdffbc7-e13a-4363-ad7c-82947a260c04">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -7072,7 +7072,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="24860cc9-9ef3-45ba-9339-bd6525056612">
+  <mes:MetadataSet structureRef="MDS1" setID="e89244df-1593-4cf1-bca5-6380078dee32">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -7323,7 +7323,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="cd9d27b2-61bd-43cf-a4f4-6a9e2410e84e">
+  <mes:MetadataSet structureRef="MDS1" setID="c99633c5-41d5-44ca-8d34-262226c9d7d2">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -7532,7 +7532,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="e7570fe4-ab42-4e64-a433-5e00a1274309">
+  <mes:MetadataSet structureRef="MDS1" setID="d0f90582-11d7-4ead-b011-a83256577450">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -7679,7 +7679,7 @@
         
         <gen:ReportedAttribute id="RATIONALE">
           
-          <com:Text xml:lang="en"><![CDATA[<p>Having a skilled attendant at the time of childbirth is an important lifesaving intervention for both women and babies. Not having access to this key assistance is detrimental to women's health because it could cause the death of the women or long-lasting morbidity, especially in vulnerable settings.</p>]]></com:Text>
+          <com:Text xml:lang="en"><![CDATA[<p>Having a skilled attendant at the time of childbirth is an important lifesaving intervention for both women and babies. Not having access to this key assistance is detrimental to women&#39;s health because it could cause the death of the women or long-lasting morbidity, especially in vulnerable settings.</p>]]></com:Text>
           
         </gen:ReportedAttribute>
         
@@ -7741,7 +7741,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="4cbec016-55a0-45b1-8218-8fd724b4e050">
+  <mes:MetadataSet structureRef="MDS1" setID="7a465833-f9e8-440c-97b6-fdc57fcf4c08">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -7920,7 +7920,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="01f6a1cf-b294-4f7b-bf3b-f978931c7888">
+  <mes:MetadataSet structureRef="MDS1" setID="76c945dc-5c1b-4423-9bad-006d280ae84f">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -7953,7 +7953,7 @@
         
         <gen:ReportedAttribute id="COLL_METHOD">
           
-          <com:Text xml:lang="en"><![CDATA[<p>If data allow breakdown and disaggregation, the following can be considered: </p><p>• Breakdown by region, such as geographical areas, urban/ rural. </p><p>• Classification by sex. </p><p>• Classification by age: we can use the following age groups for reporting on individuals’ age: under 5; 5–9; 10–14; 15–24; 25–34; 35–44; 45–54; 55–64; 65–74 and 75 and over. </p><p>• Classification by highest education level attained: classification for reporting on individuals’ level of education: primary education or lower; lower secondary education; upper secondary or post-secondary non-tertiary education, 4); tertiary education, and post-tertiary education. </p><p>• Classification by labour force status: we can use the following categories for reporting on individuals’ labour force status: employee; self-employed (includes employers, own account workers, members of producers' cooperatives and contributing family workers); workers not classifiable by status, unemployed; and outside the labour force. </p><p>• Classification by occupation: reporting on individuals’ occupation: managers; professionals; technicians and associate professionals; clerical support workers; service and sales workers; skilled agricultural, forestry and fishery workers; craft and related trades workers; plant and machine operators, and assemblers; elementary occupations; and armed forces occupations (noting that armed forces personnel may be out of scope). </p><p>• Other breakdowns or classifications, where relevant variables or questions are used in the questionnaire, such as individual income.</p>]]></com:Text>
+          <com:Text xml:lang="en"><![CDATA[<p>If data allow breakdown and disaggregation, the following can be considered: </p><p>• Breakdown by region, such as geographical areas, urban/ rural. </p><p>• Classification by sex. </p><p>• Classification by age: we can use the following age groups for reporting on individuals’ age: under 5; 5–9; 10–14; 15–24; 25–34; 35–44; 45–54; 55–64; 65–74 and 75 and over. </p><p>• Classification by highest education level attained: classification for reporting on individuals’ level of education: primary education or lower; lower secondary education; upper secondary or post-secondary non-tertiary education, 4); tertiary education, and post-tertiary education. </p><p>• Classification by labour force status: we can use the following categories for reporting on individuals’ labour force status: employee; self-employed (includes employers, own account workers, members of producers&#39; cooperatives and contributing family workers); workers not classifiable by status, unemployed; and outside the labour force. </p><p>• Classification by occupation: reporting on individuals’ occupation: managers; professionals; technicians and associate professionals; clerical support workers; service and sales workers; skilled agricultural, forestry and fishery workers; craft and related trades workers; plant and machine operators, and assemblers; elementary occupations; and armed forces occupations (noting that armed forces personnel may be out of scope). </p><p>• Other breakdowns or classifications, where relevant variables or questions are used in the questionnaire, such as individual income.</p>]]></com:Text>
           
         </gen:ReportedAttribute>
         
@@ -8049,7 +8049,7 @@
         
         <gen:ReportedAttribute id="RATIONALE">
           
-          <com:Text xml:lang="en"><![CDATA[<p>The Internet has become an increasingly important tool to access public information, which is a relevant means to protect fundamental freedoms. The number of Internet users has increased substantially over the last decade and access to the Internet has changed the way people live, communicate, work and do business. Internet uptake is a key indicator tracked by policy makers and others to measure the development of the information society and the growth of Internet content – including user-generated content – provides access to increasing amounts of information and services.</p><p>Despite growth in networks, services and applications, information and communication technology (ICT) access and use is still far from equally distributed, and many people cannot yet benefit from the potential of the Internet. This indicator highlights the importance of Internet use as a development enabler and helps to measure the digital divide, which, if not properly addressed, will aggravate inequalities in all development domains. Classificatory variables for individuals using the Internet –such as age, sex, education level or labour force status – can help identify digital divides in individuals using the Internet. This information can contribute to the design of targeted policies to overcome those divides.</p><p>The proportion of individuals using the Internet is an established indicator and also one of the three ICT-related Millennium Development Goal (MDG) indicators (for Target 8F). It is part of the Partnership on Measuring ICT for Development's Core List of Indicators, which has been endorsed by the UN Statistical Commission (last time in 2014). It is also included in the ITU ICT Development Index, and thus considered a key metric for international comparisons of ICT developments.</p>]]></com:Text>
+          <com:Text xml:lang="en"><![CDATA[<p>The Internet has become an increasingly important tool to access public information, which is a relevant means to protect fundamental freedoms. The number of Internet users has increased substantially over the last decade and access to the Internet has changed the way people live, communicate, work and do business. Internet uptake is a key indicator tracked by policy makers and others to measure the development of the information society and the growth of Internet content – including user-generated content – provides access to increasing amounts of information and services.</p><p>Despite growth in networks, services and applications, information and communication technology (ICT) access and use is still far from equally distributed, and many people cannot yet benefit from the potential of the Internet. This indicator highlights the importance of Internet use as a development enabler and helps to measure the digital divide, which, if not properly addressed, will aggravate inequalities in all development domains. Classificatory variables for individuals using the Internet –such as age, sex, education level or labour force status – can help identify digital divides in individuals using the Internet. This information can contribute to the design of targeted policies to overcome those divides.</p><p>The proportion of individuals using the Internet is an established indicator and also one of the three ICT-related Millennium Development Goal (MDG) indicators (for Target 8F). It is part of the Partnership on Measuring ICT for Development&#39;s Core List of Indicators, which has been endorsed by the UN Statistical Commission (last time in 2014). It is also included in the ITU ICT Development Index, and thus considered a key metric for international comparisons of ICT developments.</p>]]></com:Text>
           
         </gen:ReportedAttribute>
         
@@ -8117,7 +8117,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="9c441297-d168-4ad5-a78a-ef990a0fe192">
+  <mes:MetadataSet structureRef="MDS1" setID="3e5fdd30-6a5e-4d92-9123-88d070d1d0c5">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -8344,7 +8344,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="97fc605f-59fe-4244-950a-1843c10e328f">
+  <mes:MetadataSet structureRef="MDS1" setID="7012dca8-a112-4be5-aed2-9605053cde71">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -8571,7 +8571,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="029ae23c-529b-4047-b644-2aad16f0703b">
+  <mes:MetadataSet structureRef="MDS1" setID="d4919584-2d8a-4165-a181-a430e7911752">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -8786,7 +8786,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="89d2723f-f0a6-44be-b1ba-424e75b2e2a8">
+  <mes:MetadataSet structureRef="MDS1" setID="98443f7c-23e9-4faa-a7b7-2d2d0174e0fa">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -9001,7 +9001,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="75e20209-de69-4d6e-af04-9f8d23e4ed58">
+  <mes:MetadataSet structureRef="MDS1" setID="246c2284-cae6-452a-8b79-f7f57fb678f7">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -9228,7 +9228,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="3e44b00c-665f-4b99-a67b-4ca8e44a1d3e">
+  <mes:MetadataSet structureRef="MDS1" setID="22b45bed-8c13-450d-9764-3ceebba4e34c">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -9455,7 +9455,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="d76b3784-4e90-43e2-95fd-0aecd529b288">
+  <mes:MetadataSet structureRef="MDS1" setID="70a14bd5-4c4a-4385-8679-c068e74811c9">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
@@ -9682,7 +9682,7 @@
     </gen:Report>
   </mes:MetadataSet>
   
-  <mes:MetadataSet structureRef="MDS1" setID="77ce4912-4eb4-4df7-b747-cabe5062e019">
+  <mes:MetadataSet structureRef="MDS1" setID="ae3dc6aa-0422-425b-ba6a-e44ae25803f6">
     <com:Name xml:lang="en">SDG METADATA SET</com:Name>
     <gen:Report id="SDG_META_RPT">
       <gen:Target id="KEY_TARGET">
