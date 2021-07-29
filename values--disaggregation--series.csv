@@ -1,0 +1,117 @@
+Value,en,Disaggregation combinations using this value,Number of indicators
+AG_FPA_COMM,Indicator of Food Price Anomalies (IFPA) [2.c.1],1,1
+AG_XPD_AGSGB,Agriculture share of Government Expenditure [2.a.1],1,1
+DC_TOF_HLTHL,"Total official development assistance to medical research and basic heath sectors, gross disbursement, by recipient countries [3.b.2]",1,1
+DC_TOF_SCHIPSL,"Total official flows for scholarships, by recipient countries [4.b.1]",1,1
+GC_GOB_TAXD,Proportion of domestic budget funded by domestic taxes [17.1.2],1,1
+GF_FRN_FDI,Foreign direct investment (FDI) inflows [17.3.1],1,1
+GR_G14_GDP,Total government revenue as a proportion of GDP [17.1.1],1,1
+IT_MOB_OWN,Proportion of individuals who own a mobile telephone [5.b.1],15,1
+IT_NET_BBND,Fixed broadband subscriptions per 100 inhabitants [17.6.1],1,1
+IT_USE_II99,Internet users per 100 inhabitants [17.8.1],3,1
+_L_LA_0050102_01,Whether mechanisms are operational in ‘enforcing and monitoring’ the implementation of legal frameworks for each area of law,1,1
+_L_LA_010401_01,Proportion of population living in households with access to secondary school [1.4.1],1,1
+_L_LA_010401_02,Proportion of population living in households with access to health service [1.4.1],1,1
+_L_LA_010401_03,Proportion of population living in households with access to improved water [1.4.1],1,1
+_L_LA_010401_04,Proportion of population living in households with access to eletricity [1.4.1],1,1
+_L_LA_010401_05,Proportion of population living in households with access to roads all seasons [1.4.1],1,1
+_L_LA_020104_01,Food production [2.1.4],5,1
+_L_LA_020201_01,Stunting among under 2 years old (for Lao PDR's commitment to SUN 1000 days programme) [2.2.1],10,1
+_L_LA_030201_01,"Infant mortality rate per 1,000 live births",9,1
+_L_LA_030301_01,people with diagnosed HIV sustained ART,1,1
+_L_LA_030801_01,Coverage of essential health services: % Antenatal care coverage (at least 4 visits),1,1
+_L_LA_030801_02,Coverage of essential health services: % Measles & rubella (MR) coverage (%) among 9-12 months old children,1,1
+_L_LA_030802_01,Out of pocket health expenditure as % of total health expenditure,1,1
+_L_LA_040106_01,Children over-age for grade,2,1
+_L_LA_040203_01,Gross early childhood enrolment ratio,2,1
+_L_LA_040303_01,Participation rate in technical-vocational education programmes (15-24 years-old),3,1
+_L_LA_040304_01,Percentage lower secondary/upper secondary school graduates enrolled in vocational & training school,2,1
+_L_LA_040501_01,Gender parity indices for gross enrolment,3,1
+_L_LA_040501_02,Gender parity indices for completion,3,1
+_L_LA_050304_01,Percentage of women aged 15-49 years who gave birth by aged 15,1,1
+_L_LA_050304_02,Percentage of women aged 15-49 years who gave birth by aged 18,1,1
+_L_LA_050304_03,Percentage of women aged 20-24 years who gave birth by aged 15,1,1
+_L_LA_050304_04,Percentage of women aged 20-24 years who gave birth by aged 18,1,1
+_L_LA_050502_01,"Percentage of women in decision making positions /leadership positions in government sector by central, province and district in the following positions_Deputy Division Head",1,1
+_L_LA_050502_02,"Percentage of women in decision making positions /leadership positions in government sector by central, province and district in the following positions_ Division Head",1,1
+_L_LA_050502_03,"Percentage of women in decision making positions /leadership positions in government sector by central, province and district in the following positions_Deputy Department General",1,1
+_L_LA_050502_04,"Percentage of women in decision making positions /leadership positions in government sector by central, province and district in the following positions_Department General",1,1
+_L_LA_050502_05,Percentage of women being  the deputy village chief,1,1
+_L_LA_050502_06,Percentage of women being the village chief,1,1
+_L_LA_080302_01,Percentage of financing and loans issued to SMEs,1,1
+_L_LA_080303_01,Number of SMEs owned by Lao citizens (with Lao citizens as the majority shareholders),1,1
+_L_LA_080503_01,Businesses owned by females,1,1
+_L_LA_080504_01,Share of employed persons in the informal sector,6,1
+_L_LA_080702_01,"Number of children aged 5-17 engaged in prohibited hazardous occupations and tasks, by sex and age",2,1
+_L_LA_080903_01,Establishment of Tourism standards (1=to be adopted and implemented),1,1
+_L_LA_080A01_01,Mean number of days to clear imports,1,1
+_L_LA_130303_01,Number of provinces with capacity to report on the situation of climate change,1,1
+_L_LA_170101_01,Total government revenueas a percentage of GDP_Domestic revenue,1,1
+_L_LA_170101_02,Total government revenueas a percentage of GDP_Grants,1,1
+_L_LA_170601_01,"Number of science and/or technology cooperation agreements and programmes between countries, by type of cooperation (Increase number of agreements with other counties and international organisations to 100 agreements and implementing 80% in 2020)",1,1
+_L_LA_170603_01,Number of research projects/papers (increase number of research projects in national and ministerial levels to 250 projects in 2025),1,1
+_L_LA_170603_02,Number of research papers published in regional and international journals (increase number of research publications to 250 copies in national and regional levels in 2025),1,1
+_L_LA_170802_01,Percentage of population registered as internet users through landline and wireless,1,1
+_L_LA_170803_01,Percentage of mobile phone users with internet access.,1,1
+_L_LA_171902_02,Number of birth registration recorded,3,1
+_L_LA_171903_01,Number of death registration recorded,3,1
+_L_LA_180101_00,Number of reported UXO casualties-Total,1,1
+_L_LA_180101_01,Number of reported UXO casualties (disaggregated by age group and sex)- Injured [18.1.1 ],5,1
+_L_LA_180101_02,Number of reported UXO casualties (disaggregated by age group and sex) - Killed [18.1.1 ],5,1
+_L_LA_180102_01,"Percentage of population in contaminated villages with information on Confirmed Hazardous Areas in their village (disaggregated by age group, sex and persons with disabilities) [18.1.2 ]",3,1
+_L_LA_180201_01,Percentage of high priority hazardous areas remaining to be cleared (disaggregated by village poverty levels) [18.2.1],1,1
+_L_LA_180202_01,Number of villages defined as ‘poor’ with Confirmed Hazardous Areas remaining to be cleared [18.2.2 ],1,1
+_L_LA_180301_01,Proportion of registered active age UXO survivors unable to earn sufficient income with access to basic income security [18.3.1 ],1,1
+_L_LA_180302_01,"Percentage of registered UXO survivors mainstreamed into health, education and employment services [18.3.2 ]",1,1
+NY_GDP_PCAP,Annual growth rate of real GDP per capita [8.1.1],1,1
+SD_MDP_CSMP,Proportion of children living in child-specific multidimensional poverty [1.2.2],9,1
+SE_ADT_FUNS,Proportion of population achieving at least a fixed level of proficiency in functional skills [4.6.1],9,1
+SE_TOT_CPLR,"Completion rate, by sex, location, wealth quintile and education level (%) [4.1.2]",7,1
+SE_TOT_PRFL,Proportion of children and young people achieving a minimum proficiency level in reading and mathematics [4.1.1],2,1
+SE_TRA_GRDL,Proportion of teachers who have received at least the minimum organized teacher training (e.g. pedagogical training) pre-service or in-service required for teaching at the relevant level in a given country [4.c.1],9,1
+SG_GEN_LOCG,Proportion of seats held by women in local governments (% of total number of seats) [5.5.1],1,1
+SG_GEN_PARL,Proportion of seats held by women in national parliaments (% of total number of seats) [5.5.1],1,1
+SG_LGL_GENEQLFP,"Legal frameworks that promote, enforce and monitor gender equality (percentage of achievement, 0 - 100) -- Area 1: overarching legal frameworks and public life. [5.1.1]",1,1
+SG_REG_CENSUS,Proportion of countries that have conducted at least one population and housing census in the last 10 years [17.19.2],1,1
+SH_ALC_CONSPT,Alcohol consumption per capita (aged 15 years and older) within a calendar year [3.5.2],1,1
+SH_DTH_NCOM,"Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease [3.4.1]",1,1
+SH_DYN_IMRT,Infant mortality rate [3.2.1],9,1
+SH_DYN_NMRT,Neonatal mortality rate [3.2.2],9,1
+SH_FPL_MTMM,Proportion of women married or in a union of reproductive age (aged 15-49 years) who have their need for family planning satisfied with modern methods [3.7.1],8,1
+SH_HAP_HBSAG,Prevalence of hepatitis B surface antigen (HBsAg) [3.3.4],1,1
+SH_HIV_INCD,"Number of new HIV infections per 1,000 uninfected population [3.3.1]",1,1
+SH_MED_HWRKDIS,"Health worker distribution, by sex and type of occupation [3.c.1]",5,1
+SH_PRV_SMOK,Age-standardized prevalence of current tobacco use among persons aged 15 years and older [3.a.1],2,1
+SH_STA_BRTC,Proportion of births attended by skilled health personnel [3.1.2],12,1
+SH_STA_MALR,"Malaria incidence per 1,000 population at risk [3.3.3]",1,1
+SH_STA_MORT,Maternal mortality ratio [3.1.1],1,1
+SH_STA_POISN,Mortality rate attributed to unintentional poisonings [3.9.3],1,1
+SH_STA_STNT,Proportion of children moderately or severely stunted [2.2.1],10,1
+SH_STA_TRAFN,Number of deaths rate due to road traffic injuries [3.6.1],1,1
+SH_STA_WASH,"Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene [3.9.2]",1,1
+SH_STA_WAST,Proportion of children moderately or severely wasted [2.2.2],10,1
+SH_TBS_INCD,Tuberculosis incidence [3.3.2],1,1
+SH_TRP_INTVN,Number of people requiring interventions against neglected tropical diseases [3.3.5],1,1
+SI_POV_DAY1,Proportion of population below international poverty line [1.1.1],1,1
+SI_POV_NAHC,Proportion of population living below the national poverty line [1.2.1],9,1
+SL_DOM_TSPD,Proportion of time spent on unpaid domestic chores and care work [5.4.1],2,1
+SL_EMP_EARN,Average hourly earnings [8.5.1],9,1
+SL_EMP_INJUR,Non-fatal occupational injuries among employees (rate) [8.8.1],1,1
+SL_EMP_PCAP,Annual growth rate of real GDP per employed person [8.2.1],1,1
+SL_ISV_IFEM,"Proportion of informal employment, by sector and sex (ILO harmonized estimates) [8.3.1]",6,1
+SL_TLF_CHLDEC,Proportion of children engaged in economic activity and household chores [8.7.1],18,1
+SL_TLF_NEET,"Proportion of youth not in education, employment or training [8.6.1]",6,1
+SL_TLF_UEM,Unemployment rate [8.5.2],10,1
+SN_ITK_DEFC,Prevalence of undernourishment [2.1.1],1,1
+SN_STA_OVWGT,Proportion of children moderately or severely overweight [2.2.2],10,1
+SP_DYN_ADKL,"Adolescent birth rate (per 1,000 women aged 15-19 years) [3.7.2]",1,1
+SP_DYN_MRBF15,Proportion of women aged 20-24 years who were married or in a union before age 15 [5.3.1],8,1
+SP_DYN_MRBF18,Proportion of women aged 20-24 years who were married or in a union before age 18 [5.3.1],8,1
+ST_GDP_ZS,Tourism direct GDP as a proportion of total GDP [8.9.1],1,1
+TX_EXP_GBMRCH,Developing countries’ and least developed countries’ share of global merchandise exports [17.11.1],1,1
+VC_DSR_AFFCT,"Number of people affected by disaster [1.5.1, 11.5.1, 13.1.1]",3,1
+VC_DSR_IJILN,"Number of injured or ill people attributed to disasters [1.5.1, 11.5.1, 13.1.1]",1,1
+VC_DSR_MISS,"Number of missing persons due to disaster [1.5.1, 11.5.1, 13.1.1]",1,1
+VC_DSR_MORT,"Number of deaths due to disaster [1.5.1, 11.5.1, 13.1.1]",1,1
+VC_DSR_PDYN,"Number of people whose destroyed dwellings were attributed to disasters [1.5.1, 11.5.1, 13.1.1]",3,1
+VC_VAW_MARR,Proportion of ever-partnered women and girls subjected to physical and sexual violence by a current or former intimate partner in the previous 12 months [5.2.1],1,1

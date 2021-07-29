@@ -1,0 +1,6 @@
+Year,Observation status,Unit multiplier,Nature of data points,Source details,Frequency of observation,Reporting type,SERIES,Reference area,Degree of urbanisation,Occupation,UNIT_MEASURE,Value
+2015,Normal value,Units,Not Available,"Ministry of Health, https://moh.gov.la/",Annual,National,"Health worker distribution, by sex and type of occupation [3.c.1]",Lao People's Democratic Republic,,,"Per 1,000 population",3.03
+2018,Normal value,Units,Not Available,"Ministry of Health, https://moh.gov.la/",Annual,National,"Health worker distribution, by sex and type of occupation [3.c.1]",Lao People's Democratic Republic,Urban,,"Per 1,000 population",7.76
+2018,Normal value,Units,Not Available,"Ministry of Health, https://moh.gov.la/",Annual,National,"Health worker distribution, by sex and type of occupation [3.c.1]",Lao People's Democratic Republic,Rural,,"Per 1,000 population",2.43
+2019,Normal value,Units,Not Available,"Ministry of Health, https://moh.gov.la/",Annual,National,"Health worker distribution, by sex and type of occupation [3.c.1]",Lao People's Democratic Republic,,Medical doctors,"Per 1,000 population",0.77
+2020,Normal value,Units,Not Available,"Ministry of Health, https://moh.gov.la/",Annual,National,"Health worker distribution, by sex and type of occupation [3.c.1]",Lao People's Democratic Republic,,Nursing personnel,"Per 1,000 population",1.24

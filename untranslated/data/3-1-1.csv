@@ -1,0 +1,6 @@
+Year,OBS_STATUS,UNIT_MULT,NATURE,SOURCE_DETAIL,FREQ,REPORTING_TYPE,SERIES,REF_AREA,UNIT_MEASURE,Value
+2015,A,0,_X,"Lao Statistics Bureau, Survey-(PHC), https://www.lsb.gov.la/",A,N,SH_STA_MORT,LA,PER_100000_POP,206
+2016,A,0,_X,"Lao Statistics Bureau, Survey-(PHC), https://www.lsb.gov.la/",A,N,SH_STA_MORT,LA,PER_100000_POP,196
+2017,A,0,_X,"Lao Statistics Bureau, Survey-(PHC), https://www.lsb.gov.la/",A,N,SH_STA_MORT,LA,PER_100000_POP,185
+2018,A,0,_X,"Lao Statistics Bureau, Survey-(PHC), https://www.lsb.gov.la/",A,N,SH_STA_MORT,LA,PER_100000_POP,72
+2019,A,0,_X,"Lao Statistics Bureau, Survey-(PHC), https://www.lsb.gov.la/",A,N,SH_STA_MORT,LA,PER_100000_POP,70

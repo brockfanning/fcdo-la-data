@@ -1,0 +1,11 @@
+Year,Observation status,Unit multiplier,Nature of data points,Source details,Frequency of observation,Reporting type,SERIES,Reference area,UNIT_MEASURE,Value
+2015,Normal value,Units,Not Available,"Ministry of Health, https://moh.gov.la/",Annual,National,"Number of new HIV infections per 1,000 uninfected population [3.3.1]",Lao People's Democratic Republic,Number,550
+2016,Normal value,Units,Not Available,"Ministry of Health, https://moh.gov.la/",Annual,National,"Number of new HIV infections per 1,000 uninfected population [3.3.1]",Lao People's Democratic Republic,Number,870
+2017,Normal value,Units,Not Available,"Ministry of Health, https://moh.gov.la/",Annual,National,"Number of new HIV infections per 1,000 uninfected population [3.3.1]",Lao People's Democratic Republic,Number,830
+2018,Normal value,Units,Not Available,"Ministry of Health, https://moh.gov.la/",Annual,National,"Number of new HIV infections per 1,000 uninfected population [3.3.1]",Lao People's Democratic Republic,Number,810
+2019,Normal value,Units,Not Available,"Ministry of Health, https://moh.gov.la/",Annual,National,"Number of new HIV infections per 1,000 uninfected population [3.3.1]",Lao People's Democratic Republic,Number,780
+2015,Normal value,Units,Not Available,"Ministry of Health, https://moh.gov.la/",Annual,National,people with diagnosed HIV sustained ART,Lao People's Democratic Republic,Percent,32
+2016,Normal value,Units,Not Available,"Ministry of Health, https://moh.gov.la/",Annual,National,people with diagnosed HIV sustained ART,Lao People's Democratic Republic,Percent,39
+2017,Normal value,Units,Not Available,"Ministry of Health, https://moh.gov.la/",Annual,National,people with diagnosed HIV sustained ART,Lao People's Democratic Republic,Percent,47
+2018,Normal value,Units,Not Available,"Ministry of Health, https://moh.gov.la/",Annual,National,people with diagnosed HIV sustained ART,Lao People's Democratic Republic,Percent,50
+2019,Normal value,Units,Not Available,"Ministry of Health, https://moh.gov.la/",Annual,National,people with diagnosed HIV sustained ART,Lao People's Democratic Republic,Percent,56

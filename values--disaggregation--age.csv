@@ -1,0 +1,22 @@
+Value,en,Disaggregation combinations using this value,Number of indicators
+Y_GE15,15 years old and over,5,2
+Y_GE25,25 years old and over,1,1
+Y_GE65,65 years old and over,2,2
+Y0T14,under 15 years old,2,2
+Y0T19,Under 20 years old,1,1
+Y0T2,0-2 years old,1,1
+Y12T14,12 to 14 years old,1,1
+Y15T19,15 to 19 years old,5,3
+Y15T24,15 to 24 years old,3,3
+Y20T24,20 to 24 years old,4,2
+Y20T34,20 to 34 years old,1,1
+Y25T29,25 to 29 years old,1,1
+Y30T34,30 to 34 years old,1,1
+Y35T39,35 to 39 years old,1,1
+Y35T49,35 to 49 years old,1,1
+Y3T4,3-4 years old,1,1
+Y40T44,40 to 44 years old,1,1
+Y45T49,45 to 49 years old,1,1
+Y55T64,55 to 64 years old,2,2
+Y5T11,5-11 years old,1,1
+Y5T17,5 to 17 years old,3,1

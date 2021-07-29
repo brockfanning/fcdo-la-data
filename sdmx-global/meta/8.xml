@@ -1,0 +1,2418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mes:GenericMetadata xmlns:mes="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:gen="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/metadata/generic" xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <mes:Header>
+    <mes:ID>IREF1627576988</mes:ID>
+    <mes:Test>True</mes:Test>
+    <mes:Prepared>2021-07-29T16:43:08</mes:Prepared>
+    <mes:Sender id="open-sdg_sdg-build@1-4-0"/>
+    <mes:Structure structureID="MDS1">
+      <com:Structure>
+        <URN>urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataStructure=IAEG-SDGs:SDG_MSD(0.3)</URN>
+      </com:Structure>
+    </mes:Structure>
+  </mes:Header>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="bda66719-c943-40b2-96f8-79f2d798cc57">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SL_EMP_PCAP</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>LA</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="ADJUSTMENT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CLASS_SYSTEM">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COLL_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Need description for administrative data from Lao Statistics Bureau</p><p>The Labor Force Survey that was implemented in Lao People’s Democratic Republic in 2017 (LFS 2017) adopts the new concept of work, employment and labor underutilization that was adopted by the19th International Conference of Labor Statisticians (ICLS) in 2013.</p><h2><strong>Sampling</strong></h2><p>Sampling Procedure</p><p>The 2015 Census of Population and Housing was applied for sampling frame for LFS 2017. Base on the Census, Lao PDR has a total population of 6,479,982 distributed into 1,197,926 households . The province of Savannakhet has the most population but Vientiane Capital has the most households. Population in Xaysomboun is lowest at 85,168, the province also has the lowest number of households at 14,316.<br/><br/>Two stage sampling is proposed, with selection of villages in </p><ul><li>the first stage and selection of households in the second stage. In the provincial domains, villages were selected using PPS (no need for stratification since there are fewer villages within each province). </li><li>Second stage sampling comprise of systematic selection of 20 households from the updated list of households from the 2015 Census. Provincial Domains target 10,800 sample households at 3% and 6% margin of errors. </li></ul><p><strong>Data Collection: </strong>Start: 2017, End: 2017</p><p><strong>Data collection Mode: </strong>Face-to-Face</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COMPARABILITY">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COMPILING_ORG">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Lao Statistics Bureau</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_EMAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><a href="mailto:vilaysooks@gmail.com">vilaysooks@gmail.com</a></p><p><a href="mailto:lstats@lsb.gov.la">lstats@lsb.gov.la</a></p><p>https://www.lsb.gov.la</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_FUNCT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Deputy Director General</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_MAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_NAME">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Mr.Vilaysook SISOULATH</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Lao Statistics Bureau</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_PHONE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>+856 20 55 795 043</p><p>+856 21 214 740</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The Labor Force Survey have been conducted at five-year intervals since 2010</p><p>No disaggregation required for this indicator.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Real GDP per employed person=  (GDP at constant prices )/(Total employment)</p><p>The numerator and denominator of the equation above should refer to the same reference period, for example, the same calendar year.</p><p>If we call the real GDP per employed person “LabProd”, then the annual growth rate of real GDP per employed person is calculated as follows:</p><p>Annual growth rate of real GDP per employed person=  ((LabProd in year n) –(LabProd in year n-1))/((LabProd in year n-1))  ×100</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_SOURCE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Lao Statistics Bureau</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_VALIDATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>2021</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="IMPUTATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="INST_MANDATE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Base on the statistical law and the National Strategy for sustainable Development of Statistical System 2016-2020 and vision for 2030, Ministry of Planning and Investment (MPI) throughout the  Lao  Statistics  Bureau  in  cooperate with  Ministry  of  Labor  and  Welfare  has  conducted  the Lao  Labor  Force  Survey  in  2017.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="META_LAST_UPDATE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>1 May 2021</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="ORGANISATION_UNIT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Department of Social Statistics</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<ol><li><a href="file:///C:/Users/BK/AppData/Local/Temp/5.Lao%20PDR%20Labor%20force%20Survey%202017.pdf">file:///C:/Users/BK/AppData/Local/Temp/5.Lao%20PDR%20Labor%20force%20Survey%202017.pdf</a></li><li>https://unstats.un.org/sdgs/metadata/</li></ol>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="QUALITY_ASSMNT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="QUALITY_ASSURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="QUALITY_MGMNT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="REC_USE_LIM">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Output measures are obtained from national accounts and represent, as much as possible, GDP at market prices for the aggregate economy. However, despite common principles that are mostly based on the United Nations System of National Accounts, there are still significant problems in international consistency of national accounts estimates, based on factors such as differences in the treatment of output in services sectors, differences in methods used to correct output measures for price changes (in particular, the use of different weighting systems to obtain deflators) and differences in the degree of coverage of informal economic activities.</p><p>Data on employment used in the denominator of this indicator refer, as much as possible, to the average number of persons with one or more paid jobs during the year. That is, the reliability of the employment data is also dependent on the degree of coverage of informal activities by the statistical source used.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="REG_AGG">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="REL_CAL_POLICY">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>2022</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>ILO</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_GOAL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>SDG 8: Decent Work and Economic Growth: Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>8.2.1 Percentage of growth in labour productivity (GDP/per person employed)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_RELATED_INDICATORS">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_SERIES_DESCR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>SL_EMP_PCAP</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>8.2 Achieve higher levels of economic productivity through diversification, technological upgrading and innovation, including through a focus on high-value added and labour-intensive sectors.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SOURCE_TYPE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Numerator: administrative data from Lao Statistics Bureau</p><p>Denominator: The Labor Force Survey 2017</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><strong>Definition:</strong></p><p>The annual growth rate of real GDP per employed person conveys the annual percentage change in real Gross Domestic Product per employed person.</p><p><strong>Concepts:</strong></p><p>Gross Domestic Product (GDP): It is the main measure of national output, representing the total value of all final goods and services within the System of National Accounts (SNA) production boundary produced in a particular economy (that is, the dollar value of all goods and services within the SNA production boundary produced within a country’s borders in a given year). According to the SNA, “GDP is the sum of gross value added of all resident producer units plus that part (possibly the total) of taxes on products, less subsidies on products, that is not included in the valuation of output … GDP is also equal to the sum of the final uses of goods and services (all uses except intermediate consumption) measured at purchasers’ prices, less the value of imports of goods and services GDP is also equal to the sum of primary incomes distributed by resident producer units.”</p><p>Real Gross Domestic Product (GDP): Real GDP refers to GDP calculated at constant prices, that is, the volume level of GDP, excluding the effect of inflation and favouring comparisons of quantities beyond price changes. Constant price estimates of GDP are calculated by expressing values in terms of a base period. In theory, the price and quantity components of a value are identified and the price in the base period is substituted for that in the current period.</p><p>Employment: All persons of working age who, during a short reference period (one week), were engaged in any activity to produce goods or provide services for pay or profit.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="eaf7a98b-b6e3-45c1-82ed-5e47ac2aa407">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>NY_GDP_PCAP</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>LA</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="COLL_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Each year, the Lao Sstatistics Bureau collects the latest data and estimates GDP based on data collected either from surveys (i.e. Lao Expenditure and Consumption Survey; and Annual Establishment Survey) and administrative data.  </p><p>Population figures are projections based on the 2015 Census of Population and Housing in Lao PDR.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COMPILING_ORG">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Lao Statistics Bureau</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_EMAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Salikanaja@yahoo.com</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_FUNCT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Deputy Director General</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_MAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Ministry of Planning and Investment</p><p>Lao Statistics Bureau, Dongnachokphuea Village, Sikhottabong District, Vientiane Capital Province. Tel: (+856 21) 214740, Fax: (+856 21) 242022.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_NAME">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Ms.Salika CHANHTHALAVONG</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Lao Statistics Bureau</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_PHONE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>+856 20 55042665</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Annual: 2015 to 2018</p><p>Breakdown/disaggregation: no breakdown.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The annual growth rate of real Gross Domestic Product (GDP) per capita is calculated as follows:</p><ol><li>Numerator: GDP per capita of current year (at constant price)- GDP per capita of previous year (at constant price)</li><li>Denominator: GDP per capita of previous year (at constant price)</li><li>Multiplier: 100</li></ol>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_SOURCE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Lao Statistics Bureau</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_VALIDATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Standard data review and validation protocols were implemented from data collection, processing, calculation to finalization and publication of the results. </p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Quarterly, semestral, and annual </p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="INST_MANDATE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Data collection, processing, dissemination  and use of statistics for this indicator is in accordance with the Statistics Law 2017; the National Strategy for Sustainable Development of Statistical System (NSSDSS) 2016-2020; and the Vision for 2030.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="META_LAST_UPDATE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>23 June 2021</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="ORGANISATION_UNIT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Department of Economic Statistics</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The System of National Accounts (SNA) website<br/><a href="http://unstats.un.org/unsd/nationalaccount/sna.asp">http://unstats.un.org/unsd/nationalaccount/sna.asp</a></p><p>The UNSD SDG Indicators, Metadata repository <a href="https://unstats.un.org/sdgs/metadata/">https://unstats.un.org/sdgs/metadata/</a></p><p>Lao Statistical Information Service for GDP</p><p><a href="https://laosis.lsb.gov.la/tblInfo/TblInfoList.do">https://laosis.lsb.gov.la/tblInfo/TblInfoList.do</a></p><p>Lao PDR Statistics Law, 2017<br/><a href="https://www.lsb.gov.la">https://www.lsb.gov.la</a></p><p> </p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="QUALITY_ASSMNT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The estimates derived for each year are compared to previous years to ensure that estimates are prepared consistently from year to year. </p><p>In general, the quality of the results is considered good given the quality management and standards implemented in the basic data source used for obtaining the value for this SDG indicator. </p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="QUALITY_ASSURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Data are validated in accordance with the international statistical standards</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="QUALITY_MGMNT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Managing the quality of the indicator is guided by the Lao PDR Statistics Law of 2017 and in accordance with the recommendations of the UN Fundamental Principles of Official Statistics.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="RATIONALE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Real Gross Domestic Product (GDP) per capita is a proxy for the average standard of living of residents in a country or area.</p><p>A positive percentage change in annual real GDP per capita can be interpreted as an increase in the average standard of living of the residents in a country or area</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="REC_USE_LIM">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Although countries or areas calculate GDP using the common principles and recommendations in the United Nations System of National Accounts (SNA), there are still problems in international comparability of GDP estimates. These include:</p><ol><li>Different versions of the SNA (for example, 1968, 1993 or 2008) countries or areas use in calculating their GDP estimates</li><li>Different degree of coverage of informal and non-observed economic activities in the GDP estimates</li></ol><p>Further, as a necessary condition to being a key economic performance indicator of sustainable development, one of the often-cited limitations of GDP is that it does not account for the social and environmental costs of production. It is designed as a measure of the level of overall well-being. For example, growth in real GDP per capita reveals nothing concerning energy and material interactions with the environment.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="REL_CAL_POLICY">
+          
+          <com:Text xml:lang="en"><![CDATA[<p> Annually, December June 2021</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>United Nations Statistics Division (UNSD)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_GOAL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Goal 8: Promote sustained, inclusive and sustainable economic growth, full and productive employment</p><p>and decent work for all</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Indicator 8.1.1: Annual growth rate of real GDP per capita</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_RELATED_INDICATORS">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Any economic statistics that is used for other SDG indicator </p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_SERIES_DESCR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Annual growth rate of real GDP per capita</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Target 8.1: Sustain per capita economic growth in accordance with national circumstances and, in</p><p>particular, at least 7 per cent gross domestic product growth per annum in the least developed countries</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SOURCE_TYPE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Lao Statistic Bureau, Department of Economic Statistics, National Account Division </p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Annual growth rate of real Gross Domestic Product (GDP) per capita is calculated as the percentage change in the real GDP per capita between two consecutive years. Real GDP per capita is calculated by dividing GDP at constant prices by the population of a country or area. </p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>percent (%)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="8a8cb50f-d5f2-4186-bd3e-4396b421c287">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SL_TLF_NEET</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>LA</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="ADJUSTMENT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CLASS_SYSTEM">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COLL_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The Labor Force Survey that was implemented in Lao People’s Democratic Republic in 2017 (LFS 2017) adopts the new concept of work, employment and labor underutilization that was adopted by the19th International Conference of Labor Statisticians (ICLS) in 2013.</p><h2><strong>Sampling</strong></h2><p>Sampling Procedure</p><p>The 2015 Census of Population and Housing was applied for sampling frame for LFS 2017. Base on the Census, Lao PDR has a total population of 6,479,982 distributed into 1,197,926 households . The province of Savannakhet has the most population but Vientiane Capital has the most households. Population in Xaysomboun is lowest at 85,168, the province also has the lowest number of households at 14,316.<br/><br/>Two stage sampling is proposed, with selection of villages in </p><ul><li>the first stage and selection of households in the second stage. In the provincial domains, villages were selected using PPS (no need for stratification since there are fewer villages within each province). </li><li>Second stage sampling comprise of systematic selection of 20 households from the updated list of households from the 2015 Census. Provincial Domains target 10,800 sample households at 3% and 6% margin of errors. </li></ul><p><strong>Data Collection: </strong>Start: 2017, End: 2017</p><p><strong>Data collection Mode: </strong>Face-to-Face</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COMPARABILITY">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COMPILING_ORG">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Lao Statistics Bureau</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_EMAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><a href="mailto:vilaysooks@gmail.com">vilaysooks@gmail.com</a></p><p><a href="mailto:lstats@lsb.gov.la">lstats@lsb.gov.la</a></p><p>https://www.lsb.gov.la</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_FUNCT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Deputy Director General</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_MAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_NAME">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Mr.Vilaysook SISOULATH</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Lao Statistics Bureau</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_PHONE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>+856 20 55 795 043</p><p>+856 21 214 740</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The Labor Force Survey have been conducted at five-year intervals since 2010</p><p>Disaggregated by Location (U/R), sex and age group.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Youth NEET  rate=  ( Youth –(Youth in employment+ Youth not in employment but in education or training))/Youth  ×100</p><p>It is important to note here that youth simultaneously in employment and education or training should not be double counted when subtracted from the total number of youth. The formula can also be expressed as:</p><p>Youth NEET  rate=  ((Unemployed youth + Youth outside the labour force) – (Unemployed youth in education or training+Youth outside the labour force in education or training) )/Youth  ×100</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_SOURCE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Lao Statistics Bureau</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_VALIDATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>2022</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="IMPUTATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="INST_MANDATE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Base on the statistical law and the National Strategy for sustainable Development of Statistical System 2016-2020 and vision for 2030, Ministry of Planning and Investment (MPI) throughout the  Lao  Statistics  Bureau  in  cooperate with  Ministry  of  Labor  and  Welfare  has  conducted  the Lao  Labor  Force  Survey  in  2017.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="META_LAST_UPDATE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>1 May 2021</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="ORGANISATION_UNIT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Department of Social Statistics</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<ol><li><a href="file:///C:/Users/BK/AppData/Local/Temp/5.Lao%20PDR%20Labor%20force%20Survey%202017.pdf">file:///C:/Users/BK/AppData/Local/Temp/5.Lao%20PDR%20Labor%20force%20Survey%202017.pdf</a></li><li>https://unstats.un.org/sdgs/metadata/</li></ol>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="QUALITY_ASSMNT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="QUALITY_ASSURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="QUALITY_MGMNT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="RATIONALE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The share of youth not in employment, education or training (youth NEET rate) provides a measure of youth who are outside the educational system, not in training and not in employment, and thus serves as a broader measure of potential youth labour market entrants than youth unemployment. It includes discouraged worker youth as well as those who are outside the labour force due to disability or engagement in household chores, among other reasons. Youth NEET is also a better measure of the current universe of potential youth labour market entrants as compared with the youth inactivity rate, as the latter includes those youth who are outside the labour force and are in education, and thus are furthering their skills and qualifications.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="REC_USE_LIM">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The calculation of this indicator requires to have reliable information on both the labour market status and the participation in education or training of young persons. The quality of such information is heavily dependent on the questionnaire design, the sample size and design and the accuracy of respondents' answers. </p><p>In terms of the analysis of the indicator, in order to avoid misinterpreting it, it is important to bear in mind that it is composed of two different sub-groups (unemployed youth not in education or training and youth outside the labour force not in education or training). The prevalence and composition of each sub-group would have policy implications, and thus should also be considered when analysing the NEET rate.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="REG_AGG">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="REL_CAL_POLICY">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>2023</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>ILO</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_GOAL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>SDG 8: Decent Work and Economic Growth: Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>8.6.1 Percentage of youth (aged 15-24) not in education, employment or training</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_RELATED_INDICATORS">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_SERIES_DESCR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>SL_TLF_NEET</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>8.6 By 2020, substantially reduce the proportion of youth not in employment, education or training.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SOURCE_TYPE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The Labor Force Survey 2017</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><strong>Definition:</strong></p><p>This indicator conveys the proportion of youth (aged 15-24 years) not in education, employment or training (also known as "the youth NEET rate") .</p><p><strong>Concepts:</strong></p><p>For the purposes of this indicator, youth is defined as all persons between the ages of 15 and 24 (inclusive). According to the International Standard Classification of Education (ISCED), education is defined as organized and sustained communication designed to bring about learning. Formal education is defined in ISCED as education that is institutionalized, intentional, and planned through public organizations and recognized private bodies and, in their totality, make up the formal education system of a country.</p><p>Non-formal education, like formal education is defined in ISCED as education that is institutionalized, intentional and planned by an education provider but is considered an addition, alternative and/or a complement to formal education. It may be short in duration and/or low in intensity and it is typically provided in the form of short courses, workshops or seminars. Informal learning is defined in ISCED as forms of learning that are intentional or deliberate, but not institutionalized. It is thus less organized and less structured than either formal or non-formal education. Informal learning may include learning activities that occur in the family, in the work place, in the local community, and in daily life, on a self-directed, family-directed or socially-directed basis. For the purposes of this indicator, persons will be considered in education if they are in formal or non-formal education, as described above, but excluding informal learning.</p><p>Employment is defined as all persons of working age who, during a short reference period (one week), were engaged in any activity to produce goods or provide services for pay or profit. </p><p>For the purpose of this indicator, persons are considered to be in training if they are in a non-academic learning activity through which they acquire specific skills intended for vocational or technical jobs.</p><p>Vocational training prepares trainees for jobs that are based on manual or practical activities, and for skilled operative jobs, both blue and white collar related to a specific trade, occupation or vocation. Technical training on the other hand imparts learning that can be applied in intermediate-level jobs, in particular those of technicians and middle managers.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="ae275cf4-b218-4e0a-9004-83798a1009f6">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SL_TLF_CHLDEC</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>LA</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="ADJUSTMENT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CLASS_SYSTEM">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COLL_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The Labor Force Survey that was implemented in Lao People’s Democratic Republic in 2017 (LFS 2017) adopts the new concept of work, employment and labor underutilization that was adopted by the19th International Conference of Labor Statisticians (ICLS) in 2013.</p><h2><strong>Sampling</strong></h2><p>Sampling Procedure</p><p>The 2015 Census of Population and Housing was applied for sampling frame for LFS 2017. Base on the Census, Lao PDR has a total population of 6,479,982 distributed into 1,197,926 households . The province of Savannakhet has the most population but Vientiane Capital has the most households. Population in Xaysomboun is lowest at 85,168, the province also has the lowest number of households at 14,316.<br/><br/>Two stage sampling is proposed, with selection of villages in </p><ul><li>the first stage and selection of households in the second stage. In the provincial domains, villages were selected using PPS (no need for stratification since there are fewer villages within each province). </li><li>Second stage sampling comprise of systematic selection of 20 households from the updated list of households from the 2015 Census. Provincial Domains target 10,800 sample households at 3% and 6% margin of errors. </li></ul><p><strong>Data Collection: </strong>Start: 2017, End: 2017</p><p><strong>Data collection Mode: </strong>Face-to-Face</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COMPARABILITY">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COMPILING_ORG">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Lao Statistics Bureau</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_EMAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><a href="mailto:vilaysooks@gmail.com">vilaysooks@gmail.com</a></p><p><a href="mailto:lstats@lsb.gov.la">lstats@lsb.gov.la</a></p><p>https://www.lsb.gov.la</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_FUNCT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Deputy Director General</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_MAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_NAME">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Mr.Vilaysook SISOULATH</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Lao Statistics Bureau</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_PHONE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>+856 20 55 795 043</p><p>+856 21 214 740</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The Labor Force Survey have been conducted at five-year intervals since 2010</p><p>Disaggregated by Location (U/R), sex, age group and wealth quintile.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Children aged 5-17: Number of children aged 5-17 reported in child labour during the week prior to the survey divided by the total number of children aged 5-17 in the population, multiplied by 100. </p><p>Children aged 5-14: Number of children aged 5-14 reported in child labour during the week prior to the survey divided by the total number of children aged 5-14 in the population, multiplied by 100. </p><p>Children aged 15-17: Number of children aged 15-17 reported child labour during the week prior to the survey divided by the total number of children aged 15-17 in the population, multiplied by 100.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_SOURCE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Lao Statistics Bureau</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_VALIDATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>2022</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="IMPUTATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="INST_MANDATE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Base on the statistical law and the National Strategy for sustainable Development of Statistical System 2016-2020 and vision for 2030, Ministry of Planning and Investment (MPI) throughout the  Lao  Statistics  Bureau  in  cooperate with  Ministry  of  Labor  and  Welfare  has  conducted  the Lao  Labor  Force  Survey  in  2017.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="META_LAST_UPDATE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>1 May 2021</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="ORGANISATION_UNIT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Department of Social Statistics</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<ol><li><a href="file:///C:/Users/BK/AppData/Local/Temp/5.Lao%20PDR%20Labor%20force%20Survey%202017.pdf">file:///C:/Users/BK/AppData/Local/Temp/5.Lao%20PDR%20Labor%20force%20Survey%202017.pdf</a></li><li>https://unstats.un.org/sdgs/metadata/</li></ol>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="QUALITY_ASSMNT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="QUALITY_ASSURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="QUALITY_MGMNT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="RATIONALE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Far too many children in the world remain trapped in child labour, compromising their individual future and our collective futures. According to the latest ILO global estimates, about 152 million children worldwide – 64 million girls and 88 million boys - are child labourers, accounting for almost 10 percent of the child population.  These stark figures underscore the need for accelerated progress against child labour in the lead up to the 2025 target date for ending child labour in all its forms, and the accompanying need for child labour statistics to monitor and guide efforts in this regard.  Reliable, comprehensive and timely data on the nature and extent of child labour provide a basis for determining priorities for national global action against child labour. Statistical information on child labour, and more broadly on all working children, also provide a basis for increasing public awareness of the situation of working children and for the development of appropriate regulatory frameworks and policies.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="REC_USE_LIM">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>While the concept of child labour includes working in activities that are hazardous in nature, to ensure comparability of estimates over time and to minimize data quality issues, work beyond age-specific hourly thresholds are used as a proxy for hazardous work for the purpose of reporting on SDG indicator 8.7.1. Further methodological work is needed to validate questions specifically aimed at identifying children in hazardous working conditions.</p><p>Similarly, while the worst forms of child labour other than hazardous also form part of the concept of child labour more broadly, data on the worst forms of child labour are not currently captured in regular household surveys given difficulties with accurately and reliably measuring it. Therefore, this element of child labour is not captured by the indicators used for reporting on SDG 8.7.1.  </p><p>In addition, ‘own use production of goods’, including activities such as fetching water and collecting firewood, falls within the production boundary set by the United Nations System of National Accounts (SNA). However, for the purpose of SDG reporting of indicator 8.7.1, and with the goal of facilitating international comparability, fetching water and collecting firewood have been classified as unpaid household services (i.e., household chores), a form of production that lies outside the SNA production boundary. </p><p>More broadly, child labour estimates based on the statistical standards set out in the ICLS resolution represent useful benchmarks for international comparative purposes but are <u>not</u> necessarily consistent with estimates based on national child labour legislation. ILO Convention No. 138 contains a number of flexibility clauses left to the discretion of the competent national authority in consultation (where relevant) with workers’ and employers’ organizations (e.g., minimum ages, scope of application).<sup><a href="#footnote-4" id="footnote-ref-4">[4]</a></sup> This means that there is no single legal definition of child labour across countries, and thus, no single statistical measure of child labour consistent with national legislation across countries.</p><div class="footnotes"><div><sup class="footnote-number" id="footnote-4">4</sup><p> Principal areas of flexibility in the Convention include: (a)<em>minimum ages</em>: Members whose economy and educational facilities are insufficiently developed may specify a lower general minimum age of 14 years (Art. 2.4) and a lower age range for light work of 12 to 14 years (Art 7.4); and (b) <em>scope of application</em>: Members may exclude from the application of the Convention limited (non-hazardous) categories of employment or work in respect of which special and substantial problems of application arise (Art. 4.1). Members whose economy and administrative facilities are insufficiently developed may also initially limit the scope of application of the Convention (Art. 5.1) beyond a core group of economic activities or undertakings (Art. 5.3). <a href="#footnote-ref-4">↑</a></p></div></div>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="REG_AGG">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="REL_CAL_POLICY">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>2023</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>ILO</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_GOAL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>SDG 8: Decent Work and Economic Growth: Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>8.7.1 Percentage of children aged 5-17 in employment (“Working Children”):</p><p>- Total</p><p>- Female</p><p>- Male</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_RELATED_INDICATORS">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_SERIES_DESCR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>SL_TLF_CHLDEA</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>8.7 Take immediate and effective measures to eradicate forced labour, end modern slavery and human trafficking and secure the prohibition and elimination of the worst forms of child labour, including recruitment and use of child soldiers, and by 2025 end child labour in all its forms.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SOURCE_TYPE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The Labor Force Survey 2017</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><strong>Definition:</strong></p><p>The number of children engaged in child labour corresponds to the number of children reported to be in child labour during the reference period (usually the week prior to the survey). The proportion of children in child labour is calculated as the number of children in child labour divided by the total number of children in the population.  For the purposes of this indicator, children include all persons aged 5 to 17. ) .</p><p><strong>Concepts:</strong></p><p>Three principal international legal instruments – ILO Convention No. 138 (Minimum Age) (C138), United Nations Convention on the Rights of the Child (CRC), ILO Convention No. 182 (Worst Forms) (C182) together set the legal boundaries for child labour, and provide the legal basis for national and international actions against it.  In accordance with these instruments, child labour is work that children should <em>not </em>be doing because (a) they are too young or (b) is likely to harm their health, safety or morals, due to its nature or the conditions in which it is carried out. </p><p>The resolutions adopted by the International Conference of Labour Statisticians (ICLS), the world’s acknowledged standard-setting body in the area of labour statistics, provide the basis for translating the legal standards governing the concept of child labour into statistical terms for the purpose of child labour measurement. </p><p>In accordance with the ICLS resolutions<sup><a href="#footnote-2" id="footnote-ref-2">[2]</a></sup>, child labour can be measured on the basis of the production boundary set by the United Nations System of National Accounts (SNA) or on the basis of the general production boundary. The former limits the frame of reference to economic activity, while the latter extends it to include both economic activity <em>and</em> unpaid household services, that is, the production of domestic and personal services by a household member for consumption within their own household, commonly called “household chores”. </p><p>Following from this, two indicators are used for measuring child labour for the purpose of SDG reporting, the first based on the production boundary set by the United Nations System of National Accounts (SNA) and the second based on the general production boundary. </p><p>Indicator 1: Proportion and number of children aged 5-17 years engaged in economic activities at or above age-specific hourly thresholds (<strong>SNA production boundary basis</strong>) </p><p><em>Child labour for the 5 to 11 age range</em>: children working at least 1 hour per week in economic activity;</p><p><em>Child labour for the 12 to 14 age range</em>: children working for at least 14 hours per week in economic activity;</p><p><em>Child labour for the 15 to 17 age range</em>: children working for more than 43 hours per week in economic activity.</p><p>Indicator 2: Proportion and number of children aged 5-17 years engaged in economic activities and household chores at or above age-specific hourly thresholds (<strong>general production boundary basis</strong>):</p><p><em>Child labour for the 5 to 11 age range</em>: children working at least 1 hour per week in economic activity and/or involved in unpaid household services for more than 21 hours per week;</p><p><em>Child labour for the 12 to 14 age range</em>: children working for at least 14 hours per week in economic activity and/or involved in unpaid household services for more than 21 hours per week;</p><p><em>Child labour for the 15 to 17 age range</em>: children working for more than 43 hours per week in economic activity.<sup><sup><a href="#footnote-3" id="footnote-ref-3">[3]</a></sup></sup></p><p>The concept of child labour also includes the worst forms of child labour other than hazardous (18<sup>th</sup> ICLS paragraphs 33 to 34) as well as hazardous work (18<sup>th</sup> ICLS paragraphs 21 to 32). The worst forms of child labour include all forms of slavery or similar practices such as trafficking and the recruitment and use of child soldiers, the use or procurement of children for prostitution or other illicit activities, and other work that is likely to harm children’s health, safety or well-being.</p><div class="footnotes"><div><sup class="footnote-number" id="footnote-2">2</sup><p> 20th International Conference of Labour Statisticians. Resolution to amend the 18th ICLS Resolution concerning statistics of child labour. ILO. Geneva, October 2019. <a href="#footnote-ref-2">↑</a></p></div><div><sup class="footnote-number" id="footnote-3">3</sup><p> No hourly threshold is set for household chores for ages 15-17. <a href="#footnote-ref-3">↑</a></p></div></div>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="5d0f14cb-c79b-4b62-8083-d0f5665c80f4">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SL_TLF_CHLDECN</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>LA</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="ADJUSTMENT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CLASS_SYSTEM">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COLL_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The Labor Force Survey that was implemented in Lao People’s Democratic Republic in 2017 (LFS 2017) adopts the new concept of work, employment and labor underutilization that was adopted by the19th International Conference of Labor Statisticians (ICLS) in 2013.</p><h2><strong>Sampling</strong></h2><p>Sampling Procedure</p><p>The 2015 Census of Population and Housing was applied for sampling frame for LFS 2017. Base on the Census, Lao PDR has a total population of 6,479,982 distributed into 1,197,926 households . The province of Savannakhet has the most population but Vientiane Capital has the most households. Population in Xaysomboun is lowest at 85,168, the province also has the lowest number of households at 14,316.<br/><br/>Two stage sampling is proposed, with selection of villages in </p><ul><li>the first stage and selection of households in the second stage. In the provincial domains, villages were selected using PPS (no need for stratification since there are fewer villages within each province). </li><li>Second stage sampling comprise of systematic selection of 20 households from the updated list of households from the 2015 Census. Provincial Domains target 10,800 sample households at 3% and 6% margin of errors. </li></ul><p><strong>Data Collection: </strong>Start: 2017, End: 2017</p><p><strong>Data collection Mode: </strong>Face-to-Face</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COMPARABILITY">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COMPILING_ORG">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Lao Statistics Bureau</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_EMAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><a href="mailto:vilaysooks@gmail.com">vilaysooks@gmail.com</a></p><p><a href="mailto:lstats@lsb.gov.la">lstats@lsb.gov.la</a></p><p>https://www.lsb.gov.la</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_FUNCT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Deputy Director General</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_MAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_NAME">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Mr.Vilaysook SISOULATH</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Lao Statistics Bureau</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_PHONE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>+856 20 55 795 043</p><p>+856 21 214 740</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The Labor Force Survey have been conducted at five-year intervals since 2010</p><p>Disaggregated by Location (U/R), sex, age group and wealth quintile.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Children aged 5-17: Number of children aged 5-17 reported in child labour during the week prior to the survey divided by the total number of children aged 5-17 in the population, multiplied by 100. </p><p>Children aged 5-14: Number of children aged 5-14 reported in child labour during the week prior to the survey divided by the total number of children aged 5-14 in the population, multiplied by 100. </p><p>Children aged 15-17: Number of children aged 15-17 reported child labour during the week prior to the survey divided by the total number of children aged 15-17 in the population, multiplied by 100.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_SOURCE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Lao Statistics Bureau</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_VALIDATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>2022</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="IMPUTATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="INST_MANDATE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Base on the statistical law and the National Strategy for sustainable Development of Statistical System 2016-2020 and vision for 2030, Ministry of Planning and Investment (MPI) throughout the  Lao  Statistics  Bureau  in  cooperate with  Ministry  of  Labor  and  Welfare  has  conducted  the Lao  Labor  Force  Survey  in  2017.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="META_LAST_UPDATE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>1 May 2021</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="ORGANISATION_UNIT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Department of Social Statistics</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<ol><li><a href="file:///C:/Users/BK/AppData/Local/Temp/5.Lao%20PDR%20Labor%20force%20Survey%202017.pdf">file:///C:/Users/BK/AppData/Local/Temp/5.Lao%20PDR%20Labor%20force%20Survey%202017.pdf</a></li><li>https://unstats.un.org/sdgs/metadata/</li></ol>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="QUALITY_ASSMNT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="QUALITY_ASSURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="QUALITY_MGMNT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="RATIONALE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Far too many children in the world remain trapped in child labour, compromising their individual future and our collective futures. According to the latest ILO global estimates, about 152 million children worldwide – 64 million girls and 88 million boys - are child labourers, accounting for almost 10 percent of the child population.  These stark figures underscore the need for accelerated progress against child labour in the lead up to the 2025 target date for ending child labour in all its forms, and the accompanying need for child labour statistics to monitor and guide efforts in this regard.  Reliable, comprehensive and timely data on the nature and extent of child labour provide a basis for determining priorities for national global action against child labour. Statistical information on child labour, and more broadly on all working children, also provide a basis for increasing public awareness of the situation of working children and for the development of appropriate regulatory frameworks and policies.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="REC_USE_LIM">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>While the concept of child labour includes working in activities that are hazardous in nature, to ensure comparability of estimates over time and to minimize data quality issues, work beyond age-specific hourly thresholds are used as a proxy for hazardous work for the purpose of reporting on SDG indicator 8.7.1. Further methodological work is needed to validate questions specifically aimed at identifying children in hazardous working conditions.</p><p>Similarly, while the worst forms of child labour other than hazardous also form part of the concept of child labour more broadly, data on the worst forms of child labour are not currently captured in regular household surveys given difficulties with accurately and reliably measuring it. Therefore, this element of child labour is not captured by the indicators used for reporting on SDG 8.7.1.  </p><p>In addition, ‘own use production of goods’, including activities such as fetching water and collecting firewood, falls within the production boundary set by the United Nations System of National Accounts (SNA). However, for the purpose of SDG reporting of indicator 8.7.1, and with the goal of facilitating international comparability, fetching water and collecting firewood have been classified as unpaid household services (i.e., household chores), a form of production that lies outside the SNA production boundary. </p><p>More broadly, child labour estimates based on the statistical standards set out in the ICLS resolution represent useful benchmarks for international comparative purposes but are <u>not</u> necessarily consistent with estimates based on national child labour legislation. ILO Convention No. 138 contains a number of flexibility clauses left to the discretion of the competent national authority in consultation (where relevant) with workers’ and employers’ organizations (e.g., minimum ages, scope of application).<sup><a href="#footnote-4" id="footnote-ref-4">[4]</a></sup> This means that there is no single legal definition of child labour across countries, and thus, no single statistical measure of child labour consistent with national legislation across countries.</p><div class="footnotes"><div><sup class="footnote-number" id="footnote-4">4</sup><p> Principal areas of flexibility in the Convention include: (a)<em>minimum ages</em>: Members whose economy and educational facilities are insufficiently developed may specify a lower general minimum age of 14 years (Art. 2.4) and a lower age range for light work of 12 to 14 years (Art 7.4); and (b) <em>scope of application</em>: Members may exclude from the application of the Convention limited (non-hazardous) categories of employment or work in respect of which special and substantial problems of application arise (Art. 4.1). Members whose economy and administrative facilities are insufficiently developed may also initially limit the scope of application of the Convention (Art. 5.1) beyond a core group of economic activities or undertakings (Art. 5.3). <a href="#footnote-ref-4">↑</a></p></div></div>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="REG_AGG">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="REL_CAL_POLICY">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>2023</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>ILO</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_GOAL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>SDG 8: Decent Work and Economic Growth: Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>8.7.1 Percentage of children aged 5-17 in employment (“Working Children”):</p><p>- Total</p><p>- Female</p><p>- Male</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_RELATED_INDICATORS">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_SERIES_DESCR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>SL_TLF_CHLDEA</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>8.7 Take immediate and effective measures to eradicate forced labour, end modern slavery and human trafficking and secure the prohibition and elimination of the worst forms of child labour, including recruitment and use of child soldiers, and by 2025 end child labour in all its forms.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SOURCE_TYPE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The Labor Force Survey 2017</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><strong>Definition:</strong></p><p>The number of children engaged in child labour corresponds to the number of children reported to be in child labour during the reference period (usually the week prior to the survey). The proportion of children in child labour is calculated as the number of children in child labour divided by the total number of children in the population.  For the purposes of this indicator, children include all persons aged 5 to 17. ) .</p><p><strong>Concepts:</strong></p><p>Three principal international legal instruments – ILO Convention No. 138 (Minimum Age) (C138), United Nations Convention on the Rights of the Child (CRC), ILO Convention No. 182 (Worst Forms) (C182) together set the legal boundaries for child labour, and provide the legal basis for national and international actions against it.  In accordance with these instruments, child labour is work that children should <em>not </em>be doing because (a) they are too young or (b) is likely to harm their health, safety or morals, due to its nature or the conditions in which it is carried out. </p><p>The resolutions adopted by the International Conference of Labour Statisticians (ICLS), the world’s acknowledged standard-setting body in the area of labour statistics, provide the basis for translating the legal standards governing the concept of child labour into statistical terms for the purpose of child labour measurement. </p><p>In accordance with the ICLS resolutions<sup><a href="#footnote-2" id="footnote-ref-2">[2]</a></sup>, child labour can be measured on the basis of the production boundary set by the United Nations System of National Accounts (SNA) or on the basis of the general production boundary. The former limits the frame of reference to economic activity, while the latter extends it to include both economic activity <em>and</em> unpaid household services, that is, the production of domestic and personal services by a household member for consumption within their own household, commonly called “household chores”. </p><p>Following from this, two indicators are used for measuring child labour for the purpose of SDG reporting, the first based on the production boundary set by the United Nations System of National Accounts (SNA) and the second based on the general production boundary. </p><p>Indicator 1: Proportion and number of children aged 5-17 years engaged in economic activities at or above age-specific hourly thresholds (<strong>SNA production boundary basis</strong>) </p><p><em>Child labour for the 5 to 11 age range</em>: children working at least 1 hour per week in economic activity;</p><p><em>Child labour for the 12 to 14 age range</em>: children working for at least 14 hours per week in economic activity;</p><p><em>Child labour for the 15 to 17 age range</em>: children working for more than 43 hours per week in economic activity.</p><p>Indicator 2: Proportion and number of children aged 5-17 years engaged in economic activities and household chores at or above age-specific hourly thresholds (<strong>general production boundary basis</strong>):</p><p><em>Child labour for the 5 to 11 age range</em>: children working at least 1 hour per week in economic activity and/or involved in unpaid household services for more than 21 hours per week;</p><p><em>Child labour for the 12 to 14 age range</em>: children working for at least 14 hours per week in economic activity and/or involved in unpaid household services for more than 21 hours per week;</p><p><em>Child labour for the 15 to 17 age range</em>: children working for more than 43 hours per week in economic activity.<sup><sup><a href="#footnote-3" id="footnote-ref-3">[3]</a></sup></sup></p><p>The concept of child labour also includes the worst forms of child labour other than hazardous (18<sup>th</sup> ICLS paragraphs 33 to 34) as well as hazardous work (18<sup>th</sup> ICLS paragraphs 21 to 32). The worst forms of child labour include all forms of slavery or similar practices such as trafficking and the recruitment and use of child soldiers, the use or procurement of children for prostitution or other illicit activities, and other work that is likely to harm children’s health, safety or well-being.</p><div class="footnotes"><div><sup class="footnote-number" id="footnote-2">2</sup><p> 20th International Conference of Labour Statisticians. Resolution to amend the 18th ICLS Resolution concerning statistics of child labour. ILO. Geneva, October 2019. <a href="#footnote-ref-2">↑</a></p></div><div><sup class="footnote-number" id="footnote-3">3</sup><p> No hourly threshold is set for household chores for ages 15-17. <a href="#footnote-ref-3">↑</a></p></div></div>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="1a4ab30e-b4c9-437e-bb7c-dcd30c05103d">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SL_TLF_CHLDEA</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>LA</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="ADJUSTMENT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CLASS_SYSTEM">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COLL_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The Labor Force Survey that was implemented in Lao People’s Democratic Republic in 2017 (LFS 2017) adopts the new concept of work, employment and labor underutilization that was adopted by the19th International Conference of Labor Statisticians (ICLS) in 2013.</p><h2><strong>Sampling</strong></h2><p>Sampling Procedure</p><p>The 2015 Census of Population and Housing was applied for sampling frame for LFS 2017. Base on the Census, Lao PDR has a total population of 6,479,982 distributed into 1,197,926 households . The province of Savannakhet has the most population but Vientiane Capital has the most households. Population in Xaysomboun is lowest at 85,168, the province also has the lowest number of households at 14,316.<br/><br/>Two stage sampling is proposed, with selection of villages in </p><ul><li>the first stage and selection of households in the second stage. In the provincial domains, villages were selected using PPS (no need for stratification since there are fewer villages within each province). </li><li>Second stage sampling comprise of systematic selection of 20 households from the updated list of households from the 2015 Census. Provincial Domains target 10,800 sample households at 3% and 6% margin of errors. </li></ul><p><strong>Data Collection: </strong>Start: 2017, End: 2017</p><p><strong>Data collection Mode: </strong>Face-to-Face</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COMPARABILITY">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COMPILING_ORG">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Lao Statistics Bureau</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_EMAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><a href="mailto:vilaysooks@gmail.com">vilaysooks@gmail.com</a></p><p><a href="mailto:lstats@lsb.gov.la">lstats@lsb.gov.la</a></p><p>https://www.lsb.gov.la</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_FUNCT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Deputy Director General</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_MAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_NAME">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Mr.Vilaysook SISOULATH</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Lao Statistics Bureau</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_PHONE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>+856 20 55 795 043</p><p>+856 21 214 740</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The Labor Force Survey have been conducted at five-year intervals since 2010</p><p>Disaggregated by Location (U/R), sex, age group and wealth quintile.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Children aged 5-17: Number of children aged 5-17 reported in child labour during the week prior to the survey divided by the total number of children aged 5-17 in the population, multiplied by 100. </p><p>Children aged 5-14: Number of children aged 5-14 reported in child labour during the week prior to the survey divided by the total number of children aged 5-14 in the population, multiplied by 100. </p><p>Children aged 15-17: Number of children aged 15-17 reported child labour during the week prior to the survey divided by the total number of children aged 15-17 in the population, multiplied by 100.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_SOURCE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Lao Statistics Bureau</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_VALIDATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>2022</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="IMPUTATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="INST_MANDATE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Base on the statistical law and the National Strategy for sustainable Development of Statistical System 2016-2020 and vision for 2030, Ministry of Planning and Investment (MPI) throughout the  Lao  Statistics  Bureau  in  cooperate with  Ministry  of  Labor  and  Welfare  has  conducted  the Lao  Labor  Force  Survey  in  2017.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="META_LAST_UPDATE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>1 May 2021</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="ORGANISATION_UNIT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Department of Social Statistics</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<ol><li><a href="file:///C:/Users/BK/AppData/Local/Temp/5.Lao%20PDR%20Labor%20force%20Survey%202017.pdf">file:///C:/Users/BK/AppData/Local/Temp/5.Lao%20PDR%20Labor%20force%20Survey%202017.pdf</a></li><li>https://unstats.un.org/sdgs/metadata/</li></ol>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="QUALITY_ASSMNT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="QUALITY_ASSURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="QUALITY_MGMNT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="RATIONALE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Far too many children in the world remain trapped in child labour, compromising their individual future and our collective futures. According to the latest ILO global estimates, about 152 million children worldwide – 64 million girls and 88 million boys - are child labourers, accounting for almost 10 percent of the child population.  These stark figures underscore the need for accelerated progress against child labour in the lead up to the 2025 target date for ending child labour in all its forms, and the accompanying need for child labour statistics to monitor and guide efforts in this regard.  Reliable, comprehensive and timely data on the nature and extent of child labour provide a basis for determining priorities for national global action against child labour. Statistical information on child labour, and more broadly on all working children, also provide a basis for increasing public awareness of the situation of working children and for the development of appropriate regulatory frameworks and policies.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="REC_USE_LIM">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>While the concept of child labour includes working in activities that are hazardous in nature, to ensure comparability of estimates over time and to minimize data quality issues, work beyond age-specific hourly thresholds are used as a proxy for hazardous work for the purpose of reporting on SDG indicator 8.7.1. Further methodological work is needed to validate questions specifically aimed at identifying children in hazardous working conditions.</p><p>Similarly, while the worst forms of child labour other than hazardous also form part of the concept of child labour more broadly, data on the worst forms of child labour are not currently captured in regular household surveys given difficulties with accurately and reliably measuring it. Therefore, this element of child labour is not captured by the indicators used for reporting on SDG 8.7.1.  </p><p>In addition, ‘own use production of goods’, including activities such as fetching water and collecting firewood, falls within the production boundary set by the United Nations System of National Accounts (SNA). However, for the purpose of SDG reporting of indicator 8.7.1, and with the goal of facilitating international comparability, fetching water and collecting firewood have been classified as unpaid household services (i.e., household chores), a form of production that lies outside the SNA production boundary. </p><p>More broadly, child labour estimates based on the statistical standards set out in the ICLS resolution represent useful benchmarks for international comparative purposes but are <u>not</u> necessarily consistent with estimates based on national child labour legislation. ILO Convention No. 138 contains a number of flexibility clauses left to the discretion of the competent national authority in consultation (where relevant) with workers’ and employers’ organizations (e.g., minimum ages, scope of application).<sup><a href="#footnote-4" id="footnote-ref-4">[4]</a></sup> This means that there is no single legal definition of child labour across countries, and thus, no single statistical measure of child labour consistent with national legislation across countries.</p><div class="footnotes"><div><sup class="footnote-number" id="footnote-4">4</sup><p> Principal areas of flexibility in the Convention include: (a)<em>minimum ages</em>: Members whose economy and educational facilities are insufficiently developed may specify a lower general minimum age of 14 years (Art. 2.4) and a lower age range for light work of 12 to 14 years (Art 7.4); and (b) <em>scope of application</em>: Members may exclude from the application of the Convention limited (non-hazardous) categories of employment or work in respect of which special and substantial problems of application arise (Art. 4.1). Members whose economy and administrative facilities are insufficiently developed may also initially limit the scope of application of the Convention (Art. 5.1) beyond a core group of economic activities or undertakings (Art. 5.3). <a href="#footnote-ref-4">↑</a></p></div></div>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="REG_AGG">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="REL_CAL_POLICY">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>2023</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>ILO</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_GOAL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>SDG 8: Decent Work and Economic Growth: Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>8.7.1 Percentage of children aged 5-17 in employment (“Working Children”):</p><p>- Total</p><p>- Female</p><p>- Male</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_RELATED_INDICATORS">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_SERIES_DESCR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>SL_TLF_CHLDEA</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>8.7 Take immediate and effective measures to eradicate forced labour, end modern slavery and human trafficking and secure the prohibition and elimination of the worst forms of child labour, including recruitment and use of child soldiers, and by 2025 end child labour in all its forms.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SOURCE_TYPE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The Labor Force Survey 2017</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><strong>Definition:</strong></p><p>The number of children engaged in child labour corresponds to the number of children reported to be in child labour during the reference period (usually the week prior to the survey). The proportion of children in child labour is calculated as the number of children in child labour divided by the total number of children in the population.  For the purposes of this indicator, children include all persons aged 5 to 17. ) .</p><p><strong>Concepts:</strong></p><p>Three principal international legal instruments – ILO Convention No. 138 (Minimum Age) (C138), United Nations Convention on the Rights of the Child (CRC), ILO Convention No. 182 (Worst Forms) (C182) together set the legal boundaries for child labour, and provide the legal basis for national and international actions against it.  In accordance with these instruments, child labour is work that children should <em>not </em>be doing because (a) they are too young or (b) is likely to harm their health, safety or morals, due to its nature or the conditions in which it is carried out. </p><p>The resolutions adopted by the International Conference of Labour Statisticians (ICLS), the world’s acknowledged standard-setting body in the area of labour statistics, provide the basis for translating the legal standards governing the concept of child labour into statistical terms for the purpose of child labour measurement. </p><p>In accordance with the ICLS resolutions<sup><a href="#footnote-2" id="footnote-ref-2">[2]</a></sup>, child labour can be measured on the basis of the production boundary set by the United Nations System of National Accounts (SNA) or on the basis of the general production boundary. The former limits the frame of reference to economic activity, while the latter extends it to include both economic activity <em>and</em> unpaid household services, that is, the production of domestic and personal services by a household member for consumption within their own household, commonly called “household chores”. </p><p>Following from this, two indicators are used for measuring child labour for the purpose of SDG reporting, the first based on the production boundary set by the United Nations System of National Accounts (SNA) and the second based on the general production boundary. </p><p>Indicator 1: Proportion and number of children aged 5-17 years engaged in economic activities at or above age-specific hourly thresholds (<strong>SNA production boundary basis</strong>) </p><p><em>Child labour for the 5 to 11 age range</em>: children working at least 1 hour per week in economic activity;</p><p><em>Child labour for the 12 to 14 age range</em>: children working for at least 14 hours per week in economic activity;</p><p><em>Child labour for the 15 to 17 age range</em>: children working for more than 43 hours per week in economic activity.</p><p>Indicator 2: Proportion and number of children aged 5-17 years engaged in economic activities and household chores at or above age-specific hourly thresholds (<strong>general production boundary basis</strong>):</p><p><em>Child labour for the 5 to 11 age range</em>: children working at least 1 hour per week in economic activity and/or involved in unpaid household services for more than 21 hours per week;</p><p><em>Child labour for the 12 to 14 age range</em>: children working for at least 14 hours per week in economic activity and/or involved in unpaid household services for more than 21 hours per week;</p><p><em>Child labour for the 15 to 17 age range</em>: children working for more than 43 hours per week in economic activity.<sup><sup><a href="#footnote-3" id="footnote-ref-3">[3]</a></sup></sup></p><p>The concept of child labour also includes the worst forms of child labour other than hazardous (18<sup>th</sup> ICLS paragraphs 33 to 34) as well as hazardous work (18<sup>th</sup> ICLS paragraphs 21 to 32). The worst forms of child labour include all forms of slavery or similar practices such as trafficking and the recruitment and use of child soldiers, the use or procurement of children for prostitution or other illicit activities, and other work that is likely to harm children’s health, safety or well-being.</p><div class="footnotes"><div><sup class="footnote-number" id="footnote-2">2</sup><p> 20th International Conference of Labour Statisticians. Resolution to amend the 18th ICLS Resolution concerning statistics of child labour. ILO. Geneva, October 2019. <a href="#footnote-ref-2">↑</a></p></div><div><sup class="footnote-number" id="footnote-3">3</sup><p> No hourly threshold is set for household chores for ages 15-17. <a href="#footnote-ref-3">↑</a></p></div></div>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="07690650-eac9-4c2b-bffb-6537ba9e0e16">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SL_TLF_CHLDEAN</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>LA</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="ADJUSTMENT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CLASS_SYSTEM">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COLL_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The Labor Force Survey that was implemented in Lao People’s Democratic Republic in 2017 (LFS 2017) adopts the new concept of work, employment and labor underutilization that was adopted by the19th International Conference of Labor Statisticians (ICLS) in 2013.</p><h2><strong>Sampling</strong></h2><p>Sampling Procedure</p><p>The 2015 Census of Population and Housing was applied for sampling frame for LFS 2017. Base on the Census, Lao PDR has a total population of 6,479,982 distributed into 1,197,926 households . The province of Savannakhet has the most population but Vientiane Capital has the most households. Population in Xaysomboun is lowest at 85,168, the province also has the lowest number of households at 14,316.<br/><br/>Two stage sampling is proposed, with selection of villages in </p><ul><li>the first stage and selection of households in the second stage. In the provincial domains, villages were selected using PPS (no need for stratification since there are fewer villages within each province). </li><li>Second stage sampling comprise of systematic selection of 20 households from the updated list of households from the 2015 Census. Provincial Domains target 10,800 sample households at 3% and 6% margin of errors. </li></ul><p><strong>Data Collection: </strong>Start: 2017, End: 2017</p><p><strong>Data collection Mode: </strong>Face-to-Face</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COMPARABILITY">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COMPILING_ORG">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Lao Statistics Bureau</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_EMAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><a href="mailto:vilaysooks@gmail.com">vilaysooks@gmail.com</a></p><p><a href="mailto:lstats@lsb.gov.la">lstats@lsb.gov.la</a></p><p>https://www.lsb.gov.la</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_FUNCT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Deputy Director General</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_MAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_NAME">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Mr.Vilaysook SISOULATH</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Lao Statistics Bureau</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_PHONE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>+856 20 55 795 043</p><p>+856 21 214 740</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The Labor Force Survey have been conducted at five-year intervals since 2010</p><p>Disaggregated by Location (U/R), sex, age group and wealth quintile.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Children aged 5-17: Number of children aged 5-17 reported in child labour during the week prior to the survey divided by the total number of children aged 5-17 in the population, multiplied by 100. </p><p>Children aged 5-14: Number of children aged 5-14 reported in child labour during the week prior to the survey divided by the total number of children aged 5-14 in the population, multiplied by 100. </p><p>Children aged 15-17: Number of children aged 15-17 reported child labour during the week prior to the survey divided by the total number of children aged 15-17 in the population, multiplied by 100.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_SOURCE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Lao Statistics Bureau</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_VALIDATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>2022</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="IMPUTATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="INST_MANDATE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Base on the statistical law and the National Strategy for sustainable Development of Statistical System 2016-2020 and vision for 2030, Ministry of Planning and Investment (MPI) throughout the  Lao  Statistics  Bureau  in  cooperate with  Ministry  of  Labor  and  Welfare  has  conducted  the Lao  Labor  Force  Survey  in  2017.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="META_LAST_UPDATE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>1 May 2021</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="ORGANISATION_UNIT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Department of Social Statistics</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<ol><li><a href="file:///C:/Users/BK/AppData/Local/Temp/5.Lao%20PDR%20Labor%20force%20Survey%202017.pdf">file:///C:/Users/BK/AppData/Local/Temp/5.Lao%20PDR%20Labor%20force%20Survey%202017.pdf</a></li><li>https://unstats.un.org/sdgs/metadata/</li></ol>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="QUALITY_ASSMNT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="QUALITY_ASSURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="QUALITY_MGMNT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="RATIONALE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Far too many children in the world remain trapped in child labour, compromising their individual future and our collective futures. According to the latest ILO global estimates, about 152 million children worldwide – 64 million girls and 88 million boys - are child labourers, accounting for almost 10 percent of the child population.  These stark figures underscore the need for accelerated progress against child labour in the lead up to the 2025 target date for ending child labour in all its forms, and the accompanying need for child labour statistics to monitor and guide efforts in this regard.  Reliable, comprehensive and timely data on the nature and extent of child labour provide a basis for determining priorities for national global action against child labour. Statistical information on child labour, and more broadly on all working children, also provide a basis for increasing public awareness of the situation of working children and for the development of appropriate regulatory frameworks and policies.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="REC_USE_LIM">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>While the concept of child labour includes working in activities that are hazardous in nature, to ensure comparability of estimates over time and to minimize data quality issues, work beyond age-specific hourly thresholds are used as a proxy for hazardous work for the purpose of reporting on SDG indicator 8.7.1. Further methodological work is needed to validate questions specifically aimed at identifying children in hazardous working conditions.</p><p>Similarly, while the worst forms of child labour other than hazardous also form part of the concept of child labour more broadly, data on the worst forms of child labour are not currently captured in regular household surveys given difficulties with accurately and reliably measuring it. Therefore, this element of child labour is not captured by the indicators used for reporting on SDG 8.7.1.  </p><p>In addition, ‘own use production of goods’, including activities such as fetching water and collecting firewood, falls within the production boundary set by the United Nations System of National Accounts (SNA). However, for the purpose of SDG reporting of indicator 8.7.1, and with the goal of facilitating international comparability, fetching water and collecting firewood have been classified as unpaid household services (i.e., household chores), a form of production that lies outside the SNA production boundary. </p><p>More broadly, child labour estimates based on the statistical standards set out in the ICLS resolution represent useful benchmarks for international comparative purposes but are <u>not</u> necessarily consistent with estimates based on national child labour legislation. ILO Convention No. 138 contains a number of flexibility clauses left to the discretion of the competent national authority in consultation (where relevant) with workers’ and employers’ organizations (e.g., minimum ages, scope of application).<sup><a href="#footnote-4" id="footnote-ref-4">[4]</a></sup> This means that there is no single legal definition of child labour across countries, and thus, no single statistical measure of child labour consistent with national legislation across countries.</p><div class="footnotes"><div><sup class="footnote-number" id="footnote-4">4</sup><p> Principal areas of flexibility in the Convention include: (a)<em>minimum ages</em>: Members whose economy and educational facilities are insufficiently developed may specify a lower general minimum age of 14 years (Art. 2.4) and a lower age range for light work of 12 to 14 years (Art 7.4); and (b) <em>scope of application</em>: Members may exclude from the application of the Convention limited (non-hazardous) categories of employment or work in respect of which special and substantial problems of application arise (Art. 4.1). Members whose economy and administrative facilities are insufficiently developed may also initially limit the scope of application of the Convention (Art. 5.1) beyond a core group of economic activities or undertakings (Art. 5.3). <a href="#footnote-ref-4">↑</a></p></div></div>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="REG_AGG">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="REL_CAL_POLICY">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>2023</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>ILO</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_GOAL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>SDG 8: Decent Work and Economic Growth: Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>8.7.1 Percentage of children aged 5-17 in employment (“Working Children”):</p><p>- Total</p><p>- Female</p><p>- Male</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_RELATED_INDICATORS">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>N/A</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_SERIES_DESCR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>SL_TLF_CHLDEA</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>8.7 Take immediate and effective measures to eradicate forced labour, end modern slavery and human trafficking and secure the prohibition and elimination of the worst forms of child labour, including recruitment and use of child soldiers, and by 2025 end child labour in all its forms.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SOURCE_TYPE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The Labor Force Survey 2017</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><strong>Definition:</strong></p><p>The number of children engaged in child labour corresponds to the number of children reported to be in child labour during the reference period (usually the week prior to the survey). The proportion of children in child labour is calculated as the number of children in child labour divided by the total number of children in the population.  For the purposes of this indicator, children include all persons aged 5 to 17. ) .</p><p><strong>Concepts:</strong></p><p>Three principal international legal instruments – ILO Convention No. 138 (Minimum Age) (C138), United Nations Convention on the Rights of the Child (CRC), ILO Convention No. 182 (Worst Forms) (C182) together set the legal boundaries for child labour, and provide the legal basis for national and international actions against it.  In accordance with these instruments, child labour is work that children should <em>not </em>be doing because (a) they are too young or (b) is likely to harm their health, safety or morals, due to its nature or the conditions in which it is carried out. </p><p>The resolutions adopted by the International Conference of Labour Statisticians (ICLS), the world’s acknowledged standard-setting body in the area of labour statistics, provide the basis for translating the legal standards governing the concept of child labour into statistical terms for the purpose of child labour measurement. </p><p>In accordance with the ICLS resolutions<sup><a href="#footnote-2" id="footnote-ref-2">[2]</a></sup>, child labour can be measured on the basis of the production boundary set by the United Nations System of National Accounts (SNA) or on the basis of the general production boundary. The former limits the frame of reference to economic activity, while the latter extends it to include both economic activity <em>and</em> unpaid household services, that is, the production of domestic and personal services by a household member for consumption within their own household, commonly called “household chores”. </p><p>Following from this, two indicators are used for measuring child labour for the purpose of SDG reporting, the first based on the production boundary set by the United Nations System of National Accounts (SNA) and the second based on the general production boundary. </p><p>Indicator 1: Proportion and number of children aged 5-17 years engaged in economic activities at or above age-specific hourly thresholds (<strong>SNA production boundary basis</strong>) </p><p><em>Child labour for the 5 to 11 age range</em>: children working at least 1 hour per week in economic activity;</p><p><em>Child labour for the 12 to 14 age range</em>: children working for at least 14 hours per week in economic activity;</p><p><em>Child labour for the 15 to 17 age range</em>: children working for more than 43 hours per week in economic activity.</p><p>Indicator 2: Proportion and number of children aged 5-17 years engaged in economic activities and household chores at or above age-specific hourly thresholds (<strong>general production boundary basis</strong>):</p><p><em>Child labour for the 5 to 11 age range</em>: children working at least 1 hour per week in economic activity and/or involved in unpaid household services for more than 21 hours per week;</p><p><em>Child labour for the 12 to 14 age range</em>: children working for at least 14 hours per week in economic activity and/or involved in unpaid household services for more than 21 hours per week;</p><p><em>Child labour for the 15 to 17 age range</em>: children working for more than 43 hours per week in economic activity.<sup><sup><a href="#footnote-3" id="footnote-ref-3">[3]</a></sup></sup></p><p>The concept of child labour also includes the worst forms of child labour other than hazardous (18<sup>th</sup> ICLS paragraphs 33 to 34) as well as hazardous work (18<sup>th</sup> ICLS paragraphs 21 to 32). The worst forms of child labour include all forms of slavery or similar practices such as trafficking and the recruitment and use of child soldiers, the use or procurement of children for prostitution or other illicit activities, and other work that is likely to harm children’s health, safety or well-being.</p><div class="footnotes"><div><sup class="footnote-number" id="footnote-2">2</sup><p> 20th International Conference of Labour Statisticians. Resolution to amend the 18th ICLS Resolution concerning statistics of child labour. ILO. Geneva, October 2019. <a href="#footnote-ref-2">↑</a></p></div><div><sup class="footnote-number" id="footnote-3">3</sup><p> No hourly threshold is set for household chores for ages 15-17. <a href="#footnote-ref-3">↑</a></p></div></div>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="f5820dbc-0a2f-4ccc-9132-b94e4c3e9ed3">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SL_TLF_UEM</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>LA</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="COLL_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The Labor Force Survey that was implemented in Lao People’s Democratic Republic in 2017 (LFS 2017) adopts the new concept of work, employment and labor underutilization that was adopted by the19th International Conference of Labor Statisticians (ICLS) in 2013.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COMPARABILITY">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Please see item 4.b</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COMPILING_ORG">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Lao Statistics Bureau</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_EMAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><a href="mailto:vilaysooks@gmail.com">vilaysooks@gmail.com</a></p><p><a href="mailto:lstats@lsb.gov.la">lstats@lsb.gov.la</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_FUNCT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Deputy Director General</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_MAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Ministry of Planning and Investment</p><p>Lao Statistics Bureau, Dongnachokphuea Village, Sikhottabong District, Vientiane Capital Province. Tel: (+856 21) 214740, Fax: (+856 21) 242022.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_NAME">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Mr.Vilaysook SISOULATH</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Lao Statistics Bureau</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_PHONE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>+856 20 55 795 043</p><p>+856 21 214 740</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The Labor Force Survey have been conducted at five-year intervals since 2010</p><p>Disaggregated by Location (U/R), sex and age group.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_SOURCE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Lao Statistics Bureau</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_VALIDATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Standard data review and validation protocols were implemented from data collection, processing, calculation to finalization and publication of the results of the GDP and population estimates.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<ul><li>GDP: National Accounts Statistics: Main Aggregates and Detailed Tables, 2019 See <a href="https://unstats.un.org/unsd/nationalaccount/pubsDB.asp?pType=3"><u>https://unstats.un.org/unsd/nationalaccount/pubsDB.asp?pType=3</u></a> </li></ul><p> </p><ul><li>Population: United Nations Demographic Yearbook </li></ul><p>See: <u>https://unstats.un.org/unsd/demographic-social/products/dyb/dybsets/2019.pdf</u></p><p> </p><ul><li>GDP: 2008 SNA </li></ul><p>See <a href="https://unstats.un.org/unsd/nationalaccount/docs/SNA2008.pdf"><u>https://unstats.un.org/unsd/nationalaccount/docs/SNA2008.pdf</u></a> </p><p> </p><p>Population: Principles and Recommendations for Population and Housing Censuses See<u> </u><a href="https://unstats.un.org/unsd/publication/seriesM/Series_M67rev3en.pdf"><u>https://unstats.un.org/unsd/publication/seriesM/Series_M67rev3en.pdf</u></a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>December of each year, next data collection is on December 2021</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="INST_MANDATE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Data collection, processing, dissemination  and use of statistics for this indicator is in accordance with the Statistics Law 2017; the National Strategy for Sustainable Development of Statistical System (NSSDSS) 2016-2020; and the Vision for 2030.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="META_LAST_UPDATE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>23 May 2021</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="ORGANISATION_UNIT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Department of Social Statistics</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><a href="file:///C:/Users/BK/AppData/Local/Temp/5.Lao%20PDR%20Labor%20force%20Survey%202017.pdf">file:///C:/Users/BK/AppData/Local/Temp/5.Lao%20PDR%20Labor%20force%20Survey%202017.pdf</a></p><p>Lao Statistical Information Service for GDP</p><p><a href="https://laosis.lsb.gov.la/tblInfo/TblInfoList.do"><u>https://laosis.lsb.gov.la/tblInfo/TblInfoList.do</u></a></p><p>Lao PDR Statistics Law, 2017<br/><a href="https://www.lsb.gov.la"><u>https://www.lsb.gov.la</u></a></p><p>The UNSD SDG Indicators, Metadata repository <a href="https://unstats.un.org/sdgs/metadata/"><u>https://unstats.un.org/sdgs/metadata/</u></a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="QUALITY_ASSMNT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The estimates derived for each year are compared to previous years to ensure that estimates are prepared consistently from year to year. Additionally, the growth rate from year to year is analyzed to identify anomalies in the data.</p><p>In general, the quality of the results is considered good given the quality management and standards implemented in the basic data source used for obtaining the value for this SDG indicator. </p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="QUALITY_ASSURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Data are validated in accordance with the international statistical standards</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="QUALITY_MGMNT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Managing the quality of the indicator is guided by the Lao PDR Statistics Law of 2017 and in accordance with the recommendations of the UN Fundamental Principles of Official Statistics.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="RATIONALE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The unemployment rate is a useful measure of the underutilization of the labour supply. It reflects the inability of an economy to generate employment for those persons who want to work but are not doing so, even though they are available for employment and actively seeking work. It is thus seen as an indicator of the efficiency and effectiveness of an economy to absorb its labour force and of the performance of the labour market. Short-term time series of the unemployment rate can be used to signal changes in the business cycle; upward movements in the indicator often coincide with recessionary periods or in some cases with the beginning of an expansionary period as persons previously not in the labour market begin to test conditions through an active job search. </p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="REC_USE_LIM">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Caveats and limitations inherent to estimates based on national accounts and survey data apply.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="REL_CAL_POLICY">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Six months after the reference year, next release is on June 2022</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>ILO</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_GOAL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>SDG 8: Decent Work and Economic Growth: Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>8.5.2 Unemployment rate by sex</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_RELATED_INDICATORS">
+          
+          <com:Text xml:lang="en"><![CDATA[<p> Any economic statistics that is used for other SDG indicator </p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_SERIES_DESCR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Unemployment rate</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>8.5 By 2030, achieve full and productive employment and decent work for all women and men, including for young people and persons with disabilities, and equal pay for work of equal value.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SOURCE_TYPE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The Labor Force Survey 2017</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><strong>Definition:</strong></p><p>The unemployment rate conveys the percentage of persons in the labour force who are unemployed.  </p><p><strong>Concepts:</strong></p><p>Unemployed persons are defined as all those of working age (usually aged 15 and above) who were not in employment, carried out activities to seek employment during a specified recent period and were currently available to take up employment given a job opportunity, where: (a) “not in employment” is assessed with respect to the short reference period for the measurement of employment; (b) to “seek employment” refers to any activity when carried out, during a specified recent period comprising the last four weeks or one month, for the purpose of finding a job or setting up a business or agricultural  undertaking; (c) the point when the enterprise starts to exist should be used to distinguish between search activities aimed at setting up a business and the work activity itself, as evidenced by the enterprise’s registration to operate or by when financial resources become available, the necessary infrastructure or materials are in place or the first client or order is received, depending on the context; (d) “currently available” serves as a test of readiness to start a job in the present, assessed with respect to a short reference period comprising that used to measure employment (depending on national circumstances, the reference period may be extended to include a short subsequent period not exceeding two weeks in total, so as to ensure adequate coverage of unemployment situations among different population groups). </p><p>Persons in employment are defined as all those of working age (usually aged 15 and above) who, during a short reference period such as one week or one day, were engaged in any activity to produce goods or provide services for pay or profit.</p><p>The labour force corresponds to the sum of persons in employment and in unemployment. </p><p>For more information on the definitions of employment and unemployment refer to the Resolution concerning statistics of work, employment and labour underutilization Adopted by the 19<sup>th</sup> International Conference of Labour Statisticians.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Percent (%)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="3b6b6a09-06a0-453c-b8d1-10178769e725">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SL_TLF_UEMDIS</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>LA</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="COLL_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The Labor Force Survey that was implemented in Lao People’s Democratic Republic in 2017 (LFS 2017) adopts the new concept of work, employment and labor underutilization that was adopted by the19th International Conference of Labor Statisticians (ICLS) in 2013.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COMPARABILITY">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Please see item 4.b</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COMPILING_ORG">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Lao Statistics Bureau</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_EMAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><a href="mailto:vilaysooks@gmail.com">vilaysooks@gmail.com</a></p><p><a href="mailto:lstats@lsb.gov.la">lstats@lsb.gov.la</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_FUNCT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Deputy Director General</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_MAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Ministry of Planning and Investment</p><p>Lao Statistics Bureau, Dongnachokphuea Village, Sikhottabong District, Vientiane Capital Province. Tel: (+856 21) 214740, Fax: (+856 21) 242022.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_NAME">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Mr.Vilaysook SISOULATH</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Lao Statistics Bureau</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_PHONE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>+856 20 55 795 043</p><p>+856 21 214 740</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The Labor Force Survey have been conducted at five-year intervals since 2010</p><p>Disaggregated by Location (U/R), sex and age group.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_SOURCE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Lao Statistics Bureau</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_VALIDATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Standard data review and validation protocols were implemented from data collection, processing, calculation to finalization and publication of the results of the GDP and population estimates.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<ul><li>GDP: National Accounts Statistics: Main Aggregates and Detailed Tables, 2019 See <a href="https://unstats.un.org/unsd/nationalaccount/pubsDB.asp?pType=3"><u>https://unstats.un.org/unsd/nationalaccount/pubsDB.asp?pType=3</u></a> </li></ul><p> </p><ul><li>Population: United Nations Demographic Yearbook </li></ul><p>See: <u>https://unstats.un.org/unsd/demographic-social/products/dyb/dybsets/2019.pdf</u></p><p> </p><ul><li>GDP: 2008 SNA </li></ul><p>See <a href="https://unstats.un.org/unsd/nationalaccount/docs/SNA2008.pdf"><u>https://unstats.un.org/unsd/nationalaccount/docs/SNA2008.pdf</u></a> </p><p> </p><p>Population: Principles and Recommendations for Population and Housing Censuses See<u> </u><a href="https://unstats.un.org/unsd/publication/seriesM/Series_M67rev3en.pdf"><u>https://unstats.un.org/unsd/publication/seriesM/Series_M67rev3en.pdf</u></a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>December of each year, next data collection is on December 2021</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="INST_MANDATE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Data collection, processing, dissemination  and use of statistics for this indicator is in accordance with the Statistics Law 2017; the National Strategy for Sustainable Development of Statistical System (NSSDSS) 2016-2020; and the Vision for 2030.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="META_LAST_UPDATE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>23 May 2021</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="ORGANISATION_UNIT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Department of Social Statistics</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><a href="file:///C:/Users/BK/AppData/Local/Temp/5.Lao%20PDR%20Labor%20force%20Survey%202017.pdf">file:///C:/Users/BK/AppData/Local/Temp/5.Lao%20PDR%20Labor%20force%20Survey%202017.pdf</a></p><p>Lao Statistical Information Service for GDP</p><p><a href="https://laosis.lsb.gov.la/tblInfo/TblInfoList.do"><u>https://laosis.lsb.gov.la/tblInfo/TblInfoList.do</u></a></p><p>Lao PDR Statistics Law, 2017<br/><a href="https://www.lsb.gov.la"><u>https://www.lsb.gov.la</u></a></p><p>The UNSD SDG Indicators, Metadata repository <a href="https://unstats.un.org/sdgs/metadata/"><u>https://unstats.un.org/sdgs/metadata/</u></a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="QUALITY_ASSMNT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The estimates derived for each year are compared to previous years to ensure that estimates are prepared consistently from year to year. Additionally, the growth rate from year to year is analyzed to identify anomalies in the data.</p><p>In general, the quality of the results is considered good given the quality management and standards implemented in the basic data source used for obtaining the value for this SDG indicator. </p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="QUALITY_ASSURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Data are validated in accordance with the international statistical standards</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="QUALITY_MGMNT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Managing the quality of the indicator is guided by the Lao PDR Statistics Law of 2017 and in accordance with the recommendations of the UN Fundamental Principles of Official Statistics.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="RATIONALE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The unemployment rate is a useful measure of the underutilization of the labour supply. It reflects the inability of an economy to generate employment for those persons who want to work but are not doing so, even though they are available for employment and actively seeking work. It is thus seen as an indicator of the efficiency and effectiveness of an economy to absorb its labour force and of the performance of the labour market. Short-term time series of the unemployment rate can be used to signal changes in the business cycle; upward movements in the indicator often coincide with recessionary periods or in some cases with the beginning of an expansionary period as persons previously not in the labour market begin to test conditions through an active job search. </p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="REC_USE_LIM">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Caveats and limitations inherent to estimates based on national accounts and survey data apply.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="REL_CAL_POLICY">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Six months after the reference year, next release is on June 2022</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>ILO</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_GOAL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>SDG 8: Decent Work and Economic Growth: Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>8.5.2 Unemployment rate by sex</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_RELATED_INDICATORS">
+          
+          <com:Text xml:lang="en"><![CDATA[<p> Any economic statistics that is used for other SDG indicator </p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_SERIES_DESCR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Unemployment rate</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>8.5 By 2030, achieve full and productive employment and decent work for all women and men, including for young people and persons with disabilities, and equal pay for work of equal value.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SOURCE_TYPE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The Labor Force Survey 2017</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><strong>Definition:</strong></p><p>The unemployment rate conveys the percentage of persons in the labour force who are unemployed.  </p><p><strong>Concepts:</strong></p><p>Unemployed persons are defined as all those of working age (usually aged 15 and above) who were not in employment, carried out activities to seek employment during a specified recent period and were currently available to take up employment given a job opportunity, where: (a) “not in employment” is assessed with respect to the short reference period for the measurement of employment; (b) to “seek employment” refers to any activity when carried out, during a specified recent period comprising the last four weeks or one month, for the purpose of finding a job or setting up a business or agricultural  undertaking; (c) the point when the enterprise starts to exist should be used to distinguish between search activities aimed at setting up a business and the work activity itself, as evidenced by the enterprise’s registration to operate or by when financial resources become available, the necessary infrastructure or materials are in place or the first client or order is received, depending on the context; (d) “currently available” serves as a test of readiness to start a job in the present, assessed with respect to a short reference period comprising that used to measure employment (depending on national circumstances, the reference period may be extended to include a short subsequent period not exceeding two weeks in total, so as to ensure adequate coverage of unemployment situations among different population groups). </p><p>Persons in employment are defined as all those of working age (usually aged 15 and above) who, during a short reference period such as one week or one day, were engaged in any activity to produce goods or provide services for pay or profit.</p><p>The labour force corresponds to the sum of persons in employment and in unemployment. </p><p>For more information on the definitions of employment and unemployment refer to the Resolution concerning statistics of work, employment and labour underutilization Adopted by the 19<sup>th</sup> International Conference of Labour Statisticians.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Percent (%)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="e4d84955-1249-4b11-a579-f194854fbb4a">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SL_EMP_EARN</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>LA</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="COLL_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The Labor Force Survey that was implemented in Lao People’s Democratic Republic in 2017 (LFS 2017) adopts the new concept of work, employment and labor underutilization that was adopted by the19th International Conference of Labor Statisticians (ICLS) in 2013. </p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COMPARABILITY">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Please see item 4.b</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COMPILING_ORG">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Lao Statistics Bureau</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_EMAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><a href="mailto:vilaysooks@gmail.com">vilaysooks@gmail.com</a></p><p>suthanu1974@gmail.com</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_FUNCT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Deputy Director General</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_MAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Ministry of Planning and Investment</p><p>Lao Statistics Bureau, Dongnachokphuea Village, Sikhottabong District, Vientiane Capital Province. Tel: (+856 21) 214740, Fax: (+856 21) 242022.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_NAME">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Mr.Vilaysook SISOULATH</p><p>Mr. Suthanou BOULOM</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Lao Statistics Bureau </p><p>Ministry of Labor and Social Welfare</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_PHONE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>+856 20 55 795 043, +856 21 214 740</p><p>+856 20 5889 1999, +856 21 2130 03/2227 77</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The Labor Force Survey have been conducted at five-year intervals since 2010</p><p>Disaggregated by sectors and sex</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Statistics on average hourly earnings by sex can be used to calculate the gender pay gap, as follows:</p><p>Gender pay gap=  (〖Average hourly earnings〗_Men- 〖Average hourly earnings〗_Women)/〖Average hourly earnings〗_Men   x 100</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_SOURCE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Lao Statistics Bureau</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_VALIDATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Standard data review and validation protocols were implemented from data collection, processing, calculation to finalization and publication of the results of the GDP and population estimates.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>2017</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="INST_MANDATE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Base on the statistical law and the National Strategy for sustainable Development of Statistical System 2016-2020 and vision for 2030, Ministry of Planning and Investment (MPI) throughout the  Lao  Statistics  Bureau  in  cooperate with  Ministry  of  Labor  and  Welfare  has  conducted  the Lao  Labor  Force  Survey  in  2017.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="META_LAST_UPDATE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>23 June 2021</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="ORGANISATION_UNIT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Department of Social Statistics</p><p>Department of Planning and International Cooperation</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><a href="file:///C:/Users/BK/AppData/Local/Temp/5.Lao%20PDR%20Labor%20force%20Survey%202017.pdf4">file:///C:/Users/BK/AppData/Local/Temp/5.Lao%20PDR%20Labor%20force%20Survey%202017.pdf4</a></p><p>The UNSD SDG Indicators, Metadata repository <a href="https://unstats.un.org/sdgs/metadata/">https://unstats.un.org/sdgs/metadata/</a></p><p>http://www.molsw.gov.la/</p><p><a href="http://www.nra.gov.la">http://www.nra.gov.la</a></p><p><a href="https://www.lsb.gov.la">https://www.lsb.gov.la</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="QUALITY_ASSMNT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The estimates derived for each year are compared to previous years to ensure that estimates are prepared consistently from year to year. Additionally, the growth rate from year to year is analyzed to identify anomalies in the data.</p><p>In general, the quality of the results is considered good given the quality management and standards implemented in the basic data source used for obtaining the value for this SDG indicator. </p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="QUALITY_ASSURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Data are validated in accordance with the international statistical standards</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="QUALITY_MGMNT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Managing the quality of the indicator is guided by the Lao PDR Statistics Law of 2017 and in accordance with the recommendations of the UN Fundamental Principles of Official Statistics.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="RATIONALE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Earnings are a key aspect of quality of employment and living conditions. Information on hourly earnings disaggregated by various classifications (sex, age, occupation, disability status) provides some indication of the extent to which pay equality is respected or achieved. </p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="REC_USE_LIM">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The variety of possible sources for statistics on earnings greatly hinders international comparability, as each type of source has its own coverage, scope and characteristics. It would not be fully accurate to compare, for example, hourly earnings from a labour force survey for one country with hourly earnings from an establishment survey for another. The use of non-standard definitions and the heterogeneity of operational criteria applied further hamper cross-country comparisons. </p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="REL_CAL_POLICY">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>2022</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_CUSTODIAN_AGENCIES">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>ILO</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_GOAL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>SDG 8: Decent Work and Economic Growth: Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>8.5.1 Average hourly earnings of female/ male employees, by sector, age group and persons with disabilities</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_RELATED_INDICATORS">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Any economic statistics that is used for other SDG indicator </p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_SERIES_DESCR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Average hourly earnings</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>8.5 By 2030, achieve full and productive employment and decent work for all women and men, including for young people and persons with disabilities, and equal pay for work of equal value.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SOURCE_TYPE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Use 2 type of data source </p><ol><li>The Labour Force Survey 2017 (every 5 years)</li><li>and administrative data from Ministry of Labour and Social Welfare annually</li></ol>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><strong>Definition:</strong></p><p>This indicator provides information on the mean hourly earnings from paid employment of employees by sex, occupation, age and disability status. </p><p><strong>Concepts:</strong></p><p>Earnings refer to the gross remuneration in cash or in kind paid to employees, as a rule at regular intervals, for time worked or work done together with remuneration for time not worked, such as annual vacation, other type of paid leave or holidays. Earnings exclude employers’ contributions in respect of their employees paid to social security and pension schemes and also the benefits received by employees under these schemes. Earnings also exclude severance and termination pay. </p><p>For international comparability purposes, statistics of earnings used relate to employees’ gross remuneration, i.e. the total before any deductions are made by the employer in respect of taxes, contributions of employees to social security and pension schemes, life insurance premiums, union dues and other obligations of employees. As stated in the indicator title, data on earnings should be presented on the basis of the arithmetic average of the hourly earnings of all employees.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>number</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+</mes:GenericMetadata>
+        

@@ -1,0 +1,16 @@
+Year,OBS_STATUS,UNIT_MULT,NATURE,SOURCE_DETAIL,FREQ,REPORTING_TYPE,SERIES,REF_AREA,AGE,URBANISATION,INCOME_WEALTH_QUANTILE,UNIT_MEASURE,Value
+2017,A,0,_X,"Lao Statistics Bureau, survey-(LSIS), https://www.lsb.gov.la/",A,N,IT_MOB_OWN,LA,,,,PT,73.1
+2017,A,0,_X,"Lao Statistics Bureau, survey-(LSIS), https://www.lsb.gov.la/",A,N,IT_MOB_OWN,LA,,U,,PT,91.7
+2017,A,0,_X,"Lao Statistics Bureau, survey-(LSIS), https://www.lsb.gov.la/",A,N,IT_MOB_OWN,LA,,R,,PT,63.7
+2017,A,0,_X,"Lao Statistics Bureau, survey-(LSIS), https://www.lsb.gov.la/",A,N,IT_MOB_OWN,LA,,,Q1,PT,30.7
+2017,A,0,_X,"Lao Statistics Bureau, survey-(LSIS), https://www.lsb.gov.la/",A,N,IT_MOB_OWN,LA,,,Q2,PT,57.1
+2017,A,0,_X,"Lao Statistics Bureau, survey-(LSIS), https://www.lsb.gov.la/",A,N,IT_MOB_OWN,LA,,,Q3,PT,77.4
+2017,A,0,_X,"Lao Statistics Bureau, survey-(LSIS), https://www.lsb.gov.la/",A,N,IT_MOB_OWN,LA,,,Q4,PT,90.1
+2017,A,0,_X,"Lao Statistics Bureau, survey-(LSIS), https://www.lsb.gov.la/",A,N,IT_MOB_OWN,LA,,,Q5,PT,97.9
+2017,A,0,_X,"Lao Statistics Bureau, survey-(LSIS), https://www.lsb.gov.la/",A,N,IT_MOB_OWN,LA,Y15T19,,,PT,74.8
+2017,A,0,_X,"Lao Statistics Bureau, survey-(LSIS), https://www.lsb.gov.la/",A,N,IT_MOB_OWN,LA,Y20T24,,,PT,77.2
+2017,A,0,_X,"Lao Statistics Bureau, survey-(LSIS), https://www.lsb.gov.la/",A,N,IT_MOB_OWN,LA,Y25T29,,,PT,74.4
+2017,A,0,_X,"Lao Statistics Bureau, survey-(LSIS), https://www.lsb.gov.la/",A,N,IT_MOB_OWN,LA,Y30T34,,,PT,73.8
+2017,A,0,_X,"Lao Statistics Bureau, survey-(LSIS), https://www.lsb.gov.la/",A,N,IT_MOB_OWN,LA,Y35T39,,,PT,69.2
+2017,A,0,_X,"Lao Statistics Bureau, survey-(LSIS), https://www.lsb.gov.la/",A,N,IT_MOB_OWN,LA,Y40T44,,,PT,68.7
+2017,A,0,_X,"Lao Statistics Bureau, survey-(LSIS), https://www.lsb.gov.la/",A,N,IT_MOB_OWN,LA,Y45T49,,,PT,71.2

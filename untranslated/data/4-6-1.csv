@@ -1,0 +1,10 @@
+Year,OBS_STATUS,UNIT_MULT,NATURE,SOURCE_DETAIL,FREQ,REPORTING_TYPE,SERIES,REF_AREA,SEX,AGE,UNIT_MEASURE,Value
+2015,A,0,_X,"Lao Statistics Bureau, Survey-(PHC), https://www.lsb.gov.la/",A,N,SE_ADT_FUNS,LA,,Y_GE15,PT,84.7
+2015,A,0,_X,"Lao Statistics Bureau, Survey-(PHC), https://www.lsb.gov.la/",A,N,SE_ADT_FUNS,LA,M,Y_GE15,PT,90.0
+2015,A,0,_X,"Lao Statistics Bureau, Survey-(PHC), https://www.lsb.gov.la/",A,N,SE_ADT_FUNS,LA,F,Y_GE15,PT,79.4
+2015,A,0,_X,"Lao Statistics Bureau, Survey-(PHC), https://www.lsb.gov.la/",A,N,SE_ADT_FUNS,LA,,Y15T19,PT,93.3
+2015,A,0,_X,"Lao Statistics Bureau, Survey-(PHC), https://www.lsb.gov.la/",A,N,SE_ADT_FUNS,LA,M,Y15T19,PT,94.8
+2015,A,0,_X,"Lao Statistics Bureau, Survey-(PHC), https://www.lsb.gov.la/",A,N,SE_ADT_FUNS,LA,F,Y15T19,PT,90.5
+2015,A,0,_X,"Lao Statistics Bureau, Survey-(PHC), https://www.lsb.gov.la/",A,N,SE_ADT_FUNS,LA,,Y20T24,PT,91.6
+2015,A,0,_X,"Lao Statistics Bureau, Survey-(PHC), https://www.lsb.gov.la/",A,N,SE_ADT_FUNS,LA,M,Y20T24,PT,94.0
+2015,A,0,_X,"Lao Statistics Bureau, Survey-(PHC), https://www.lsb.gov.la/",A,N,SE_ADT_FUNS,LA,F,Y20T24,PT,89.2

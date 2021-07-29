@@ -1,0 +1,19 @@
+Year,OBS_STATUS,UNIT_MULT,NATURE,SOURCE_DETAIL,FREQ,REPORTING_TYPE,SERIES,REF_AREA,SEX,AGE,URBANISATION,INCOME_WEALTH_QUANTILE,UNIT_MEASURE,Value
+2010,A,0,_X,"Lao Statistics Bureau, survey-(LFS), https://www.lsb.gov.la/",A,N,SL_TLF_CHLDEC,LA,,,,,PT,15.0
+2010,A,0,_X,"Lao Statistics Bureau, survey-(LFS), https://www.lsb.gov.la/",A,N,SL_TLF_CHLDEC,LA,M,,,,PT,17.0
+2010,A,0,_X,"Lao Statistics Bureau, survey-(LFS), https://www.lsb.gov.la/",A,N,SL_TLF_CHLDEC,LA,F,,,,PT,13.0
+2017,A,0,_X,"Lao Statistics Bureau, survey-(LSIS), https://www.lsb.gov.la/",A,N,SL_TLF_CHLDEC,LA,,,,,PT,42.8
+2017,A,0,_X,"Lao Statistics Bureau, survey-(LSIS), https://www.lsb.gov.la/",A,N,SL_TLF_CHLDEC,LA,M,,,,PT,43.2
+2017,A,0,_X,"Lao Statistics Bureau, survey-(LSIS), https://www.lsb.gov.la/",A,N,SL_TLF_CHLDEC,LA,F,,,,PT,42.4
+2017,A,0,_X,"Lao Statistics Bureau, survey-(LSIS), https://www.lsb.gov.la/",A,N,SL_TLF_CHLDEC,LA,,Y5T17,,,PT,42.5
+2017,A,0,_X,"Lao Statistics Bureau, survey-(LSIS), https://www.lsb.gov.la/",A,N,SL_TLF_CHLDEC,LA,M,Y5T17,,,PT,42.9
+2017,A,0,_X,"Lao Statistics Bureau, survey-(LSIS), https://www.lsb.gov.la/",A,N,SL_TLF_CHLDEC,LA,F,Y5T17,,,PT,42.1
+2017,A,0,_X,"Lao Statistics Bureau, survey-(LSIS), https://www.lsb.gov.la/",A,N,SL_TLF_CHLDEC,LA,,Y5T11,,,PT,38.0
+2017,A,0,_X,"Lao Statistics Bureau, survey-(LSIS), https://www.lsb.gov.la/",A,N,SL_TLF_CHLDEC,LA,,Y12T14,,,PT,48.6
+2017,A,0,_X,"Lao Statistics Bureau, survey-(LSIS), https://www.lsb.gov.la/",A,N,SL_TLF_CHLDEC,LA,,,,Q1,PT,48.6
+2017,A,0,_X,"Lao Statistics Bureau, survey-(LSIS), https://www.lsb.gov.la/",A,N,SL_TLF_CHLDEC,LA,,,,Q2,PT,47.1
+2017,A,0,_X,"Lao Statistics Bureau, survey-(LSIS), https://www.lsb.gov.la/",A,N,SL_TLF_CHLDEC,LA,,,,Q3,PT,44.5
+2017,A,0,_X,"Lao Statistics Bureau, survey-(LSIS), https://www.lsb.gov.la/",A,N,SL_TLF_CHLDEC,LA,,,,Q4,PT,38.0
+2017,A,0,_X,"Lao Statistics Bureau, survey-(LSIS), https://www.lsb.gov.la/",A,N,SL_TLF_CHLDEC,LA,,,,Q5,PT,28.5
+2017,A,0,_X,"Lao Statistics Bureau, survey-(LSIS), https://www.lsb.gov.la/",A,N,SL_TLF_CHLDEC,LA,,,U,,PT,33.1
+2017,A,0,_X,"Lao Statistics Bureau, survey-(LSIS), https://www.lsb.gov.la/",A,N,SL_TLF_CHLDEC,LA,,,R,,PT,45.7

@@ -1,0 +1,4 @@
+Year,OBS_STATUS,UNIT_MULT,NATURE,SOURCE_DETAIL,FREQ,REPORTING_TYPE,SERIES,REF_AREA,EDUCATION_LEV,UNIT_MEASURE,Value
+2017,A,0,_X,"Ministry of Education and Sports, http://www.moes.edu.la/",A,N,_L_LA_040501_02,LA,ISCED11_10,PT,1.0
+2017,A,0,_X,"Ministry of Education and Sports, http://www.moes.edu.la/",A,N,_L_LA_040501_02,LA,ISCED11_24,PT,0.939
+2017,A,0,_X,"Ministry of Education and Sports, http://www.moes.edu.la/",A,N,_L_LA_040501_02,LA,ISCED11_34,PT,0.905

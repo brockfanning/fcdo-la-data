@@ -1,0 +1,11 @@
+Year,OBS_STATUS,UNIT_MULT,NATURE,SOURCE_DETAIL,FREQ,REPORTING_TYPE,SERIES,REF_AREA,UNIT_MEASURE,Value
+2015,A,0,_X,"Ministry of Health, https://moh.gov.la/",A,N,SH_HIV_INCD,LA,NUMBER,550
+2016,A,0,_X,"Ministry of Health, https://moh.gov.la/",A,N,SH_HIV_INCD,LA,NUMBER,870
+2017,A,0,_X,"Ministry of Health, https://moh.gov.la/",A,N,SH_HIV_INCD,LA,NUMBER,830
+2018,A,0,_X,"Ministry of Health, https://moh.gov.la/",A,N,SH_HIV_INCD,LA,NUMBER,810
+2019,A,0,_X,"Ministry of Health, https://moh.gov.la/",A,N,SH_HIV_INCD,LA,NUMBER,780
+2015,A,0,_X,"Ministry of Health, https://moh.gov.la/",A,N,_L_LA_030301_01,LA,PT,32
+2016,A,0,_X,"Ministry of Health, https://moh.gov.la/",A,N,_L_LA_030301_01,LA,PT,39
+2017,A,0,_X,"Ministry of Health, https://moh.gov.la/",A,N,_L_LA_030301_01,LA,PT,47
+2018,A,0,_X,"Ministry of Health, https://moh.gov.la/",A,N,_L_LA_030301_01,LA,PT,50
+2019,A,0,_X,"Ministry of Health, https://moh.gov.la/",A,N,_L_LA_030301_01,LA,PT,56

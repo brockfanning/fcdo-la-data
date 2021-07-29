@@ -1,0 +1,13 @@
+Year,OBS_STATUS,UNIT_MULT,NATURE,SOURCE_DETAIL,FREQ,REPORTING_TYPE,SERIES,REF_AREA,URBANISATION,INCOME_WEALTH_QUANTILE,UNIT_MEASURE,Value
+2013,A,0,_X,"Lao Statistics Bureau, Survey-(LSIS), https://www.lsb.gov.la/",A,N,SH_DYN_NMRT,LA,,,PER_100000_POP,32.0
+2017,A,0,_X,"Lao Statistics Bureau, Survey-(LSIS), https://www.lsb.gov.la/",A,N,SH_DYN_NMRT,LA,,,PER_100000_POP,18.0
+2017,A,0,_X,"Lao Statistics Bureau, Survey-(LSIS), https://www.lsb.gov.la/",A,N,SH_DYN_NMRT,LA,U,,PER_100000_POP,14.0
+2017,A,0,_X,"Lao Statistics Bureau, Survey-(LSIS), https://www.lsb.gov.la/",A,N,SH_DYN_NMRT,LA,R,,PER_100000_POP,19.0
+2017,A,0,_X,"Lao Statistics Bureau, Survey-(LSIS), https://www.lsb.gov.la/",A,N,SH_DYN_NMRT,LA,,Q1,PER_100000_POP,20.0
+2017,A,0,_X,"Lao Statistics Bureau, Survey-(LSIS), https://www.lsb.gov.la/",A,N,SH_DYN_NMRT,LA,,Q2,PER_100000_POP,21.0
+2017,A,0,_X,"Lao Statistics Bureau, Survey-(LSIS), https://www.lsb.gov.la/",A,N,SH_DYN_NMRT,LA,,Q3,PER_100000_POP,14.0
+2017,A,0,_X,"Lao Statistics Bureau, Survey-(LSIS), https://www.lsb.gov.la/",A,N,SH_DYN_NMRT,LA,,Q4,PER_100000_POP,16.0
+2017,A,0,_X,"Lao Statistics Bureau, Survey-(LSIS), https://www.lsb.gov.la/",A,N,SH_DYN_NMRT,LA,,Q5,PER_100000_POP,14.0
+2016,A,0,_X,"Ministry of Health, https://moh.gov.la/",A,N,SH_DYN_NMRT,LA,,,PER_100000_POP,6.8
+2018,A,0,_X,"Ministry of Health, https://moh.gov.la/",A,N,SH_DYN_NMRT,LA,,,PER_100000_POP,7.4
+2019,A,0,_X,"Ministry of Health, https://moh.gov.la/",A,N,SH_DYN_NMRT,LA,,,PER_100000_POP,6.9

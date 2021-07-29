@@ -1,0 +1,7 @@
+Year,OBS_STATUS,UNIT_MULT,NATURE,SOURCE_DETAIL,FREQ,REPORTING_TYPE,SERIES,REF_AREA,SEX,UNIT_MEASURE,Value
+2015,A,0,_X,"Lao Statistics Bureau, survey-(PHC), https://www.lsb.gov.la/",A,N,SL_TLF_NEET,LA,,PT,18.5
+2015,A,0,_X,"Lao Statistics Bureau, survey-(PHC), https://www.lsb.gov.la/",A,N,SL_TLF_NEET,LA,M,PT,8.44
+2015,A,0,_X,"Lao Statistics Bureau, survey-(PHC), https://www.lsb.gov.la/",A,N,SL_TLF_NEET,LA,F,PT,10.06
+2017,A,0,_X,"Lao Statistics Bureau, survey-(LFS), https://www.lsb.gov.la/",A,N,SL_TLF_NEET,LA,,PT,16.11
+2017,A,0,_X,"Lao Statistics Bureau, survey-(LFS), https://www.lsb.gov.la/",A,N,SL_TLF_NEET,LA,M,PT,7.83
+2017,A,0,_X,"Lao Statistics Bureau, survey-(LFS), https://www.lsb.gov.la/",A,N,SL_TLF_NEET,LA,F,PT,8.28

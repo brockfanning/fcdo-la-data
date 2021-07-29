@@ -1,0 +1,5 @@
+Year,OBS_STATUS,UNIT_MULT,NATURE,SOURCE_DETAIL,FREQ,REPORTING_TYPE,SERIES,REF_AREA,UNIT_MEASURE,Value
+2015,A,0,_X,"Ministry of Publice and Security, http://laosecurity.gov.la",A,N,SH_STA_TRAFN,LA,PER_100000_POP,14.2
+2016,A,0,_X,"Ministry of Publice and Security, http://laosecurity.gov.la",A,N,SH_STA_TRAFN,LA,PER_100000_POP,15.5
+2017,A,0,_X,"Ministry of Publice and Security, http://laosecurity.gov.la",A,N,SH_STA_TRAFN,LA,PER_100000_POP,15.0
+2018,A,0,_X,"Ministry of Publice and Security, http://laosecurity.gov.la",A,N,SH_STA_TRAFN,LA,PER_100000_POP,14.1

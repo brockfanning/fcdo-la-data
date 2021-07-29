@@ -1,0 +1,13 @@
+Year,OBS_STATUS,UNIT_MULT,NATURE,SOURCE_DETAIL,FREQ,REPORTING_TYPE,SERIES,REF_AREA,EDUCATION_LEV,UNIT_MEASURE,Value
+2015,A,0,_X,"Ministry of Education and Sports, http://www.moes.edu.la/",A,N,_L_LA_040501_01,LA,ISCED11_10,PT,0.97
+2015,A,0,_X,"Ministry of Education and Sports, http://www.moes.edu.la/",A,N,_L_LA_040501_01,LA,ISCED11_24,PT,0.95
+2015,A,0,_X,"Ministry of Education and Sports, http://www.moes.edu.la/",A,N,_L_LA_040501_01,LA,ISCED11_34,PT,0.88
+2016,A,0,_X,"Ministry of Education and Sports, http://www.moes.edu.la/",A,N,_L_LA_040501_01,LA,ISCED11_10,PT,0.97
+2016,A,0,_X,"Ministry of Education and Sports, http://www.moes.edu.la/",A,N,_L_LA_040501_01,LA,ISCED11_24,PT,0.95
+2016,A,0,_X,"Ministry of Education and Sports, http://www.moes.edu.la/",A,N,_L_LA_040501_01,LA,ISCED11_34,PT,0.91
+2017,A,0,_X,"Ministry of Education and Sports, http://www.moes.edu.la/",A,N,_L_LA_040501_01,LA,ISCED11_10,PT,0.98
+2017,A,0,_X,"Ministry of Education and Sports, http://www.moes.edu.la/",A,N,_L_LA_040501_01,LA,ISCED11_24,PT,0.95
+2017,A,0,_X,"Ministry of Education and Sports, http://www.moes.edu.la/",A,N,_L_LA_040501_01,LA,ISCED11_34,PT,0.91
+2018,A,0,_X,"Ministry of Education and Sports, http://www.moes.edu.la/",A,N,_L_LA_040501_01,LA,ISCED11_10,PT,0.98
+2018,A,0,_X,"Ministry of Education and Sports, http://www.moes.edu.la/",A,N,_L_LA_040501_01,LA,ISCED11_24,PT,0.96
+2018,A,0,_X,"Ministry of Education and Sports, http://www.moes.edu.la/",A,N,_L_LA_040501_01,LA,ISCED11_34,PT,0.91

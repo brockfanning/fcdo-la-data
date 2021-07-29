@@ -1,0 +1,8 @@
+Year,OBS_STATUS,UNIT_MULT,NATURE,SOURCE_DETAIL,FREQ,REPORTING_TYPE,SERIES,REF_AREA,UNIT_MEASURE,Value
+2015,A,0,_X,"Ministry of Health, https://moh.gov.la/",A,N,_L_LA_030801_01,LA,PT,52.0
+2016,A,0,_X,"Ministry of Health, https://moh.gov.la/",A,N,_L_LA_030801_01,LA,PT,56.1
+2017,A,0,_X,"Ministry of Health, https://moh.gov.la/",A,N,_L_LA_030801_01,LA,PT,62.2
+2018,A,0,_X,"Ministry of Health, https://moh.gov.la/",A,N,_L_LA_030801_01,LA,PT,68.1
+2019,A,0,_X,"Ministry of Health, https://moh.gov.la/",A,N,_L_LA_030801_01,LA,PT,70.4
+2015,A,0,_X,"Ministry of Health, https://moh.gov.la/",A,N,_L_LA_030801_02,LA,PT,80.0
+2017,A,0,_X,"Ministry of Health, https://moh.gov.la/",A,N,_L_LA_030801_02,LA,PT,59.7

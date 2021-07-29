@@ -1,0 +1,10 @@
+Year,OBS_STATUS,UNIT_MULT,NATURE,SOURCE_DETAIL,FREQ,REPORTING_TYPE,SERIES,REF_AREA,URBANISATION,INCOME_WEALTH_QUANTILE,UNIT_MEASURE,Value
+2013,A,0,_X,"Lao Statistics Bureau, Survey-(LSIS), https://www.lsb.gov.la/",A,N,SH_FPL_MTMM,LA,,,PT,61.3
+2017,A,0,_X,"Lao Statistics Bureau, Survey-(LSIS), https://www.lsb.gov.la/",A,N,SH_FPL_MTMM,LA,,,PT,71.7
+2017,A,0,_X,"Lao Statistics Bureau, Survey-(LSIS), https://www.lsb.gov.la/",A,N,SH_FPL_MTMM,LA,U,,PT,66.6
+2017,A,0,_X,"Lao Statistics Bureau, Survey-(LSIS), https://www.lsb.gov.la/",A,N,SH_FPL_MTMM,LA,R,,PT,74.1
+2017,A,0,_X,"Lao Statistics Bureau, Survey-(LSIS), https://www.lsb.gov.la/",A,N,SH_FPL_MTMM,LA,,Q1,PT,67.6
+2017,A,0,_X,"Lao Statistics Bureau, Survey-(LSIS), https://www.lsb.gov.la/",A,N,SH_FPL_MTMM,LA,,Q2,PT,73.9
+2017,A,0,_X,"Lao Statistics Bureau, Survey-(LSIS), https://www.lsb.gov.la/",A,N,SH_FPL_MTMM,LA,,Q3,PT,75.0
+2017,A,0,_X,"Lao Statistics Bureau, Survey-(LSIS), https://www.lsb.gov.la/",A,N,SH_FPL_MTMM,LA,,Q4,PT,75.5
+2017,A,0,_X,"Lao Statistics Bureau, Survey-(LSIS), https://www.lsb.gov.la/",A,N,SH_FPL_MTMM,LA,,Q5,PT,65.9

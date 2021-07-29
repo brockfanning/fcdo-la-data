@@ -1,0 +1,11 @@
+Year,Observation status,Unit multiplier,Nature of data points,Source details,Frequency of observation,Reporting type,SERIES,Reference area,Sex,Age,Degree of urbanisation,UNIT_MEASURE,Value
+2015,Normal value,Units,Not Available,"Lao Statistics Bureau, survey-(PHC), https://www.lsb.gov.la/",Annual,National,Unemployment rate [8.5.2],Lao People's Democratic Republic,,,,Percent,2.1
+2015,Normal value,Units,Not Available,"Lao Statistics Bureau, survey-(PHC), https://www.lsb.gov.la/",Annual,National,Unemployment rate [8.5.2],Lao People's Democratic Republic,Male,,,Percent,2.1
+2015,Normal value,Units,Not Available,"Lao Statistics Bureau, survey-(PHC), https://www.lsb.gov.la/",Annual,National,Unemployment rate [8.5.2],Lao People's Democratic Republic,Female,,,Percent,2.1
+2017,Normal value,Units,Not Available,"Lao Statistics Bureau, survey-(LFS), https://www.lsb.gov.la/",Annual,National,Unemployment rate [8.5.2],Lao People's Democratic Republic,,,,Percent,9.4
+2017,Normal value,Units,Not Available,"Lao Statistics Bureau, survey-(LFS), https://www.lsb.gov.la/",Annual,National,Unemployment rate [8.5.2],Lao People's Democratic Republic,Male,,,Percent,10.7
+2017,Normal value,Units,Not Available,"Lao Statistics Bureau, survey-(LFS), https://www.lsb.gov.la/",Annual,National,Unemployment rate [8.5.2],Lao People's Democratic Republic,Female,,,Percent,7.8
+2017,Normal value,Units,Not Available,"Lao Statistics Bureau, survey-(LFS), https://www.lsb.gov.la/",Annual,National,Unemployment rate [8.5.2],Lao People's Democratic Republic,,15 years old and over,Urban,Percent,5.3
+2017,Normal value,Units,Not Available,"Lao Statistics Bureau, survey-(LFS), https://www.lsb.gov.la/",Annual,National,Unemployment rate [8.5.2],Lao People's Democratic Republic,,15 years old and over,Rural,Percent,12.4
+2017,Normal value,Units,Not Available,"Lao Statistics Bureau, survey-(LFS), https://www.lsb.gov.la/",Annual,National,Unemployment rate [8.5.2],Lao People's Democratic Republic,,15 to 24 years old,,Percent,18.2
+2017,Normal value,Units,Not Available,"Lao Statistics Bureau, survey-(LFS), https://www.lsb.gov.la/",Annual,National,Unemployment rate [8.5.2],Lao People's Democratic Republic,,25 years old and over,,Percent,7.4

@@ -1,0 +1,24 @@
+Year,OBS_STATUS,UNIT_MULT,NATURE,SOURCE_DETAIL,FREQ,REPORTING_TYPE,SERIES,REF_AREA,URBANISATION,INCOME_WEALTH_QUANTILE,UNIT_MEASURE,Value
+2013,A,0,_X,"Lao Statistics Bureau, Survey-(LSIS), https://www.lsb.gov.la/",A,N,SH_DYN_IMRT,LA,,,PER_100000_POP,79.0
+2017,A,0,_X,"Lao Statistics Bureau, Survey-(LSIS), https://www.lsb.gov.la/",A,N,SH_DYN_IMRT,LA,,,PER_100000_POP,46.0
+2017,A,0,_X,"Lao Statistics Bureau, Survey-(LSIS), https://www.lsb.gov.la/",A,N,SH_DYN_IMRT,LA,U,,PER_100000_POP,24.0
+2017,A,0,_X,"Lao Statistics Bureau, Survey-(LSIS), https://www.lsb.gov.la/",A,N,SH_DYN_IMRT,LA,R,,PER_100000_POP,53.0
+2017,A,0,_X,"Lao Statistics Bureau, Survey-(LSIS), https://www.lsb.gov.la/",A,N,SH_DYN_IMRT,LA,,Q1,PER_100000_POP,63.0
+2017,A,0,_X,"Lao Statistics Bureau, Survey-(LSIS), https://www.lsb.gov.la/",A,N,SH_DYN_IMRT,LA,,Q2,PER_100000_POP,62.0
+2017,A,0,_X,"Lao Statistics Bureau, Survey-(LSIS), https://www.lsb.gov.la/",A,N,SH_DYN_IMRT,LA,,Q3,PER_100000_POP,35.0
+2017,A,0,_X,"Lao Statistics Bureau, Survey-(LSIS), https://www.lsb.gov.la/",A,N,SH_DYN_IMRT,LA,,Q4,PER_100000_POP,27.0
+2017,A,0,_X,"Lao Statistics Bureau, Survey-(LSIS), https://www.lsb.gov.la/",A,N,SH_DYN_IMRT,LA,,Q5,PER_100000_POP,23.0
+2018,A,0,_X,"Ministry of Health, https://moh.gov.la/",A,N,SH_DYN_IMRT,LA,,,PER_100000_POP,17.8
+2019,A,0,_X,"Ministry of Health, https://moh.gov.la/",A,N,SH_DYN_IMRT,LA,,,PER_100000_POP,18.0
+2013,A,0,_X,"Lao Statistics Bureau, Survey-(LSIS), https://www.lsb.gov.la/",A,N,_L_LA_030201_01,LA,,,PER_1000_LIVE_BIRTHS,68.0
+2017,A,0,_X,"Lao Statistics Bureau, Survey-(LSIS), https://www.lsb.gov.la/",A,N,_L_LA_030201_01,LA,,,PER_1000_LIVE_BIRTHS,40.0
+2017,A,0,_X,"Lao Statistics Bureau, Survey-(LSIS), https://www.lsb.gov.la/",A,N,_L_LA_030201_01,LA,U,,PER_1000_LIVE_BIRTHS,20.0
+2017,A,0,_X,"Lao Statistics Bureau, Survey-(LSIS), https://www.lsb.gov.la/",A,N,_L_LA_030201_01,LA,R,,PER_1000_LIVE_BIRTHS,47.0
+2017,A,0,_X,"Lao Statistics Bureau, Survey-(LSIS), https://www.lsb.gov.la/",A,N,_L_LA_030201_01,LA,,Q1,PER_1000_LIVE_BIRTHS,56.0
+2017,A,0,_X,"Lao Statistics Bureau, Survey-(LSIS), https://www.lsb.gov.la/",A,N,_L_LA_030201_01,LA,,Q2,PER_1000_LIVE_BIRTHS,57.0
+2017,A,0,_X,"Lao Statistics Bureau, Survey-(LSIS), https://www.lsb.gov.la/",A,N,_L_LA_030201_01,LA,,Q3,PER_1000_LIVE_BIRTHS,31.0
+2017,A,0,_X,"Lao Statistics Bureau, Survey-(LSIS), https://www.lsb.gov.la/",A,N,_L_LA_030201_01,LA,,Q4,PER_1000_LIVE_BIRTHS,21.0
+2017,A,0,_X,"Lao Statistics Bureau, Survey-(LSIS), https://www.lsb.gov.la/",A,N,_L_LA_030201_01,LA,,Q5,PER_1000_LIVE_BIRTHS,14.0
+2016,A,0,_X,"Ministry of Health, https://moh.gov.la/",A,N,_L_LA_030201_01,LA,,,PER_1000_LIVE_BIRTHS,13.1
+2018,A,0,_X,"Ministry of Health, https://moh.gov.la/",A,N,_L_LA_030201_01,LA,,,PER_1000_LIVE_BIRTHS,15.8
+2019,A,0,_X,"Ministry of Health, https://moh.gov.la/",A,N,_L_LA_030201_01,LA,,,PER_1000_LIVE_BIRTHS,14.4

@@ -1,0 +1,6 @@
+Year,OBS_STATUS,UNIT_MULT,NATURE,SOURCE_DETAIL,FREQ,REPORTING_TYPE,SERIES,REF_AREA,URBANISATION,OCCUPATION,UNIT_MEASURE,Value
+2015,A,0,_X,"Ministry of Health, https://moh.gov.la/",A,N,SH_MED_HWRKDIS,LA,,,PER_1000_POP,3.03
+2018,A,0,_X,"Ministry of Health, https://moh.gov.la/",A,N,SH_MED_HWRKDIS,LA,U,,PER_1000_POP,7.76
+2018,A,0,_X,"Ministry of Health, https://moh.gov.la/",A,N,SH_MED_HWRKDIS,LA,R,,PER_1000_POP,2.43
+2019,A,0,_X,"Ministry of Health, https://moh.gov.la/",A,N,SH_MED_HWRKDIS,LA,,ISCO08_221,PER_1000_POP,0.77
+2020,A,0,_X,"Ministry of Health, https://moh.gov.la/",A,N,SH_MED_HWRKDIS,LA,,ISCO08_2221_3221,PER_1000_POP,1.24

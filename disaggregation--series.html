@@ -1,0 +1,1107 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+
+            <title>Disaggregation: SERIES - SDG data build documentation</title>
+
+            <script defer src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"></script>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/open-sdg/open-sdg-table@0.4.0/open-sdg-table.min.css">
+            <style>
+                .btn-primary {
+                    background-color: #00703c;
+                    padding: 8px 10px 7px;
+                    border: 2px solid transparent;
+                    border-radius: 0;
+                    color: #fff;
+                    box-shadow: 0 2px 0 #002d18;
+                    text-decoration: none;
+                }
+                .btn-primary:visited {
+                    color: #fff;
+                }
+                .btn-primary:hover, .btn-primary:not(:disabled):not(.disabled):active {
+                    background-color: #005a30;
+                    text-decoration: none;
+                    border: 2px solid transparent;
+                }
+                .btn-primary:focus:not(:active):not(:hover) {
+                    border-color: #fd0;
+                    color: #0b0c0c;
+                    background-color: #fd0;
+                    box-shadow: 0 2px 0 #0b0c0c;
+                }
+                a {
+                    color: #1D70B8;
+                    text-decoration: underline;
+                }
+                a:hover {
+                    color: #003078;
+                }
+                a:visited {
+                    color: #4c2c92;
+                }
+                .download-info {
+                    margin-left: 12px;
+                }
+                .table-striped tbody tr:nth-of-type(2n+1) {
+                    background-color: #f3f2f1;
+                }
+            </style>
+        </head>
+        <body>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container">
+                    <a class="navbar-brand" href="/fcdo-la-data/index.html">SDG data build documentation</a>
+                </div>
+            </nav>
+            <main role="main">
+                <div class="container">
+                    <h1 style="margin:20px 0">Disaggregation: SERIES</h1>
+                    <div>
+                        
+        <div role="navigation" aria-describedby="contents-heading">
+            <h2 id="contents-heading">On this page</h2>
+            <ul>
+                <li><a href="#values-used">Values used in disaggregation</a></li>
+                <li><a href="#indicators-using">Indicators using disaggregation</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2 id="values-used" tabindex="-1">Values used in disaggregation</h2>
+            
+        <div class="my-3">
+            <a href="values--disaggregation--series.csv" role="button" class="btn btn-primary" aria-describedby="values--disaggregation--series">Download CSV of values used in this disaggregation</a>
+            <div id="values--disaggregation--series" class="download-info">Size: 11.6 kB</div>
+        </div>
+        
+            
+                <div class="total-rows">
+                    Total rows: <span class="total">116</span>
+                </div>
+                <table border="1" class="dataframe table table-striped table-bordered" id="values-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Value</th>
+      <th>en</th>
+      <th>Disaggregation combinations using this value</th>
+      <th>Number of indicators</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="disaggregation-value--ag-fpa-comm.html">AG_FPA_COMM</a></td>
+      <td>Indicator of Food Price Anomalies (IFPA) [2.c.1]</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--ag-xpd-agsgb.html">AG_XPD_AGSGB</a></td>
+      <td>Agriculture share of Government Expenditure [2.a.1]</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--dc-tof-hlthl.html">DC_TOF_HLTHL</a></td>
+      <td>Total official development assistance to medical research and basic heath sectors, gross disbursement, by recipient countries [3.b.2]</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--dc-tof-schipsl.html">DC_TOF_SCHIPSL</a></td>
+      <td>Total official flows for scholarships, by recipient countries [4.b.1]</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--gc-gob-taxd.html">GC_GOB_TAXD</a></td>
+      <td>Proportion of domestic budget funded by domestic taxes [17.1.2]</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--gf-frn-fdi.html">GF_FRN_FDI</a></td>
+      <td>Foreign direct investment (FDI) inflows [17.3.1]</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--gr-g14-gdp.html">GR_G14_GDP</a></td>
+      <td>Total government revenue as a proportion of GDP [17.1.1]</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--it-mob-own.html">IT_MOB_OWN</a></td>
+      <td>Proportion of individuals who own a mobile telephone [5.b.1]</td>
+      <td>15</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--it-net-bbnd.html">IT_NET_BBND</a></td>
+      <td>Fixed broadband subscriptions per 100 inhabitants [17.6.1]</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--it-use-ii99.html">IT_USE_II99</a></td>
+      <td>Internet users per 100 inhabitants [17.8.1]</td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-0050102-01.html">_L_LA_0050102_01</a></td>
+      <td>Whether mechanisms are operational in ‘enforcing and monitoring’ the implementation of legal frameworks for each area of law</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-010401-01.html">_L_LA_010401_01</a></td>
+      <td>Proportion of population living in households with access to secondary school [1.4.1]</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-010401-02.html">_L_LA_010401_02</a></td>
+      <td>Proportion of population living in households with access to health service [1.4.1]</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-010401-03.html">_L_LA_010401_03</a></td>
+      <td>Proportion of population living in households with access to improved water [1.4.1]</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-010401-04.html">_L_LA_010401_04</a></td>
+      <td>Proportion of population living in households with access to eletricity [1.4.1]</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-010401-05.html">_L_LA_010401_05</a></td>
+      <td>Proportion of population living in households with access to roads all seasons [1.4.1]</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-020104-01.html">_L_LA_020104_01</a></td>
+      <td>Food production [2.1.4]</td>
+      <td>5</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-020201-01.html">_L_LA_020201_01</a></td>
+      <td>Stunting among under 2 years old (for Lao PDR's commitment to SUN 1000 days programme) [2.2.1]</td>
+      <td>10</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-030201-01.html">_L_LA_030201_01</a></td>
+      <td>Infant mortality rate per 1,000 live births</td>
+      <td>9</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-030301-01.html">_L_LA_030301_01</a></td>
+      <td>people with diagnosed HIV sustained ART</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-030801-01.html">_L_LA_030801_01</a></td>
+      <td>Coverage of essential health services: % Antenatal care coverage (at least 4 visits)</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-030801-02.html">_L_LA_030801_02</a></td>
+      <td>Coverage of essential health services: % Measles & rubella (MR) coverage (%) among 9-12 months old children</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-030802-01.html">_L_LA_030802_01</a></td>
+      <td>Out of pocket health expenditure as % of total health expenditure</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-040106-01.html">_L_LA_040106_01</a></td>
+      <td>Children over-age for grade</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-040203-01.html">_L_LA_040203_01</a></td>
+      <td>Gross early childhood enrolment ratio</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-040303-01.html">_L_LA_040303_01</a></td>
+      <td>Participation rate in technical-vocational education programmes (15-24 years-old)</td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-040304-01.html">_L_LA_040304_01</a></td>
+      <td>Percentage lower secondary/upper secondary school graduates enrolled in vocational & training school</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-040501-01.html">_L_LA_040501_01</a></td>
+      <td>Gender parity indices for gross enrolment</td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-040501-02.html">_L_LA_040501_02</a></td>
+      <td>Gender parity indices for completion</td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-050304-01.html">_L_LA_050304_01</a></td>
+      <td>Percentage of women aged 15-49 years who gave birth by aged 15</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-050304-02.html">_L_LA_050304_02</a></td>
+      <td>Percentage of women aged 15-49 years who gave birth by aged 18</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-050304-03.html">_L_LA_050304_03</a></td>
+      <td>Percentage of women aged 20-24 years who gave birth by aged 15</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-050304-04.html">_L_LA_050304_04</a></td>
+      <td>Percentage of women aged 20-24 years who gave birth by aged 18</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-050502-01.html">_L_LA_050502_01</a></td>
+      <td>Percentage of women in decision making positions /leadership positions in government sector by central, province and district in the following positions_Deputy Division Head</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-050502-02.html">_L_LA_050502_02</a></td>
+      <td>Percentage of women in decision making positions /leadership positions in government sector by central, province and district in the following positions_ Division Head</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-050502-03.html">_L_LA_050502_03</a></td>
+      <td>Percentage of women in decision making positions /leadership positions in government sector by central, province and district in the following positions_Deputy Department General</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-050502-04.html">_L_LA_050502_04</a></td>
+      <td>Percentage of women in decision making positions /leadership positions in government sector by central, province and district in the following positions_Department General</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-050502-05.html">_L_LA_050502_05</a></td>
+      <td>Percentage of women being  the deputy village chief</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-050502-06.html">_L_LA_050502_06</a></td>
+      <td>Percentage of women being the village chief</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-080302-01.html">_L_LA_080302_01</a></td>
+      <td>Percentage of financing and loans issued to SMEs</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-080303-01.html">_L_LA_080303_01</a></td>
+      <td>Number of SMEs owned by Lao citizens (with Lao citizens as the majority shareholders)</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-080503-01.html">_L_LA_080503_01</a></td>
+      <td>Businesses owned by females</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-080504-01.html">_L_LA_080504_01</a></td>
+      <td>Share of employed persons in the informal sector</td>
+      <td>6</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-080702-01.html">_L_LA_080702_01</a></td>
+      <td>Number of children aged 5-17 engaged in prohibited hazardous occupations and tasks, by sex and age</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-080903-01.html">_L_LA_080903_01</a></td>
+      <td>Establishment of Tourism standards (1=to be adopted and implemented)</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-080a01-01.html">_L_LA_080A01_01</a></td>
+      <td>Mean number of days to clear imports</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-130303-01.html">_L_LA_130303_01</a></td>
+      <td>Number of provinces with capacity to report on the situation of climate change</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-170101-01.html">_L_LA_170101_01</a></td>
+      <td>Total government revenueas a percentage of GDP_Domestic revenue</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-170101-02.html">_L_LA_170101_02</a></td>
+      <td>Total government revenueas a percentage of GDP_Grants</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-170601-01.html">_L_LA_170601_01</a></td>
+      <td>Number of science and/or technology cooperation agreements and programmes between countries, by type of cooperation (Increase number of agreements with other counties and international organisations to 100 agreements and implementing 80% in 2020)</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-170603-01.html">_L_LA_170603_01</a></td>
+      <td>Number of research projects/papers (increase number of research projects in national and ministerial levels to 250 projects in 2025)</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-170603-02.html">_L_LA_170603_02</a></td>
+      <td>Number of research papers published in regional and international journals (increase number of research publications to 250 copies in national and regional levels in 2025)</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-170802-01.html">_L_LA_170802_01</a></td>
+      <td>Percentage of population registered as internet users through landline and wireless</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-170803-01.html">_L_LA_170803_01</a></td>
+      <td>Percentage of mobile phone users with internet access.</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-171902-02.html">_L_LA_171902_02</a></td>
+      <td>Number of birth registration recorded</td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-171903-01.html">_L_LA_171903_01</a></td>
+      <td>Number of death registration recorded</td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-180101-00.html">_L_LA_180101_00</a></td>
+      <td>Number of reported UXO casualties-Total</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-180101-01.html">_L_LA_180101_01</a></td>
+      <td>Number of reported UXO casualties (disaggregated by age group and sex)- Injured [18.1.1 ]</td>
+      <td>5</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-180101-02.html">_L_LA_180101_02</a></td>
+      <td>Number of reported UXO casualties (disaggregated by age group and sex) - Killed [18.1.1 ]</td>
+      <td>5</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-180102-01.html">_L_LA_180102_01</a></td>
+      <td>Percentage of population in contaminated villages with information on Confirmed Hazardous Areas in their village (disaggregated by age group, sex and persons with disabilities) [18.1.2 ]</td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-180201-01.html">_L_LA_180201_01</a></td>
+      <td>Percentage of high priority hazardous areas remaining to be cleared (disaggregated by village poverty levels) [18.2.1]</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-180202-01.html">_L_LA_180202_01</a></td>
+      <td>Number of villages defined as ‘poor’ with Confirmed Hazardous Areas remaining to be cleared [18.2.2 ]</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-180301-01.html">_L_LA_180301_01</a></td>
+      <td>Proportion of registered active age UXO survivors unable to earn sufficient income with access to basic income security [18.3.1 ]</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--l-la-180302-01.html">_L_LA_180302_01</a></td>
+      <td>Percentage of registered UXO survivors mainstreamed into health, education and employment services [18.3.2 ]</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--ny-gdp-pcap.html">NY_GDP_PCAP</a></td>
+      <td>Annual growth rate of real GDP per capita [8.1.1]</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sd-mdp-csmp.html">SD_MDP_CSMP</a></td>
+      <td>Proportion of children living in child-specific multidimensional poverty [1.2.2]</td>
+      <td>9</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--se-adt-funs.html">SE_ADT_FUNS</a></td>
+      <td>Proportion of population achieving at least a fixed level of proficiency in functional skills [4.6.1]</td>
+      <td>9</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--se-tot-cplr.html">SE_TOT_CPLR</a></td>
+      <td>Completion rate, by sex, location, wealth quintile and education level (%) [4.1.2]</td>
+      <td>7</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--se-tot-prfl.html">SE_TOT_PRFL</a></td>
+      <td>Proportion of children and young people achieving a minimum proficiency level in reading and mathematics [4.1.1]</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--se-tra-grdl.html">SE_TRA_GRDL</a></td>
+      <td>Proportion of teachers who have received at least the minimum organized teacher training (e.g. pedagogical training) pre-service or in-service required for teaching at the relevant level in a given country [4.c.1]</td>
+      <td>9</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sg-gen-locg.html">SG_GEN_LOCG</a></td>
+      <td>Proportion of seats held by women in local governments (% of total number of seats) [5.5.1]</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sg-gen-parl.html">SG_GEN_PARL</a></td>
+      <td>Proportion of seats held by women in national parliaments (% of total number of seats) [5.5.1]</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sg-lgl-geneqlfp.html">SG_LGL_GENEQLFP</a></td>
+      <td>Legal frameworks that promote, enforce and monitor gender equality (percentage of achievement, 0 - 100) -- Area 1: overarching legal frameworks and public life. [5.1.1]</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sg-reg-census.html">SG_REG_CENSUS</a></td>
+      <td>Proportion of countries that have conducted at least one population and housing census in the last 10 years [17.19.2]</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sh-alc-conspt.html">SH_ALC_CONSPT</a></td>
+      <td>Alcohol consumption per capita (aged 15 years and older) within a calendar year [3.5.2]</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sh-dth-ncom.html">SH_DTH_NCOM</a></td>
+      <td>Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease [3.4.1]</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sh-dyn-imrt.html">SH_DYN_IMRT</a></td>
+      <td>Infant mortality rate [3.2.1]</td>
+      <td>9</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sh-dyn-nmrt.html">SH_DYN_NMRT</a></td>
+      <td>Neonatal mortality rate [3.2.2]</td>
+      <td>9</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sh-fpl-mtmm.html">SH_FPL_MTMM</a></td>
+      <td>Proportion of women married or in a union of reproductive age (aged 15-49 years) who have their need for family planning satisfied with modern methods [3.7.1]</td>
+      <td>8</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sh-hap-hbsag.html">SH_HAP_HBSAG</a></td>
+      <td>Prevalence of hepatitis B surface antigen (HBsAg) [3.3.4]</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sh-hiv-incd.html">SH_HIV_INCD</a></td>
+      <td>Number of new HIV infections per 1,000 uninfected population [3.3.1]</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sh-med-hwrkdis.html">SH_MED_HWRKDIS</a></td>
+      <td>Health worker distribution, by sex and type of occupation [3.c.1]</td>
+      <td>5</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sh-prv-smok.html">SH_PRV_SMOK</a></td>
+      <td>Age-standardized prevalence of current tobacco use among persons aged 15 years and older [3.a.1]</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sh-sta-brtc.html">SH_STA_BRTC</a></td>
+      <td>Proportion of births attended by skilled health personnel [3.1.2]</td>
+      <td>12</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sh-sta-malr.html">SH_STA_MALR</a></td>
+      <td>Malaria incidence per 1,000 population at risk [3.3.3]</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sh-sta-mort.html">SH_STA_MORT</a></td>
+      <td>Maternal mortality ratio [3.1.1]</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sh-sta-poisn.html">SH_STA_POISN</a></td>
+      <td>Mortality rate attributed to unintentional poisonings [3.9.3]</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sh-sta-stnt.html">SH_STA_STNT</a></td>
+      <td>Proportion of children moderately or severely stunted [2.2.1]</td>
+      <td>10</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sh-sta-trafn.html">SH_STA_TRAFN</a></td>
+      <td>Number of deaths rate due to road traffic injuries [3.6.1]</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sh-sta-wash.html">SH_STA_WASH</a></td>
+      <td>Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene [3.9.2]</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sh-sta-wast.html">SH_STA_WAST</a></td>
+      <td>Proportion of children moderately or severely wasted [2.2.2]</td>
+      <td>10</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sh-tbs-incd.html">SH_TBS_INCD</a></td>
+      <td>Tuberculosis incidence [3.3.2]</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sh-trp-intvn.html">SH_TRP_INTVN</a></td>
+      <td>Number of people requiring interventions against neglected tropical diseases [3.3.5]</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--si-pov-day1.html">SI_POV_DAY1</a></td>
+      <td>Proportion of population below international poverty line [1.1.1]</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--si-pov-nahc.html">SI_POV_NAHC</a></td>
+      <td>Proportion of population living below the national poverty line [1.2.1]</td>
+      <td>9</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sl-dom-tspd.html">SL_DOM_TSPD</a></td>
+      <td>Proportion of time spent on unpaid domestic chores and care work [5.4.1]</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sl-emp-earn.html">SL_EMP_EARN</a></td>
+      <td>Average hourly earnings [8.5.1]</td>
+      <td>9</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sl-emp-injur.html">SL_EMP_INJUR</a></td>
+      <td>Non-fatal occupational injuries among employees (rate) [8.8.1]</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sl-emp-pcap.html">SL_EMP_PCAP</a></td>
+      <td>Annual growth rate of real GDP per employed person [8.2.1]</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sl-isv-ifem.html">SL_ISV_IFEM</a></td>
+      <td>Proportion of informal employment, by sector and sex (ILO harmonized estimates) [8.3.1]</td>
+      <td>6</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sl-tlf-chldec.html">SL_TLF_CHLDEC</a></td>
+      <td>Proportion of children engaged in economic activity and household chores [8.7.1]</td>
+      <td>18</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sl-tlf-neet.html">SL_TLF_NEET</a></td>
+      <td>Proportion of youth not in education, employment or training [8.6.1]</td>
+      <td>6</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sl-tlf-uem.html">SL_TLF_UEM</a></td>
+      <td>Unemployment rate [8.5.2]</td>
+      <td>10</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sn-itk-defc.html">SN_ITK_DEFC</a></td>
+      <td>Prevalence of undernourishment [2.1.1]</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sn-sta-ovwgt.html">SN_STA_OVWGT</a></td>
+      <td>Proportion of children moderately or severely overweight [2.2.2]</td>
+      <td>10</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sp-dyn-adkl.html">SP_DYN_ADKL</a></td>
+      <td>Adolescent birth rate (per 1,000 women aged 15-19 years) [3.7.2]</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sp-dyn-mrbf15.html">SP_DYN_MRBF15</a></td>
+      <td>Proportion of women aged 20-24 years who were married or in a union before age 15 [5.3.1]</td>
+      <td>8</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sp-dyn-mrbf18.html">SP_DYN_MRBF18</a></td>
+      <td>Proportion of women aged 20-24 years who were married or in a union before age 18 [5.3.1]</td>
+      <td>8</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--st-gdp-zs.html">ST_GDP_ZS</a></td>
+      <td>Tourism direct GDP as a proportion of total GDP [8.9.1]</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--tx-exp-gbmrch.html">TX_EXP_GBMRCH</a></td>
+      <td>Developing countries’ and least developed countries’ share of global merchandise exports [17.11.1]</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--vc-dsr-affct.html">VC_DSR_AFFCT</a></td>
+      <td>Number of people affected by disaster [1.5.1, 11.5.1, 13.1.1]</td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--vc-dsr-ijiln.html">VC_DSR_IJILN</a></td>
+      <td>Number of injured or ill people attributed to disasters [1.5.1, 11.5.1, 13.1.1]</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--vc-dsr-miss.html">VC_DSR_MISS</a></td>
+      <td>Number of missing persons due to disaster [1.5.1, 11.5.1, 13.1.1]</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--vc-dsr-mort.html">VC_DSR_MORT</a></td>
+      <td>Number of deaths due to disaster [1.5.1, 11.5.1, 13.1.1]</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--vc-dsr-pdyn.html">VC_DSR_PDYN</a></td>
+      <td>Number of people whose destroyed dwellings were attributed to disasters [1.5.1, 11.5.1, 13.1.1]</td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--vc-vaw-marr.html">VC_VAW_MARR</a></td>
+      <td>Proportion of ever-partnered women and girls subjected to physical and sexual violence by a current or former intimate partner in the previous 12 months [5.2.1]</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+            <script type="text/javascript">
+            var sdgBuild = sdgBuild || {};
+            sdgBuild.tables = sdgBuild.tables || {};
+            sdgBuild.tables['values-table'] = [{"Value":"<a href=\"disaggregation-value--ag-fpa-comm.html\">AG_FPA_COMM<\/a>","en":"Indicator of Food Price Anomalies (IFPA) [2.c.1]","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--ag-xpd-agsgb.html\">AG_XPD_AGSGB<\/a>","en":"Agriculture share of Government Expenditure [2.a.1]","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--dc-tof-hlthl.html\">DC_TOF_HLTHL<\/a>","en":"Total official development assistance to medical research and basic heath sectors, gross disbursement, by recipient countries [3.b.2]","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--dc-tof-schipsl.html\">DC_TOF_SCHIPSL<\/a>","en":"Total official flows for scholarships, by recipient countries [4.b.1]","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--gc-gob-taxd.html\">GC_GOB_TAXD<\/a>","en":"Proportion of domestic budget funded by domestic taxes [17.1.2]","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--gf-frn-fdi.html\">GF_FRN_FDI<\/a>","en":"Foreign direct investment (FDI) inflows [17.3.1]","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--gr-g14-gdp.html\">GR_G14_GDP<\/a>","en":"Total government revenue as a proportion of GDP [17.1.1]","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--it-mob-own.html\">IT_MOB_OWN<\/a>","en":"Proportion of individuals who own a mobile telephone [5.b.1]","Disaggregation combinations using this value":15,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--it-net-bbnd.html\">IT_NET_BBND<\/a>","en":"Fixed broadband subscriptions per 100 inhabitants [17.6.1]","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--it-use-ii99.html\">IT_USE_II99<\/a>","en":"Internet users per 100 inhabitants [17.8.1]","Disaggregation combinations using this value":3,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-0050102-01.html\">_L_LA_0050102_01<\/a>","en":"Whether mechanisms are operational in \u2018enforcing and monitoring\u2019 the implementation of legal frameworks for each area of law","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-010401-01.html\">_L_LA_010401_01<\/a>","en":"Proportion of population living in households with access to secondary school [1.4.1]","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-010401-02.html\">_L_LA_010401_02<\/a>","en":"Proportion of population living in households with access to health service [1.4.1]","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-010401-03.html\">_L_LA_010401_03<\/a>","en":"Proportion of population living in households with access to improved water [1.4.1]","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-010401-04.html\">_L_LA_010401_04<\/a>","en":"Proportion of population living in households with access to eletricity [1.4.1]","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-010401-05.html\">_L_LA_010401_05<\/a>","en":"Proportion of population living in households with access to roads all seasons [1.4.1]","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-020104-01.html\">_L_LA_020104_01<\/a>","en":"Food production [2.1.4]","Disaggregation combinations using this value":5,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-020201-01.html\">_L_LA_020201_01<\/a>","en":"Stunting among under 2 years old (for Lao PDR's commitment to SUN 1000 days programme) [2.2.1]","Disaggregation combinations using this value":10,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-030201-01.html\">_L_LA_030201_01<\/a>","en":"Infant mortality rate per 1,000 live births","Disaggregation combinations using this value":9,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-030301-01.html\">_L_LA_030301_01<\/a>","en":"people with diagnosed HIV sustained ART","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-030801-01.html\">_L_LA_030801_01<\/a>","en":"Coverage of essential health services: % Antenatal care coverage (at least 4 visits)","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-030801-02.html\">_L_LA_030801_02<\/a>","en":"Coverage of essential health services: % Measles & rubella (MR) coverage (%) among 9-12 months old children","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-030802-01.html\">_L_LA_030802_01<\/a>","en":"Out of pocket health expenditure as % of total health expenditure","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-040106-01.html\">_L_LA_040106_01<\/a>","en":"Children over-age for grade","Disaggregation combinations using this value":2,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-040203-01.html\">_L_LA_040203_01<\/a>","en":"Gross early childhood enrolment ratio","Disaggregation combinations using this value":2,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-040303-01.html\">_L_LA_040303_01<\/a>","en":"Participation rate in technical-vocational education programmes (15-24 years-old)","Disaggregation combinations using this value":3,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-040304-01.html\">_L_LA_040304_01<\/a>","en":"Percentage lower secondary\/upper secondary school graduates enrolled in vocational & training school","Disaggregation combinations using this value":2,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-040501-01.html\">_L_LA_040501_01<\/a>","en":"Gender parity indices for gross enrolment","Disaggregation combinations using this value":3,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-040501-02.html\">_L_LA_040501_02<\/a>","en":"Gender parity indices for completion","Disaggregation combinations using this value":3,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-050304-01.html\">_L_LA_050304_01<\/a>","en":"Percentage of women aged 15-49 years who gave birth by aged 15","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-050304-02.html\">_L_LA_050304_02<\/a>","en":"Percentage of women aged 15-49 years who gave birth by aged 18","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-050304-03.html\">_L_LA_050304_03<\/a>","en":"Percentage of women aged 20-24 years who gave birth by aged 15","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-050304-04.html\">_L_LA_050304_04<\/a>","en":"Percentage of women aged 20-24 years who gave birth by aged 18","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-050502-01.html\">_L_LA_050502_01<\/a>","en":"Percentage of women in decision making positions \/leadership positions in government sector by central, province and district in the following positions_Deputy Division Head","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-050502-02.html\">_L_LA_050502_02<\/a>","en":"Percentage of women in decision making positions \/leadership positions in government sector by central, province and district in the following positions_ Division Head","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-050502-03.html\">_L_LA_050502_03<\/a>","en":"Percentage of women in decision making positions \/leadership positions in government sector by central, province and district in the following positions_Deputy Department General","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-050502-04.html\">_L_LA_050502_04<\/a>","en":"Percentage of women in decision making positions \/leadership positions in government sector by central, province and district in the following positions_Department General","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-050502-05.html\">_L_LA_050502_05<\/a>","en":"Percentage of women being  the deputy village chief","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-050502-06.html\">_L_LA_050502_06<\/a>","en":"Percentage of women being the village chief","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-080302-01.html\">_L_LA_080302_01<\/a>","en":"Percentage of financing and loans issued to SMEs","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-080303-01.html\">_L_LA_080303_01<\/a>","en":"Number of SMEs owned by Lao citizens (with Lao citizens as the majority shareholders)","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-080503-01.html\">_L_LA_080503_01<\/a>","en":"Businesses owned by females","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-080504-01.html\">_L_LA_080504_01<\/a>","en":"Share of employed persons in the informal sector","Disaggregation combinations using this value":6,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-080702-01.html\">_L_LA_080702_01<\/a>","en":"Number of children aged 5-17 engaged in prohibited hazardous occupations and tasks, by sex and age","Disaggregation combinations using this value":2,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-080903-01.html\">_L_LA_080903_01<\/a>","en":"Establishment of Tourism standards (1=to be adopted and implemented)","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-080a01-01.html\">_L_LA_080A01_01<\/a>","en":"Mean number of days to clear imports","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-130303-01.html\">_L_LA_130303_01<\/a>","en":"Number of provinces with capacity to report on the situation of climate change","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-170101-01.html\">_L_LA_170101_01<\/a>","en":"Total government revenueas a percentage of GDP_Domestic revenue","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-170101-02.html\">_L_LA_170101_02<\/a>","en":"Total government revenueas a percentage of GDP_Grants","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-170601-01.html\">_L_LA_170601_01<\/a>","en":"Number of science and\/or technology cooperation agreements and programmes between countries, by type of cooperation (Increase number of agreements with other counties and international organisations to 100 agreements and implementing 80% in 2020)","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-170603-01.html\">_L_LA_170603_01<\/a>","en":"Number of research projects\/papers (increase number of research projects in national and ministerial levels to 250 projects in 2025)","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-170603-02.html\">_L_LA_170603_02<\/a>","en":"Number of research papers published in regional and international journals (increase number of research publications to 250 copies in national and regional levels in 2025)","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-170802-01.html\">_L_LA_170802_01<\/a>","en":"Percentage of population registered as internet users through landline and wireless","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-170803-01.html\">_L_LA_170803_01<\/a>","en":"Percentage of mobile phone users with internet access.","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-171902-02.html\">_L_LA_171902_02<\/a>","en":"Number of birth registration recorded","Disaggregation combinations using this value":3,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-171903-01.html\">_L_LA_171903_01<\/a>","en":"Number of death registration recorded","Disaggregation combinations using this value":3,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-180101-00.html\">_L_LA_180101_00<\/a>","en":"Number of reported UXO casualties-Total","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-180101-01.html\">_L_LA_180101_01<\/a>","en":"Number of reported UXO casualties (disaggregated by age group and sex)- Injured [18.1.1 ]","Disaggregation combinations using this value":5,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-180101-02.html\">_L_LA_180101_02<\/a>","en":"Number of reported UXO casualties (disaggregated by age group and sex) - Killed [18.1.1 ]","Disaggregation combinations using this value":5,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-180102-01.html\">_L_LA_180102_01<\/a>","en":"Percentage of population in contaminated villages with information on Confirmed Hazardous Areas in their village (disaggregated by age group, sex and persons with disabilities) [18.1.2 ]","Disaggregation combinations using this value":3,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-180201-01.html\">_L_LA_180201_01<\/a>","en":"Percentage of high priority hazardous areas remaining to be cleared (disaggregated by village poverty levels) [18.2.1]","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-180202-01.html\">_L_LA_180202_01<\/a>","en":"Number of villages defined as \u2018poor\u2019 with Confirmed Hazardous Areas remaining to be cleared [18.2.2 ]","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-180301-01.html\">_L_LA_180301_01<\/a>","en":"Proportion of registered active age UXO survivors unable to earn sufficient income with access to basic income security [18.3.1 ]","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l-la-180302-01.html\">_L_LA_180302_01<\/a>","en":"Percentage of registered UXO survivors mainstreamed into health, education and employment services [18.3.2 ]","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--ny-gdp-pcap.html\">NY_GDP_PCAP<\/a>","en":"Annual growth rate of real GDP per capita [8.1.1]","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sd-mdp-csmp.html\">SD_MDP_CSMP<\/a>","en":"Proportion of children living in child-specific multidimensional poverty [1.2.2]","Disaggregation combinations using this value":9,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--se-adt-funs.html\">SE_ADT_FUNS<\/a>","en":"Proportion of population achieving at least a fixed level of proficiency in functional skills [4.6.1]","Disaggregation combinations using this value":9,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--se-tot-cplr.html\">SE_TOT_CPLR<\/a>","en":"Completion rate, by sex, location, wealth quintile and education level (%) [4.1.2]","Disaggregation combinations using this value":7,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--se-tot-prfl.html\">SE_TOT_PRFL<\/a>","en":"Proportion of children and young people achieving a minimum proficiency level in reading and mathematics [4.1.1]","Disaggregation combinations using this value":2,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--se-tra-grdl.html\">SE_TRA_GRDL<\/a>","en":"Proportion of teachers who have received at least the minimum organized teacher training (e.g. pedagogical training) pre-service or in-service required for teaching at the relevant level in a given country [4.c.1]","Disaggregation combinations using this value":9,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sg-gen-locg.html\">SG_GEN_LOCG<\/a>","en":"Proportion of seats held by women in local governments (% of total number of seats) [5.5.1]","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sg-gen-parl.html\">SG_GEN_PARL<\/a>","en":"Proportion of seats held by women in national parliaments (% of total number of seats) [5.5.1]","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sg-lgl-geneqlfp.html\">SG_LGL_GENEQLFP<\/a>","en":"Legal frameworks that promote, enforce and monitor gender equality (percentage of achievement, 0 - 100) -- Area 1: overarching legal frameworks and public life. [5.1.1]","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sg-reg-census.html\">SG_REG_CENSUS<\/a>","en":"Proportion of countries that have conducted at least one population and housing census in the last 10 years [17.19.2]","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sh-alc-conspt.html\">SH_ALC_CONSPT<\/a>","en":"Alcohol consumption per capita (aged 15 years and older) within a calendar year [3.5.2]","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sh-dth-ncom.html\">SH_DTH_NCOM<\/a>","en":"Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease [3.4.1]","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sh-dyn-imrt.html\">SH_DYN_IMRT<\/a>","en":"Infant mortality rate [3.2.1]","Disaggregation combinations using this value":9,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sh-dyn-nmrt.html\">SH_DYN_NMRT<\/a>","en":"Neonatal mortality rate [3.2.2]","Disaggregation combinations using this value":9,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sh-fpl-mtmm.html\">SH_FPL_MTMM<\/a>","en":"Proportion of women married or in a union of reproductive age (aged 15-49 years) who have their need for family planning satisfied with modern methods [3.7.1]","Disaggregation combinations using this value":8,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sh-hap-hbsag.html\">SH_HAP_HBSAG<\/a>","en":"Prevalence of hepatitis B surface antigen (HBsAg) [3.3.4]","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sh-hiv-incd.html\">SH_HIV_INCD<\/a>","en":"Number of new HIV infections per 1,000 uninfected population [3.3.1]","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sh-med-hwrkdis.html\">SH_MED_HWRKDIS<\/a>","en":"Health worker distribution, by sex and type of occupation [3.c.1]","Disaggregation combinations using this value":5,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sh-prv-smok.html\">SH_PRV_SMOK<\/a>","en":"Age-standardized prevalence of current tobacco use among persons aged 15 years and older [3.a.1]","Disaggregation combinations using this value":2,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sh-sta-brtc.html\">SH_STA_BRTC<\/a>","en":"Proportion of births attended by skilled health personnel [3.1.2]","Disaggregation combinations using this value":12,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sh-sta-malr.html\">SH_STA_MALR<\/a>","en":"Malaria incidence per 1,000 population at risk [3.3.3]","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sh-sta-mort.html\">SH_STA_MORT<\/a>","en":"Maternal mortality ratio [3.1.1]","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sh-sta-poisn.html\">SH_STA_POISN<\/a>","en":"Mortality rate attributed to unintentional poisonings [3.9.3]","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sh-sta-stnt.html\">SH_STA_STNT<\/a>","en":"Proportion of children moderately or severely stunted [2.2.1]","Disaggregation combinations using this value":10,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sh-sta-trafn.html\">SH_STA_TRAFN<\/a>","en":"Number of deaths rate due to road traffic injuries [3.6.1]","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sh-sta-wash.html\">SH_STA_WASH<\/a>","en":"Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene [3.9.2]","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sh-sta-wast.html\">SH_STA_WAST<\/a>","en":"Proportion of children moderately or severely wasted [2.2.2]","Disaggregation combinations using this value":10,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sh-tbs-incd.html\">SH_TBS_INCD<\/a>","en":"Tuberculosis incidence [3.3.2]","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sh-trp-intvn.html\">SH_TRP_INTVN<\/a>","en":"Number of people requiring interventions against neglected tropical diseases [3.3.5]","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--si-pov-day1.html\">SI_POV_DAY1<\/a>","en":"Proportion of population below international poverty line [1.1.1]","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--si-pov-nahc.html\">SI_POV_NAHC<\/a>","en":"Proportion of population living below the national poverty line [1.2.1]","Disaggregation combinations using this value":9,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sl-dom-tspd.html\">SL_DOM_TSPD<\/a>","en":"Proportion of time spent on unpaid domestic chores and care work [5.4.1]","Disaggregation combinations using this value":2,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sl-emp-earn.html\">SL_EMP_EARN<\/a>","en":"Average hourly earnings [8.5.1]","Disaggregation combinations using this value":9,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sl-emp-injur.html\">SL_EMP_INJUR<\/a>","en":"Non-fatal occupational injuries among employees (rate) [8.8.1]","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sl-emp-pcap.html\">SL_EMP_PCAP<\/a>","en":"Annual growth rate of real GDP per employed person [8.2.1]","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sl-isv-ifem.html\">SL_ISV_IFEM<\/a>","en":"Proportion of informal employment, by sector and sex (ILO harmonized estimates) [8.3.1]","Disaggregation combinations using this value":6,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sl-tlf-chldec.html\">SL_TLF_CHLDEC<\/a>","en":"Proportion of children engaged in economic activity and household chores [8.7.1]","Disaggregation combinations using this value":18,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sl-tlf-neet.html\">SL_TLF_NEET<\/a>","en":"Proportion of youth not in education, employment or training [8.6.1]","Disaggregation combinations using this value":6,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sl-tlf-uem.html\">SL_TLF_UEM<\/a>","en":"Unemployment rate [8.5.2]","Disaggregation combinations using this value":10,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sn-itk-defc.html\">SN_ITK_DEFC<\/a>","en":"Prevalence of undernourishment [2.1.1]","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sn-sta-ovwgt.html\">SN_STA_OVWGT<\/a>","en":"Proportion of children moderately or severely overweight [2.2.2]","Disaggregation combinations using this value":10,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sp-dyn-adkl.html\">SP_DYN_ADKL<\/a>","en":"Adolescent birth rate (per 1,000 women aged 15-19 years) [3.7.2]","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sp-dyn-mrbf15.html\">SP_DYN_MRBF15<\/a>","en":"Proportion of women aged 20-24 years who were married or in a union before age 15 [5.3.1]","Disaggregation combinations using this value":8,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sp-dyn-mrbf18.html\">SP_DYN_MRBF18<\/a>","en":"Proportion of women aged 20-24 years who were married or in a union before age 18 [5.3.1]","Disaggregation combinations using this value":8,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--st-gdp-zs.html\">ST_GDP_ZS<\/a>","en":"Tourism direct GDP as a proportion of total GDP [8.9.1]","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--tx-exp-gbmrch.html\">TX_EXP_GBMRCH<\/a>","en":"Developing countries\u2019 and least developed countries\u2019 share of global merchandise exports [17.11.1]","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--vc-dsr-affct.html\">VC_DSR_AFFCT<\/a>","en":"Number of people affected by disaster [1.5.1, 11.5.1, 13.1.1]","Disaggregation combinations using this value":3,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--vc-dsr-ijiln.html\">VC_DSR_IJILN<\/a>","en":"Number of injured or ill people attributed to disasters [1.5.1, 11.5.1, 13.1.1]","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--vc-dsr-miss.html\">VC_DSR_MISS<\/a>","en":"Number of missing persons due to disaster [1.5.1, 11.5.1, 13.1.1]","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--vc-dsr-mort.html\">VC_DSR_MORT<\/a>","en":"Number of deaths due to disaster [1.5.1, 11.5.1, 13.1.1]","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--vc-dsr-pdyn.html\">VC_DSR_PDYN<\/a>","en":"Number of people whose destroyed dwellings were attributed to disasters [1.5.1, 11.5.1, 13.1.1]","Disaggregation combinations using this value":3,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--vc-vaw-marr.html\">VC_VAW_MARR<\/a>","en":"Proportion of ever-partnered women and girls subjected to physical and sexual violence by a current or former intimate partner in the previous 12 months [5.2.1]","Disaggregation combinations using this value":1,"Number of indicators":1}];
+            </script>
+            
+        </div>
+        <div>
+            <h2 id="indicators-using" tabindex="-1">Indicators using disaggregation</h2>
+            
+        <div class="my-3">
+            <a href="indicators--disaggregation--series.csv" role="button" class="btn btn-primary" aria-describedby="indicators--disaggregation--series">Download CSV of indicators using this disaggregation</a>
+            <div id="indicators--disaggregation--series" class="download-info">Size: 631 Bytes</div>
+        </div>
+        
+            
+                <div class="total-rows">
+                    Total rows: <span class="total">85</span>
+                </div>
+                <table border="1" class="dataframe table table-striped table-bordered" id="indicators-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Indicator</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/1-1-1">#1-1-1</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/1-2-1">#1-2-1</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/1-2-2">#1-2-2</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/1-4-1">#1-4-1</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/13-1-1">#13-1-1</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/13-3-3">#13-3-3</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/17-1-1">#17-1-1</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/17-1-2">#17-1-2</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/17-11-1">#17-11-1</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/17-19-2">#17-19-2</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/17-19-3">#17-19-3</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/17-3-1">#17-3-1</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/17-6-1">#17-6-1</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/17-7-1">#17-7-1</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/17-8-1">#17-8-1</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/17-8-2">#17-8-2</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/17-8-3">#17-8-3</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/18-1-1">#18-1-1</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/18-1-2">#18-1-2</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/18-2-1">#18-2-1</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/18-2-2">#18-2-2</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/18-3-1">#18-3-1</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/18-3-2">#18-3-2</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/2-1-1">#2-1-1</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/2-1-4">#2-1-4</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/2-2-1">#2-2-1</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/2-2-2">#2-2-2</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/2-a-1">#2-a-1</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/2-c-1">#2-c-1</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/3-1-1">#3-1-1</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/3-1-2">#3-1-2</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/3-2-1">#3-2-1</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/3-2-2">#3-2-2</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/3-3-1">#3-3-1</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/3-3-2">#3-3-2</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/3-3-3">#3-3-3</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/3-3-4">#3-3-4</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/3-3-5">#3-3-5</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/3-4-1">#3-4-1</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/3-5-2">#3-5-2</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/3-6-1">#3-6-1</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/3-7-1">#3-7-1</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/3-7-2">#3-7-2</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/3-8-1">#3-8-1</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/3-8-2">#3-8-2</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/3-9-2">#3-9-2</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/3-9-3">#3-9-3</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/3-a-1">#3-a-1</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/3-b-2">#3-b-2</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/3-c-1">#3-c-1</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/4-1-1">#4-1-1</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/4-1-2">#4-1-2</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/4-1-6">#4-1-6</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/4-2-3">#4-2-3</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/4-3-3">#4-3-3</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/4-3-4">#4-3-4</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/4-5-1-a">#4-5-1-a</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/4-5-1-b">#4-5-1-b</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/4-6-1">#4-6-1</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/4-b-1">#4-b-1</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/4-c-1">#4-c-1</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/5-1-1">#5-1-1</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/5-2-1">#5-2-1</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/5-3-1">#5-3-1</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/5-3-4">#5-3-4</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/5-4-1">#5-4-1</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/5-5-1">#5-5-1</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/5-5-2">#5-5-2</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/5-b-1">#5-b-1</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/8-1-1">#8-1-1</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/8-2-1">#8-2-1</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/8-3-1">#8-3-1</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/8-3-2">#8-3-2</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/8-3-3">#8-3-3</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/8-5-1">#8-5-1</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/8-5-2">#8-5-2</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/8-5-3">#8-5-3</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/8-5-4">#8-5-4</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/8-6-1">#8-6-1</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/8-7-1">#8-7-1</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/8-7-2">#8-7-2</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/8-8-1">#8-8-1</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/8-9-1">#8-9-1</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/8-9-3">#8-9-3</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sdg-laos.github.io/site/8-a-1">#8-a-1</a></td>
+    </tr>
+  </tbody>
+</table>
+            <script type="text/javascript">
+            var sdgBuild = sdgBuild || {};
+            sdgBuild.tables = sdgBuild.tables || {};
+            sdgBuild.tables['indicators-table'] = [{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/1-1-1\">#1-1-1<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/1-2-1\">#1-2-1<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/1-2-2\">#1-2-2<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/1-4-1\">#1-4-1<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/13-1-1\">#13-1-1<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/13-3-3\">#13-3-3<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/17-1-1\">#17-1-1<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/17-1-2\">#17-1-2<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/17-11-1\">#17-11-1<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/17-19-2\">#17-19-2<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/17-19-3\">#17-19-3<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/17-3-1\">#17-3-1<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/17-6-1\">#17-6-1<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/17-7-1\">#17-7-1<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/17-8-1\">#17-8-1<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/17-8-2\">#17-8-2<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/17-8-3\">#17-8-3<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/18-1-1\">#18-1-1<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/18-1-2\">#18-1-2<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/18-2-1\">#18-2-1<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/18-2-2\">#18-2-2<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/18-3-1\">#18-3-1<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/18-3-2\">#18-3-2<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/2-1-1\">#2-1-1<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/2-1-4\">#2-1-4<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/2-2-1\">#2-2-1<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/2-2-2\">#2-2-2<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/2-a-1\">#2-a-1<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/2-c-1\">#2-c-1<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/3-1-1\">#3-1-1<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/3-1-2\">#3-1-2<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/3-2-1\">#3-2-1<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/3-2-2\">#3-2-2<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/3-3-1\">#3-3-1<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/3-3-2\">#3-3-2<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/3-3-3\">#3-3-3<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/3-3-4\">#3-3-4<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/3-3-5\">#3-3-5<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/3-4-1\">#3-4-1<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/3-5-2\">#3-5-2<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/3-6-1\">#3-6-1<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/3-7-1\">#3-7-1<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/3-7-2\">#3-7-2<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/3-8-1\">#3-8-1<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/3-8-2\">#3-8-2<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/3-9-2\">#3-9-2<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/3-9-3\">#3-9-3<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/3-a-1\">#3-a-1<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/3-b-2\">#3-b-2<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/3-c-1\">#3-c-1<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/4-1-1\">#4-1-1<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/4-1-2\">#4-1-2<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/4-1-6\">#4-1-6<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/4-2-3\">#4-2-3<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/4-3-3\">#4-3-3<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/4-3-4\">#4-3-4<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/4-5-1-a\">#4-5-1-a<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/4-5-1-b\">#4-5-1-b<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/4-6-1\">#4-6-1<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/4-b-1\">#4-b-1<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/4-c-1\">#4-c-1<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/5-1-1\">#5-1-1<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/5-2-1\">#5-2-1<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/5-3-1\">#5-3-1<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/5-3-4\">#5-3-4<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/5-4-1\">#5-4-1<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/5-5-1\">#5-5-1<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/5-5-2\">#5-5-2<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/5-b-1\">#5-b-1<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/8-1-1\">#8-1-1<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/8-2-1\">#8-2-1<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/8-3-1\">#8-3-1<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/8-3-2\">#8-3-2<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/8-3-3\">#8-3-3<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/8-5-1\">#8-5-1<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/8-5-2\">#8-5-2<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/8-5-3\">#8-5-3<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/8-5-4\">#8-5-4<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/8-6-1\">#8-6-1<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/8-7-1\">#8-7-1<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/8-7-2\">#8-7-2<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/8-8-1\">#8-8-1<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/8-9-1\">#8-9-1<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/8-9-3\">#8-9-3<\/a>"},{"Indicator":"<a href=\"https:\/\/sdg-laos.github.io\/site\/8-a-1\">#8-a-1<\/a>"}];
+            </script>
+            
+        </div>
+        
+                    </div>
+                </div>
+            </div>
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+            <script src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/gh/open-sdg/open-sdg-table@0.4.0/open-sdg-table.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+            <script>
+            if (typeof sdgBuild !== 'undefined' && sdgBuild.tables) {
+                var tableIds = Object.keys(sdgBuild.tables);
+                for (var i = 0; i < tableIds.length; i++) {
+                    var tableId = tableIds[i];
+                    $('#' + tableId).openSdgTable(sdgBuild.tables[tableId]).find('td').each(function() {
+                        if (!isNaN($(this).text())) {
+                            $(this).css('text-align', 'right');
+                        }
+                    })
+                }
+            }
+            </script>
+        </html>
+        

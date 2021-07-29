@@ -1,0 +1,18 @@
+Disaggregation,en,Number of indicators,Number of values
+ACTIVITY,Economic activity,1,3
+AGE,Age,9,21
+EDUCATION_LEV,Education level,6,3
+FREQ,Frequency of observation,85,1
+INCOME_WEALTH_QUANTILE,Income or wealth quantile,9,5
+NATURE,Nature of data points,85,1
+OBS_STATUS,Observation status,85,1
+OCCUPATION,Occupation,1,2
+PRODUCT,Type of product,1,4
+REF_AREA,Reference area,85,1
+REPORTING_TYPE,Reporting type,85,1
+SERIES,SDG Series,85,116
+SEX,Sex,23,4
+SOURCE_DETAIL,Source details,85,26
+UNIT_MEASURE,Unit of measure,85,10
+UNIT_MULT,Unit multiplier,85,2
+URBANISATION,Degree of urbanisation,13,2
